@@ -8,7 +8,7 @@ import styles from './styles';
 export { Item }
 
 
-interface IProps extends React.HTMLProps<HTMLLIElement | HTMLOListElement> {
+interface IProps = {
     ordered?: boolean;
     links?: boolean;
     points?: boolean;

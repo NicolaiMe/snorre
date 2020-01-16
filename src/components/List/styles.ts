@@ -1,9 +1,8 @@
 import themeColors from '../../globals/styles/colors';
-import { css } from '@emotion/core';
 
 
 const styles = {
-    default: css({
+    default: {
         padding: 0,
         margin: 0,
         listStyle: 'none',
@@ -18,8 +17,8 @@ const styles = {
                 borderTop: 'none'
             }
         }
-    }),
-    points: css({
+    },
+    points: {
         "& > li": {
             display: 'flex',
             alignItems: 'center',
@@ -30,13 +29,14 @@ const styles = {
     
         "& > li::before": {
             content: '""',
-            height: '3px',
-            width: '3px',
+            height: '8px',
+            width: '8px',
+            borderRadius: '50%',
             backgroundColor: themeColors.primary,
             marginLeft: '-20px',
             marginRight: '10px;'
         }
-    }),
+    },
     links: {
 
     },
@@ -44,10 +44,51 @@ const styles = {
 
     },
     numbers: {
+        listStyle: 'none',
+        counterReset: 'conts',
 
+        "& > li": {
+            height: '30px',
+            borderTop: 'none',
+            paddingLeft: '30px',
+            counterIncrement: 'conts'
+        },
+
+        "& > li::before": {
+            content: 'counter(conts)"."',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            marginLeft: '-20px',
+            marginRight: '10px;'
+        }
     },
     numbersHighlighted: {
+        listStyle: 'none',
+        counterReset: 'conts',
 
+        "& > li": {
+            height: '40px',
+            borderTop: 'none',
+            paddingLeft: '30px',
+            counterIncrement: 'conts',
+            fontWeight: '600'
+        },
+
+        "& > li::before": {
+            content: 'counter(conts)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: themeColors.primary,
+            borderRadius: '50%',
+            height: '24px',
+            width: '24px',
+            color: 'white',
+            fontSize: '16px',
+            fontWeight: '600',
+            marginLeft: '-20px',
+            marginRight: '10px;'
+        }
     },
     connected: {}
 }
