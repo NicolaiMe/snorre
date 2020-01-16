@@ -1,16 +1,15 @@
-import React from 'react'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 /** @jsx jsx */
+import React from 'react'
 import { jsx } from '@emotion/core'
-import { styles } from './styles';
+import { styles } from './styles'
 
 
 interface IProps {
-    level: 1 | 2 | 3 | 4 | 5;
+    level: 1 | 2 | 3 | 4 | 5
 }
 
 const H1: React.FC<IProps> = (props) => {
-    const Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' = `h${props.level}` as 'h1';
+    const Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' = `h${props.level}` as 'h1'
     return (
         <Tag
             css={[
@@ -24,7 +23,7 @@ const H1: React.FC<IProps> = (props) => {
             {...props}>
             {props.children}
         </Tag>
-    );
+    )
 }
 
-export default H1;
+export default H1

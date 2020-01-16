@@ -1,6 +1,5 @@
-import React from 'react';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 /** @jsx jsx */
+import React from 'react';
 import { jsx } from '@emotion/core'
 import Item from './Item';
 import styles from './styles';
