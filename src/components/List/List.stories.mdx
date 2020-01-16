@@ -1,0 +1,97 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import List from '.'
+import ListItem from './Item'
+
+<Meta title="Components/List" component={List}/>
+
+# Lists
+
+<div style={{marginTop: '60px'}}></div>
+
+### List
+Standard list of plain text. Can also be used as a list of links.
+<Preview>
+    <Story name="Default">
+        <div className="wrapper" style={{maxWidth: '300px'}}>
+            <List>
+                <ListItem>Item 1</ListItem>
+                <ListItem>Item 1</ListItem>
+                <ListItem>Item 1</ListItem>
+            </List>
+        </div>
+    </Story>
+</Preview>
+
+<div style={{marginTop: '60px'}}></div>
+
+### List with links (TODO)
+Used with links.
+<Preview>
+    <Story name="List with links">
+        <List>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+        </List>
+    </Story>
+</Preview>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Pointlist
+Used to list items that do not need to be in a particular order.
+<Preview>
+    <Story name="Pointlist">
+        <List points>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+        </List>
+    </Story>
+</Preview>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Numberedlist
+Used to list items that should be in a particular order.
+<Preview>
+    <Story name="Numberedlist">
+        <List numbers>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+        </List>
+    </Story>
+</Preview>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Numberedlist highlighted
+Used to list items that should be in a particular order.
+<Preview>
+    <Story name="Numberedlist - Highlighted">
+        <List numbersHighlighted>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+        </List>
+    </Story>
+</Preview>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Connected list
+Used to create a timeline.
+
+<Preview>
+    <Story name="Connected list">
+        <List connected>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+            <ListItem>Item 1</ListItem>
+        </List>
+    </Story>
+</Preview>
+
+## Props
+<Props of={List} />

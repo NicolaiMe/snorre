@@ -1,0 +1,48 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import Alert from '.'
+
+<Meta title="Components/Alert" component={Alert}/>
+
+# Alert
+
+`TODO: change span with icon`
+<div style={{marginTop: '10px'}}></div>
+
+Notifications are used to provide the user with information and feedback on actions.
+
+<div style={{marginTop: '60px'}}></div>
+
+### Default
+Used for general information.
+<Preview>
+    <Story name="Default">
+        <Alert>Here is some general information.</Alert>
+    </Story>
+</Preview>
+
+### Success alert
+Used to give the user a positive feedback. For example: Your inquiry has been sent.
+<Preview>
+    <Story name="Success">
+        <Alert success>Thank you for feedback!</Alert>
+    </Story>
+</Preview>
+
+### Info alert
+Used for notice of maintenance or alteration.
+<Preview>
+    <Story name="Info">
+        <Alert info>The service is down between 23:00 - 05:00.</Alert>
+    </Story>
+</Preview>
+
+### Danger alert
+Used where an error has occurred.
+<Preview>
+    <Story name="Danger">
+        <Alert danger>There has been a mistake. Could not reach service.</Alert>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Alert} />

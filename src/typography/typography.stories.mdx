@@ -1,0 +1,96 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import H1 from './H1'
+import H2 from './H2'
+import H3 from './H3'
+import H4 from './H4'
+import H5 from './H5'
+import Text from './Text'
+import SbLabel from '../helpers/components/SbLabel'
+import themeColors from '../globals/styles/colors'
+
+export const boxStyles = {
+  height: '100px', 
+  width: '100px',
+  marginRight: '10px'
+};
+
+<Meta title="Intro|Typography" />
+
+# Typography
+<div style={{margin: '40px 0'}}></div>
+
+### Font
+<div style={{margin: '20px 0'}}></div>
+<div style={{maxWidth: '600px'}}>
+  BBL uses Google font "Source Sans Pro" as primary font on our webpages. We use it in 
+  three different ways: `Regular, Semibold, Bold`
+</div>
+
+<div>
+  <Text bold style={{margin: '30px 0 10px 0', display: 'block'}}>Source Sans Pro - Bold</Text>
+  <Text bold>
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å <br />
+    a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å <br />
+    0 1 2 3 4 5 6 7 8 9 <br />
+    ! & / ( ) $ = @ ; : , . <br />
+  </Text>
+</div>
+
+<div>
+  <Text semiBold style={{margin: '30px 0 10px 0', display: 'block'}}>Source Sans Pro - Semibold</Text>
+  <Text semiBold>
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å <br />
+    a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å <br />
+    0 1 2 3 4 5 6 7 8 9 <br />
+    ! & / ( ) $ = @ ; : , . <br />
+  </Text>
+</div>
+
+<div>
+  <Text style={{margin: '30px 0 10px 0', display: 'block'}}>Source Sans Pro - Regular</Text>
+  <Text>
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å <br />
+    a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å <br />
+    0 1 2 3 4 5 6 7 8 9 <br />
+    ! & / ( ) $ = @ ; : , . <br />
+  </Text>
+</div>
+
+
+<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '40px', width: '100%'}}>
+
+  <div style={{display: 'flex', flexDirection: 'column', width: '40%'}}>
+    <div style={{marginBottom: '30px'}}>
+      <SbLabel>H1 Heading</SbLabel>
+      <H1>Source Sans Pro Bold</H1>
+    </div>
+    <div style={{marginBottom: '30px'}}>
+      <SbLabel>H2 Heading</SbLabel>
+      <H2>Source Sans Pro Bold</H2>
+    </div>
+    <div style={{marginBottom: '30px'}}>
+      <SbLabel>H3 Heading</SbLabel>
+      <H3>Source Sans Pro Bold</H3>
+    </div>
+    <div style={{marginBottom: '30px'}}>
+      <SbLabel>H4 Heading</SbLabel>
+      <H4>Source Sans Pro Bold</H4>
+    </div>
+    <div>
+      <SbLabel>H5 Heading</SbLabel>
+      <H5>Source Sans Pro Bold</H5>
+    </div>
+  </div>
+
+  <div style={{display: 'flex', flexDirection: 'column', width: '40%'}}>
+    <SbLabel>Intro</SbLabel>
+    <Text intro style={{marginBottom: '30px'}}>Source Sans Pro Semibold</Text>
+    
+    <SbLabel>Normal text</SbLabel>
+    <Text style={{marginBottom: '30px'}}>Source Sans Pro Regular</Text>
+    
+    <SbLabel>Small text</SbLabel>
+    <Text small style={{marginBottom: '30px'}}>Source Sans Pro Regular</Text>
+  </div>
+
+</div>

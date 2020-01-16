@@ -1,0 +1,62 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import themeColors from '../globals/styles/colors'
+
+export const boxStyles = {
+  height: '100px', 
+  width: '100px',
+  marginRight: '10px'
+};
+
+<Meta title="Intro|Colors" />
+
+# Color
+<div style={{margin: '40px 0'}}></div>
+
+### Colors - BBL Digital
+<div style={{margin: '20px 0'}}></div>
+<span style={{color: '#274CE3'}}>Maincolors</span>
+
+<div style={{margin: '10px 0'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row'}}>
+  <div style={{...boxStyles, backgroundColor: themeColors.primary}}></div>
+  <div style={{...boxStyles, backgroundColor: themeColors.lightPrimary}}></div>
+  <div style={{...boxStyles, backgroundColor: themeColors.lightestPrimary}}></div>
+</div>
+
+
+<div style={{margin: '40px 0'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row'}}>
+
+  <div style={{display: 'flex', flexDirection: 'column'}}>
+    <span style={{color: '#274CE3'}}>UI-colors</span>
+    <div style={{margin: '5px 0'}}></div>
+    <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{...boxStyles, backgroundColor: themeColors.alert}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.info}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.success}}></div>
+    </div>
+  </div>
+
+  <div style={{display: 'flex', flexDirection: 'column'}}>
+    <span style={{color: '#274CE3'}}>Backgrounds</span>
+    <div style={{margin: '5px 0'}}></div>
+    <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{...boxStyles, backgroundColor: themeColors.bgDark}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.bgMedium}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.bgLight}}></div>
+    </div>
+  </div>
+
+  <div style={{display: 'flex', flexDirection: 'column'}}>
+    <span style={{color: '#274CE3'}}>Grayscale</span>
+    <div style={{margin: '5px 0'}}></div>
+    <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{...boxStyles, backgroundColor: themeColors.darkGray}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.mediumGray}}></div>
+      <div style={{...boxStyles, backgroundColor: themeColors.lightGray}}></div>
+    </div>
+  </div>
+
+</div>
