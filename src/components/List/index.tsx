@@ -8,7 +8,7 @@ import styles from './styles';
 export { Item }
 
 
-interface IProps = {
+interface IProps {
     ordered?: boolean;
     links?: boolean;
     points?: boolean;
