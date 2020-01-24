@@ -4,9 +4,8 @@
 *.tsbuildinfo
 package-lock.json
 tsconfig.json
-.storybook/
-storybook-static/
-configs/
 src/
 test/
 types/
+.storybook/
+storybook-static/

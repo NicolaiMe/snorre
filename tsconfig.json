@@ -1,26 +1,30 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-		"outDir": "./dist/out-tsc",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
+    "target": "es2015",
+    "declarationDir": "lib",
+    "outDir": "lib",
+    "rootDir": "src",
+    "emitDeclarationOnly": true,
+    "lib": ["dom", "esnext"],
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": false,
+    "strict": true,
+    "useDefineForClassFields": false,
+    "composite": true,
+    "declarationMap": true,
+    "sourceMap": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["lib", "test", "node_modules"]
 }
