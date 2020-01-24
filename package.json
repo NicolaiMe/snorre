@@ -1,18 +1,49 @@
 {
-  "name": "snorre",
+  "name": "@bbl-digital/snorre",
   "version": "0.1.0",
   "description": "Design library for BBL Digital",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "module": "./esm/index.js",
-  "repository": "https://github.com/BBL-Digital/snorre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBL-Digital/snorre.git"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/BBL-Digital/snorre/issues"
+  },
+  "homepage": "https://github.com/BBL-Digital/snorre#readme",
+  "author": "bbl-digital",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "build": "yarn run build:cjs && yarn run build:esm",
+    "build:cjs": "babel --extensions .ts,.tsx ./src --out-dir ./lib",
+    "build:esm": "babel --extensions .ts,.tsx ./src --out-dir ./esm"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
+    "@storybook/addon-a11y": "^5.3.8",
+    "@storybook/addon-actions": "^5.3.8",
+    "@storybook/addon-docs": "^5.3.8",
+    "@storybook/addon-knobs": "^5.3.8",
+    "@storybook/addon-links": "^5.3.8",
+    "@storybook/addons": "^5.3.8",
+    "@storybook/preset-create-react-app": "^1.5.1",
+    "@storybook/react": "^5.3.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -20,32 +51,21 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "typescript": "~3.7.2"
-  },
-  "scripts": {
-    "storybook": "start-storybook -p 9009",
-    "build-storybook": "build-storybook",
-    "build": "yarn run build:cjs && yarn run build:esm",
-    "build:cjs": "BUILD=cjs babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./lib",
-    "build:esm": "BUILD=esm babel --root-mode upward --extensions .ts,.tsx ./src --out-dir ./esm"
-  },
-  "devDependencies": {
-    "@storybook/addon-a11y": "^5.3.3",
-    "@storybook/addon-actions": "^5.3.3",
-    "@storybook/addon-docs": "^5.3.3",
-    "@storybook/addon-knobs": "^5.3.3",
-    "@storybook/addon-links": "^5.3.3",
-    "@storybook/addons": "^5.3.3",
-    "@storybook/preset-create-react-app": "^1.5.1",
-    "@storybook/react": "^5.3.3",
     "babel-loader": "^8.0.6",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "react-is": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-is": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "typescript": "~3.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
   },
   "husky": {
     "hooks": {
