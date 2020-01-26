@@ -10,10 +10,8 @@ interface IProps {
 }
 
 const Alert: React.FC<IProps> = props => {
-  const Tag = 'div'
-
   return (
-    <Tag
+    <div
       css={[
         styles.default,
         props.success && styles.success,
@@ -25,7 +23,7 @@ const Alert: React.FC<IProps> = props => {
       {props.children}
 
       <span>x</span>
-    </Tag>
+    </div>
   )
 }
 

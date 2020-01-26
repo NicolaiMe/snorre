@@ -1,17 +1,32 @@
+/** @jsx jsx */
 import React from 'react'
-import styled from '@emotion/styled/macro'
-
-const Text: React.FC<IProps> = styled.span`
-  font-weight: ${props =>
-    props.bold ? 'bold' : props.intro || props.semiBold ? '600' : 'normal'};
-  font-size: ${props => (props.intro ? '22px' : props.small ? '14px' : '16px')};
-`
+import { jsx } from '@emotion/core'
+import { styles } from './styles'
 
 interface IProps {
   intro?: boolean
   small?: boolean
   bold?: boolean
   semiBold?: boolean
+  subtle?: boolean
+}
+
+const Text: React.FC<IProps> = props => {
+  return (
+    <span
+      css={[
+        styles.default,
+        props.intro && styles.intro,
+        props.small && styles.small,
+        props.bold && styles.bold,
+        props.semiBold && styles.semiBold,
+        props.subtle && styles.subtle,
+      ]}
+      {...props}
+    >
+      {props.children}
+    </span>
+  )
 }
 
 export default Text
