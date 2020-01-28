@@ -26,6 +26,7 @@ const Tag: React.FC<IProps> = props => {
         props.danger && styles.danger,
         props.dark && styles.dark,
         props.light && styles.light,
+        props.withclose && styles.withclose,
       ]}
       {...props}
     >

@@ -12,7 +12,6 @@ const styles = {
     borderRadius: '12px',
 
     fontSize: '14px',
-    fontWeight: 600,
     color: 'white',
     backgroundColor: themeColors.primary,
 
@@ -43,6 +42,9 @@ const styles = {
   light: css({
     color: themeColors.bgDark,
     backgroundColor: themeColors.bgLight,
+  }),
+  withclose: css({
+    height: '24px',
   }),
 }
 
