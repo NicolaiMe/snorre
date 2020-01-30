@@ -1,17 +1,118 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
 import Input from '.'
 
+import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
+
 <Meta title="Core/Input" component={Input}/>
 
 # Input
+Inputfields are used where the user are to specify information
 
 <div style={{marginTop: '60px'}}></div>
 
-### Input
+<div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+    <div style={{marginRight: '30px'}}>
+        <Input type="text" label="Label" placeholder="Placeholder text"></Input>
+        <br />Default input with label above
+    </div>
+    <div>
+        <Input type="text" placeholder="Placeholder text"></Input>
+        <br />Input can also appear without label
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+    <div style={{marginRight: '30px', marginTop: '10px'}}>
+        <Input type="text" label="Inputfield with focus" placeholder="Placeholder text" focus></Input>
+    </div>
+    <div style={{marginTop: '10px'}}>
+        <Input type="text" label="Inputed text" value="Inputed text"></Input>
+    </div>
+    <div style={{marginTop: '10px'}}>
+        <Input type="text" placeholder="Field is disabled" label="Inputfield deactivated" disabled></Input>
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+<div style={{display: 'flex'}}>
+    <Input type="password" label="Inputfield - password" placeholder="Password field" value="Hemmelig passord"></Input>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+    <div style={{marginRight: '30px'}}>
+        <Input type="search" label="Search" placeholder="Search placeholder"></Input>
+    </div>
+    <div>
+        <Input type="search" label="Search in focus" placeholder="Search placeholder" value="Inputed text" focus></Input>
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Highlighted input
+
+<div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+    <div style={{marginRight: '30px'}}>
+        <Input type="text" placeholder="Placeholder text" focus highlight></Input>
+    </div>
+    <div>
+        <Input type="search" placeholder="Search placeholder" focus highlight></Input>
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Default
 Standard input, defaults to type text
 <Preview>
     <Story name="Default">
-        <Input type="text"></Input>
+        <Input type="text" label="Label" placeholder="placeholder text"></Input>
+    </Story>
+</Preview>
+
+
+### Focused
+Focused text input
+<Preview>
+    <Story name="Focused">
+        <Input type="text" label="Focused" placeholder="placeholder text" focus></Input>
+    </Story>
+</Preview>
+
+### Disabled
+Disabled text input
+<Preview>
+    <Story name="Disabled">
+        <Input type="text" label="Disabled" placeholder="Field disabled" disabled></Input>
+    </Story>
+</Preview>
+
+### Password
+Password input, defaults to type password
+<Preview>
+    <Story name="Passsword">
+        <Input type="password" label="Inputfield - password" placeholder="Password field" value="Secret password"></Input>
+    </Story>
+</Preview>
+
+### Search
+Search input, defaults to type search
+<Preview>
+    <Story name="Search">
+        <Input type="search" label="Search" placeholder="Placeholder text"></Input>
+    </Story>
+</Preview>
+
+### Highlighted
+Highlighted inputfield
+<Preview>
+    <Story name="Highlighted">
+        <Input type="text" placeholder="placeholder text" focus highlight></Input>
     </Story>
 </Preview>
 
