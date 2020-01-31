@@ -1,29 +1,42 @@
 import themeColors from '../../globals/styles/colors'
 import { css } from '@emotion/core'
+import bp from '../../globals/styles/breakpoints'
 
 const styles = {
   default: css({
     fontWeight: 'bold',
     margin: '0',
   }),
-  h1: css({
-    fontSize: '40px',
-    fontWeight: 'bold',
-    color: themeColors.defaultText,
+  h1: css`
+    font-size: '40px',
+    font-weight: 'bold',
+    color: ${themeColors.defaultText},
     margin: '0',
-  }),
-  h2: css({
-    fontSize: '32px',
-  }),
-  h3: css({
-    fontSize: '24px',
-  }),
-  h4: css({
-    fontSize: '22px',
-  }),
-  h5: css({
-    fontSize: '18px',
-  }),
+    @media screen and (min-width: ${bp.small}) {
+        font-size: '31px'
+
+    }
+  `,
+  h2: css`
+    font-size: '32px', @media screen and (min-width: ${bp.small}) {
+      font-size: '22px';
+    }
+  `,
+  h3: css`
+    font-size: '24px', @media screen and (min-width: ${bp.small}) {
+      font-size: '20px';
+    }
+  `,
+  h4: css`
+    font-size: '22px', @media screen and (min-width: ${bp.small}) {
+      fontsize: '18px';
+    }
+  `,
+  h5: css`
+    font-size: '18px', @media screen and (min-width: ${bp.small}) {
+      font-size: '16px';
+    }
+  `,
 }
 
 export default styles
