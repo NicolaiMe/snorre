@@ -9,7 +9,7 @@ const styles = {
       display: 'flex',
       alignItems: 'center',
       height: '36px',
-      fontSize: '14px',
+      fontSize: '16px',
       borderTop: '1px solid ' + themeColors.border,
 
       '&:nth-of-type(1)': {
@@ -52,7 +52,7 @@ const styles = {
     '& > li::before': {
       content: 'counter(conts)"."',
       fontSize: '16px',
-      fontWeight: 'bold',
+      fontWeight: 'normal',
       marginLeft: '-20px',
       marginRight: '10px;',
     },

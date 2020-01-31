@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/BBL-Digital/snorre#readme",
   "author": "bbl-digital",
-  "dependencies": {},
+  "dependencies": {
+    "emotion-theming": "^10.0.27"
+  },
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -28,7 +30,7 @@
     "prettier:check": "prettier --list-different src/**/*.{js,ts,tsx}",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
-    "build": "yarn run build:cjs && yarn run build:esm",
+    "build": "yarn run build:cjs && yarn run build:esm && yarn run build:tsc",
     "build:tsc": "tsc -p .",
     "build:cjs": "babel --extensions .ts,.tsx ./src --out-dir ./lib",
     "build:esm": "babel --extensions .ts,.tsx ./src --out-dir ./esm"
