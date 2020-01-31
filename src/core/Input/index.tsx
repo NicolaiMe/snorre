@@ -18,17 +18,17 @@ const Input: React.FC<IProps> = props => {
   const type: 'text' | 'search' | 'number' | 'password' = props.type
     ? props.type
     : 'text'
-  const placeholder: string = props.placeholder ? props.placeholder : ''
-  const label: string = props.label ? props.label : ''
-  const value: string = props.value ? props.value : ''
+  const span = props.label ? (
+    <span css={props.focus && styles.focusedLabel}>{props.label}</span>
+  ) : null
 
   return (
     <label css={[styles.default, props.highlight && styles.highligted]}>
-      <span css={props.focus && styles.focusedLabel}>{label}</span>
+      {span}
       <input
         type={type}
-        placeholder={placeholder}
-        defaultValue={value}
+        placeholder={props.placeholder}
+        defaultValue={props.value}
         disabled={props.disabled}
         css={[
           props.type === 'text' && styles.text,
