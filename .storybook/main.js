@@ -1,7 +1,10 @@
-const path = require("path");
+const path = require('path')
 
 module.exports = {
-  stories: ['../src/stories/*.stories.(ts|tsx|mdx)', '../src/**/*.stories.(ts|tsx|mdx)'],
+  stories: [
+    '../src/stories/*.stories.(ts|tsx|mdx)',
+    '../src/**/*.stories.(ts|tsx|mdx)',
+  ],
   addons: [
     '@storybook/addon-actions',
     '@storybook/addon-links',
@@ -13,15 +16,15 @@ module.exports = {
         tsDocgenLoaderOptions: {
           tsconfigPath: path.resolve(__dirname, '../tsconfig.json'),
         },
-      }
+      },
     },
     {
-      name: "@storybook/addon-docs",
+      name: '@storybook/addon-docs',
       options: {
         configureJSX: true,
         babelOptions: {},
         sourceLoaderOptions: null,
-      }
-    }
+      },
+    },
   ],
-};
+}

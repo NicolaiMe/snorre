@@ -2,6 +2,7 @@
 import React from 'react'
 import { jsx } from '@emotion/core'
 import { styles } from './styles'
+import { IAppTheme } from '../../app-shell/theme'
 
 export interface IProps {
   success?: boolean
@@ -14,13 +15,13 @@ export interface IProps {
 const Button: React.FC<IProps> = props => {
   return (
     <button
-      css={[
-        styles.default,
-        props.success && styles.success,
-        props.danger && styles.danger,
+      css={(theme: IAppTheme) => [
+        styles.default(theme),
+        props.danger && styles.danger(theme),
+        props.success && styles.success(theme),
         props.highlight && styles.highlighted,
-        props.disabled && styles.disabled,
-        props.outline && styles.outline,
+        props.disabled && styles.disabled(theme),
+        props.outline && styles.outline(theme),
       ]}
       {...props}
     >

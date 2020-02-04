@@ -1,5 +1,5 @@
 import { css } from '@emotion/core'
-import themeColors from '../../globals/styles/colors'
+import { IAppTheme } from '../../app-shell/theme'
 
 const styles = {
   default: css({
@@ -23,9 +23,10 @@ const styles = {
   semiBold: css({
     fontWeight: 600,
   }),
-  subtle: css({
-    color: themeColors.subtleText,
-  }),
+  subtle: (theme: IAppTheme) =>
+    css({
+      color: theme.subtleText,
+    }),
 }
 
 export default styles

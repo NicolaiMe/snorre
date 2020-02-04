@@ -1,33 +1,34 @@
-import themeColors from '../../globals/styles/colors'
 import { css } from '@emotion/core'
+import { IAppTheme } from '../../app-shell/theme'
 
 const styles = {
-  default: css({
-    display: 'grid',
-    ':focus-within span': {
-      color: themeColors.primary,
-    },
-    span: {
-      minHeight: '25px',
-      fontWeight: 'bold',
-    },
-    input: {
-      boxSizing: 'border-box',
-      height: '36px',
-      width: '340px',
-      fontSize: '16px',
-      outline: 'none',
-      ':focus': {
-        borderColor: themeColors.primary,
+  default: (theme: IAppTheme) =>
+    css({
+      display: 'grid',
+      ':focus-within span': {
+        color: theme.primary,
       },
-      ':disabled': {
-        backgroundColor: themeColors.disabled,
+      span: {
+        minHeight: '25px',
+        fontWeight: 'bold',
       },
-    },
-    'input:focus + label': {
-      color: themeColors.primary,
-    },
-  }),
+      input: {
+        boxSizing: 'border-box',
+        height: '36px',
+        width: '340px',
+        fontSize: '16px',
+        outline: 'none',
+        ':focus': {
+          borderColor: theme.primary,
+        },
+        ':disabled': {
+          backgroundColor: theme.disabled,
+        },
+      },
+      'input:focus + label': {
+        color: theme.primary,
+      },
+    }),
   highligted: css({
     fontSize: '20px',
     input: {
@@ -35,32 +36,38 @@ const styles = {
       fontSize: '18px',
     },
   }),
-  text: css({
-    border: '2px solid ' + themeColors.border,
-    borderRadius: '3px',
-    paddingLeft: '10px',
-  }),
-  password: css({
-    border: '2px solid ' + themeColors.border,
-    borderRadius: '3px',
-    paddingLeft: '10px',
-  }),
-  search: css({
-    border: '0',
-    borderBottom: '2px solid ' + themeColors.border,
-    paddingLeft: '0',
-  }),
-  disabled: css({
-    cursor: 'not-allowed',
-    backgroundColor: themeColors.disabled,
-    borderColor: themeColors.disabled,
-  }),
-  focused: css({
-    borderColor: themeColors.primary,
-  }),
-  focusedLabel: css({
-    color: themeColors.primary,
-  }),
+  text: (theme: IAppTheme) =>
+    css({
+      border: '2px solid ' + theme.border,
+      borderRadius: '3px',
+      paddingLeft: '10px',
+    }),
+  password: (theme: IAppTheme) =>
+    css({
+      border: '2px solid ' + theme.border,
+      borderRadius: '3px',
+      paddingLeft: '10px',
+    }),
+  search: (theme: IAppTheme) =>
+    css({
+      border: '0',
+      borderBottom: '2px solid ' + theme.border,
+      paddingLeft: '0',
+    }),
+  disabled: (theme: IAppTheme) =>
+    css({
+      cursor: 'not-allowed',
+      backgroundColor: theme.disabled,
+      borderColor: theme.disabled,
+    }),
+  focused: (theme: IAppTheme) =>
+    css({
+      borderColor: theme.primary,
+    }),
+  focusedLabel: (theme: IAppTheme) =>
+    css({
+      color: theme.primary,
+    }),
 }
 
 export default styles

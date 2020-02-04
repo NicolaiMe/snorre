@@ -1,7 +1,11 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
 import Button, { IProps } from '.'
 
 <Meta title="Core/Button" component={Button}/>
+
+<ThemeProvider theme={theme}>
 
 # Button
 
@@ -59,6 +63,10 @@ An action button is used when the user is to do a non-primary action.
 For example, View more, fill in, sign, etc.
 
 <div style={{marginTop: '60px'}}></div>
+
+
+</ThemeProvider>
+
 
 ### Default
 <Preview>
