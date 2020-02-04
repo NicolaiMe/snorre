@@ -17,14 +17,14 @@ const Text: React.FC<IProps> = props => {
   const Tag = props.paragraph ? 'p' : 'span'
   return (
     <Tag
-      css={[
+      css={theme => [
         styles.default,
         props.intro && styles.intro,
         props.small && styles.small,
         props.extrasmall && styles.extrasmall,
         props.bold && styles.bold,
         props.semiBold && styles.semiBold,
-        props.subtle && styles.subtle,
+        props.subtle && styles.subtle(theme),
         props.paragraph && styles.paragraph,
       ]}
       {...props}

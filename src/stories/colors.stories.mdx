@@ -1,5 +1,5 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
-import themeColors from '../globals/styles/colors'
+import theme from '../../.storybook/helpers/theme'
 
 export const boxStyles = {
   height: '100px', 
@@ -19,9 +19,9 @@ export const boxStyles = {
 <div style={{margin: '10px 0'}}></div>
 
 <div style={{display: 'flex', flexDirection: 'row'}}>
-  <div style={{...boxStyles, backgroundColor: themeColors.primary}}></div>
-  <div style={{...boxStyles, backgroundColor: themeColors.lightPrimary}}></div>
-  <div style={{...boxStyles, backgroundColor: themeColors.lightestPrimary}}></div>
+  <div style={{...boxStyles, backgroundColor: theme.primary}}></div>
+  <div style={{...boxStyles, backgroundColor: theme.lightPrimary}}></div>
+  <div style={{...boxStyles, backgroundColor: theme.lightestPrimary}}></div>
 </div>
 
 
@@ -33,9 +33,9 @@ export const boxStyles = {
     <span style={{color: '#274CE3'}}>UI-colors</span>
     <div style={{margin: '5px 0'}}></div>
     <div style={{display: 'flex', flexDirection: 'row'}}>
-      <div style={{...boxStyles, backgroundColor: themeColors.alert}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.info}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.success}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.alert}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.info}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.success}}></div>
     </div>
   </div>
 
@@ -43,9 +43,9 @@ export const boxStyles = {
     <span style={{color: '#274CE3'}}>Backgrounds</span>
     <div style={{margin: '5px 0'}}></div>
     <div style={{display: 'flex', flexDirection: 'row'}}>
-      <div style={{...boxStyles, backgroundColor: themeColors.bgDark}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.bgMedium}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.bgLight}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.bgDark}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.bgMedium}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.bgLight}}></div>
     </div>
   </div>
 
@@ -53,9 +53,9 @@ export const boxStyles = {
     <span style={{color: '#274CE3'}}>Grayscale</span>
     <div style={{margin: '5px 0'}}></div>
     <div style={{display: 'flex', flexDirection: 'row'}}>
-      <div style={{...boxStyles, backgroundColor: themeColors.darkGray}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.mediumGray}}></div>
-      <div style={{...boxStyles, backgroundColor: themeColors.lightGray}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.darkGray}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.mediumGray}}></div>
+      <div style={{...boxStyles, backgroundColor: theme.lightGray}}></div>
     </div>
   </div>
 

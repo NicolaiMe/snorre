@@ -18,14 +18,14 @@ const Tag: React.FC<IProps> = props => {
 
   return (
     <Tag
-      css={[
-        styles.default,
-        props.neutral && styles.neutral,
-        props.success && styles.success,
-        props.info && styles.info,
-        props.danger && styles.danger,
-        props.dark && styles.dark,
-        props.light && styles.light,
+      css={theme => [
+        styles.default(theme),
+        props.neutral && styles.neutral(theme),
+        props.success && styles.success(theme),
+        props.info && styles.info(theme),
+        props.danger && styles.danger(theme),
+        props.dark && styles.dark(theme),
+        props.light && styles.light(theme),
         props.withclose && styles.withclose,
       ]}
       {...props}

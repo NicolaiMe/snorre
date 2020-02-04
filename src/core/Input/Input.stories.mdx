@@ -1,7 +1,11 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
 import Input from '.'
 
 <Meta title="Core/Input" component={Input}/>
+
+<ThemeProvider theme={theme}>
 
 # Input
 Inputfields are used where the user are to specify information
@@ -66,6 +70,9 @@ Inputfields are used where the user are to specify information
 </div>
 
 <div style={{marginTop: '60px'}}></div>
+
+</ThemeProvider>
+
 
 ### Default
 Standard input, defaults to type text

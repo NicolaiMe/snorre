@@ -23,19 +23,24 @@ const Input: React.FC<IProps> = props => {
   ) : null
 
   return (
-    <label css={[styles.default, props.highlight && styles.highligted]}>
+    <label
+      css={theme => [
+        styles.default(theme),
+        props.highlight && styles.highligted,
+      ]}
+    >
       {span}
       <input
         type={type}
         placeholder={props.placeholder}
         defaultValue={props.value}
         disabled={props.disabled}
-        css={[
-          props.type === 'text' && styles.text,
-          props.type === 'search' && styles.search,
-          props.type === 'password' && styles.password,
-          props.focus && styles.focused,
-          props.disabled && styles.disabled,
+        css={theme => [
+          props.type === 'text' && styles.text(theme),
+          props.type === 'search' && styles.search(theme),
+          props.type === 'password' && styles.password(theme),
+          props.focus && styles.focused(theme),
+          props.disabled && styles.disabled(theme),
         ]}
       >
         {React.Children.map(props.children, child => {

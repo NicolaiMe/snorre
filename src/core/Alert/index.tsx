@@ -12,11 +12,11 @@ interface IProps {
 const Alert: React.FC<IProps> = props => {
   return (
     <div
-      css={[
-        styles.default,
-        props.success && styles.success,
-        props.info && styles.info,
-        props.danger && styles.danger,
+      css={theme => [
+        styles.default(theme),
+        props.success && styles.success(theme),
+        props.info && styles.info(theme),
+        props.danger && styles.danger(theme),
       ]}
       {...props}
     >

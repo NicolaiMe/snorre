@@ -1,4 +1,6 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
 import Tag from '.'
 
 <Meta title="Core/Tag" component={Tag}/>
@@ -7,6 +9,9 @@ import Tag from '.'
 
 `TODO: change span with icon`
 <div style={{marginTop: '40px'}}></div>
+
+<ThemeProvider theme={theme}>
+
 
 ### Tags
 Labels are used to show the number of messages or statuses of an action performed by the user. <br/>
@@ -34,6 +39,9 @@ Parameter labels are used where the user has made multiple filtered selections a
 </div>
 
 <div style={{marginTop: '60px'}}></div>
+
+
+</ThemeProvider>
 
 ### Default
 <Preview>

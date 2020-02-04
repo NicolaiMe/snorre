@@ -20,7 +20,6 @@
     "pretty": true,
     "removeComments": false,
     "strict": true,
-    "useDefineForClassFields": false,
     "composite": true,
     "declarationMap": true,
     "sourceMap": true

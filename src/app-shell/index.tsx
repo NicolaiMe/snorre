@@ -1,28 +1,28 @@
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
 import styled from '@emotion/styled'
+import { IAppTheme, initTheme } from './theme'
 
 const Wrapper = styled.div<any>`
   min-height: 100vh;
   width: auto;
-  background-color: ${props => props.theme.bg};
+  background-color: ${({ theme }) => theme.backgroundColor};
 `
 
-export interface IAppTheme {
-  primary: string
-  secondary: string
-  bg: string
-}
-
 interface IProps {
-  theme: IAppTheme
+  theme: {
+    primary: string
+    secondary: string
+  }
   children: NonNullable<React.ReactNode>
 }
 
-const AppShell: React.FC<IProps> = props => {
+const AppShell: React.FC<IProps> = ({ theme, children }) => {
+  const appTheme: IAppTheme = initTheme(theme.primary, theme.secondary)
+
   return (
-    <ThemeProvider theme={props.theme}>
-      <Wrapper>{props.children}</Wrapper>
+    <ThemeProvider theme={appTheme}>
+      <Wrapper>{children}</Wrapper>
     </ThemeProvider>
   )
 }
