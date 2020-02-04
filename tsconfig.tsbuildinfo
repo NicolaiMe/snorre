@@ -237,8 +237,12 @@
         "version": "2362d771f9b6b38139138f2e65cea9ffcff77baeb2270e0a4dd7485cfefbb35b",
         "signature": "63f8437a030fe318349873505fc6fa36b89f0f41191314370226ff14f9f7a687"
       },
+      "./src/globals/styles/breakpoints.ts": {
+        "version": "1280a0bec94e7fe8426a275fc7e9bdd247ebc67fdf0e9694257266d8003b062d",
+        "signature": "95de4ca776c9e9d29a9bcd69c2c0fe0df2a8d4ce308978f9d5ef56461b8d61af"
+      },
       "./src/core/header/styles.ts": {
-        "version": "4df4ed3efcbf1cc72d04ba2199ee759795d39e3d3a0f91dd6ef92e8c17e6c2f9",
+        "version": "4e273337b671ce96d9c9fe631992651779591b00cd13bc7d7dc690f1bbb66dc6",
         "signature": "e32162d8a1611cd55bf05edb3afd7cc600e2d643d14dcdb6939205805ed95130"
       },
       "./src/core/header/index.tsx": {
@@ -246,12 +250,12 @@
         "signature": "ba223613d146b510615d3fd2c976865c26555a3c27883fdd7f988076316bf96f"
       },
       "./src/core/input/styles.ts": {
-        "version": "b54331a417350bc04a3389da1d82946b85f9e33f395beed818cf13ca408fbf6c",
-        "signature": "cc41b4f5b66a0589d03b84ea6fa15ca890183c719ed04c3f19a718776ec2e2c8"
+        "version": "256567b3e5a8bada07eda9873b2f32894ac64fd2bb0362f3600f96110e60b9c8",
+        "signature": "aaf8cba22777b658a57e7780665e05ae2813382745216d6fed99db2a392e55b8"
       },
       "./src/core/input/index.tsx": {
-        "version": "b5e3e2e175ea603d2687127c34ce5387bfb0d67ec4e6a0882ceb123ffeaaf6cc",
-        "signature": "cdeb033f9592c0d4759c1266321f91616d95521b964cd3a9b5f3a7403d38cd9e"
+        "version": "968c34459e8ee455de066d41698db6977673d9c2fa3f674c2cdfffcf98560569",
+        "signature": "3b38fff1a941fd103f866b0fafe4a1540ef6e046570e8014ab92e5ccd99d3f8d"
       },
       "./src/core/list/item.tsx": {
         "version": "eb35b8399bf20818a37419fd9d2ede8fecb2df73cca8a6b50cc77bd880535c9e",
@@ -274,11 +278,11 @@
         "signature": "8e4f2474d3a3c025a1e72ccc2c72020eeb3c6c2501e963103d8100f83c27c334"
       },
       "./src/core/tag/styles.ts": {
-        "version": "7d9d8242061ba753ba0e50065d2427a83db2c4574fd9b6c267c4c2186d76a0e7",
-        "signature": "5c331b05eebc341ca51a24dd6eb2a4e642bf354f13ba859ec52ebcd975ef8483"
+        "version": "73cee5d99bf781fc9c149828d896c0665b7e5407f4a58c30b6ccea8b6ee68394",
+        "signature": "41d4bb49b3959cc973a2a702250393bbd20e8bbb8341ca6c88ed798c8d9bed56"
       },
       "./src/core/tag/index.tsx": {
-        "version": "f0a78b8f351ca08a2b76efa78f5cffdb6c3a16621aa3f0b6f54e183f12a18799",
+        "version": "37db6f1d0ef87afbf872a03fa00e6649601c9b91425374c35a2548f2269f4a96",
         "signature": "432f16b0051f17c0b53f83fffc49aa920b0425201795c06aeae0ac41a747fec7"
       },
       "./src/core/text/styles.ts": {
@@ -1230,9 +1234,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/globals/styles/breakpoints.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/core/header/styles.ts": [
-        "./src/globals/styles/colors.ts",
         "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/globals/styles/breakpoints.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3785,7 +3795,7 @@
       "./src/core/alert/index.tsx",
       "./src/core/button/styles.ts",
       "./src/core/button/index.tsx",
-      "./src/core/header/styles.ts",
+      "./src/globals/styles/breakpoints.ts",
       "./src/core/header/index.tsx",
       "./src/core/input/styles.ts",
       "./src/core/input/index.tsx",
@@ -3796,6 +3806,8 @@
       "./src/core/select/index.tsx",
       "./src/core/tag/styles.ts",
       "./src/core/tag/index.tsx",
+      "./src/core/text/styles.ts",
+      "./src/core/text/index.tsx",
       "./src/index.tsx",
       "./src/globals/styles/paddings.ts",
       "./src/helpers/components/sblabel.tsx",
@@ -3926,8 +3938,7 @@
       "./node_modules/@types/webpack-env/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
-      "./src/core/text/styles.ts",
-      "./src/core/text/index.tsx"
+      "./src/core/header/styles.ts"
     ]
   },
   "version": "3.7.4"
