@@ -5,11 +5,17 @@ const styles = {
   default: css({
     fontSize: '16px',
   }),
+  paragraph: css({
+    margin: '0',
+  }),
   intro: css({
     fontSize: '22px',
   }),
   small: css({
     fontSize: '14px',
+  }),
+  extrasmall: css({
+    fontSize: '12px',
   }),
   bold: css({
     fontWeight: 'bold',
