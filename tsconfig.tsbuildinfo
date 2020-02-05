@@ -185,9 +185,13 @@
         "version": "0e0853ed5a5044ee38241a0ebbf60b1a019a788b05b94a58e1621d6d240965c4",
         "signature": "0e0853ed5a5044ee38241a0ebbf60b1a019a788b05b94a58e1621d6d240965c4"
       },
+      "./src/app-shell/theme.ts": {
+        "version": "31f60f33e74c9b456f6629ac16099e04b72d66a810788bad38e26fabc3690fdc",
+        "signature": "ed5d4b749f4a9d44546bba695c363db25bdf2075ebbe057ae433da5fe7b08127"
+      },
       "./src/app-shell/index.tsx": {
-        "version": "d0a45e1b986b1c46c928a634369896824af8fcf4f1d1cec1776c7a1e47c9d5eb",
-        "signature": "e397a2cbba4124fd993a6f53a23c29b788fec0f7481802ed752412f4a65fdcad"
+        "version": "9bf2a5c81d40818572afc7bdb6e9cce9737b0ed5f0319e8430783bc03ac05e08",
+        "signature": "617897b5061128571048b69ee20288200aac9b6e003b32636bbc322825bdbdc2"
       },
       "./node_modules/@emotion/stylis/types/index.d.ts": {
         "version": "a6cb30cc0a1fd9dc0b6be4bfa919a35eda7d92be1835bc65a72e3d64a100203c",
@@ -205,25 +209,33 @@
         "version": "1588826621a8167206324e72114918cfa71e9d1f91ae85145dec25e4b04a21b7",
         "signature": "1588826621a8167206324e72114918cfa71e9d1f91ae85145dec25e4b04a21b7"
       },
-      "./src/globals/styles/colors.ts": {
-        "version": "542a3d46f4d47f44e891e8f8ea893eef2e76a450051115f5f14a90bee543cd1c",
-        "signature": "656d9c1a4a0a267dee4ef828777ecfd87b89f6ba2cc604b896664c0e338f1211"
-      },
       "./src/core/alert/styles.ts": {
-        "version": "ba911f1a6973eec64e0f21ce68d6e6ee118cc2d1b6c4d742d550d421e45c1605",
-        "signature": "75c37c178ed22b258305b4801c500b59c3ac8d0f1c9b23260a41dea0247f36d5"
+        "version": "3631612395d47a4c5f37a57ece5e28b5f674e80042cfa47fea3e4e7092d34a7d",
+        "signature": "e2388875e918ade746c0e482b68e06554407f6a242bda7342fae2ae62101d732"
       },
       "./src/core/alert/index.tsx": {
-        "version": "429df90e1314688748d724f788c0382a8f711f5fa0d6f91d53e6f743ab849e31",
+        "version": "736f90a41d6c3eb5c2d7bedaa82db3d55696b0d75484ea9e368de10b7194b596",
         "signature": "27dabb673c2ef91121dc6a41cac2eedca3bf4b1db82b628a6e708eb718946173"
       },
       "./src/core/button/styles.ts": {
-        "version": "bdf0b4a8c248fce20f53aaa96042a94d289d481ce960a2f284952e3b146d24d2",
-        "signature": "3526ff739062ee969497d0adcaa40c1457b5080a96628477199f5ea25acdf6de"
+        "version": "1f71b681498c3f78cf19701d3755d2399cb6734bad684992635a64f112e7a89b",
+        "signature": "3b357df2e84f9d6fe831e1701ecb638389987ea3cdb157c258eca1f074200d3f"
       },
       "./src/core/button/index.tsx": {
-        "version": "2362d771f9b6b38139138f2e65cea9ffcff77baeb2270e0a4dd7485cfefbb35b",
-        "signature": "b8883b63116a47e2f732e0cf3423655cf6fec0486ee81396a9d8c6880c38ee72"
+        "version": "8b0a651a328b582eebc623c31f7ab0d56508320deb68dc09ee9c9077e898ba12",
+        "signature": "bed21c4d5f6441a82dfbeab58ac959a73bfa80a8be0f0d729912899012d88061"
+      },
+      "./src/core/card/styles.ts": {
+        "version": "41a26f461ac86e0b910a2f2c13f2f0ddcaa322075fafc56a421c6506337f1ac7",
+        "signature": "32aaaf5989a233ba460b9c06816611ef364bbfa5ffa48ee6ca90c070e333e91b"
+      },
+      "./src/core/card/index.tsx": {
+        "version": "bdf34341b31a3580477e66d70d953b6b45584af29ea0a83924b05d0d92f63a45",
+        "signature": "c944b8334e863605789087c38a3198f3d4ade4649c6399b702e3fea8f9d4eb55"
+      },
+      "./src/core/divider/index.tsx": {
+        "version": "b84414716b23d9aab9a3771069b7b9c3140a83172f773149f2efa4e1a2450989",
+        "signature": "abf61b29dd51b94b63deca486375877ff27dac944f4e3c16b834f63a9706b121"
       },
       "./src/globals/styles/breakpoints.ts": {
         "version": "1280a0bec94e7fe8426a275fc7e9bdd247ebc67fdf0e9694257266d8003b062d",
@@ -237,21 +249,45 @@
         "version": "3a6441e92cecfc295e165de87d4d98c1ef3f3075ae836c271ce14ee00afff7df",
         "signature": "42bdc7b1e5a0b77221c05e85597edc647d31404148b341eb5af47840589d4526"
       },
+      "./src/core/icon/user/index.tsx": {
+        "version": "5f18732f077ae18c9060a96cb76c4c6397de020c6cafbb132289f84c2fb209f2",
+        "signature": "398c722927dfe99df6c1dba70a90397caefb1f77600e7261dcafb7de0f2dc9b8"
+      },
+      "./src/core/icon/styles.ts": {
+        "version": "bb4c138bd6caa8585be2279cdb20853eaa152936cc188c1a0009717a90a9c964",
+        "signature": "9a3ed107a1a3f5bf8882818f4f3998fb8bc3c7572bbffd084b5994f9f4eb360b"
+      },
+      "./src/core/icon/index.tsx": {
+        "version": "8f7c096bbfe75b0be17b6f45d8ad1a9cf594ff411526f7a52c1865f7e07f322f",
+        "signature": "b029847eb8c937e312371e8685c633875f9b933feb9f4691bf30eafafa802c4c"
+      },
+      "./src/core/illustration/appartment/index.tsx": {
+        "version": "668bc0c1f802db0e3c4682a340be9d39146d46c2f26d9516ad93f1284eceb5a7",
+        "signature": "78a5b34b7b7bc6ebd2fa3816ee3e81f008095cdb42e14440e425719fe0636859"
+      },
+      "./src/core/illustration/styles.ts": {
+        "version": "d7d445d04948c2b81fa5aad6bd06437178f25cf00d63dd4a36118b82f82bf28f",
+        "signature": "4496df405d5458d3c8989ac27841249aa8a2afc8a1d3fba9e06246a68350edbf"
+      },
+      "./src/core/illustration/index.tsx": {
+        "version": "e0b0cc00ae4de5e38f8301f2c0d4e1283abef5eb0a1f4751e62c19153f2fecba",
+        "signature": "5a49a56b4fe84f21973f2dca8463dcb859cdf98e197b62c5a03bb9a72776d628"
+      },
       "./src/core/input/styles.ts": {
-        "version": "256567b3e5a8bada07eda9873b2f32894ac64fd2bb0362f3600f96110e60b9c8",
-        "signature": "dbe55844beab1143d4efc4d989c5eb8dc646bc2c75231d67c93d68fcb2420e78"
+        "version": "a79f18da347187f6ae9fd60aaa16c1151bab340751c929288b7cbe648ac3ef4e",
+        "signature": "881b0fb30af3277b54237e676abd16aed3e9b45eaea985ab2ecc2edb94c1cc61"
       },
       "./src/core/input/index.tsx": {
-        "version": "968c34459e8ee455de066d41698db6977673d9c2fa3f674c2cdfffcf98560569",
-        "signature": "5bc4ace5f14633fe583586b839500fcb2f399d3e21b9e438f78b534606c0dfa0"
+        "version": "390270e07431f19efd9f2f58d79be6999df408fc06791350b621c5f00716e0f1",
+        "signature": "2572c53046a773aaedd13f16897cecbd8cf0915a2d1f2daf8267f977718e7144"
       },
       "./src/core/list/item.tsx": {
         "version": "eb35b8399bf20818a37419fd9d2ede8fecb2df73cca8a6b50cc77bd880535c9e",
         "signature": "b2cbd9ea0645ac972e543c325510b0b6875a136e0d566412be0813830590f816"
       },
       "./src/core/list/styles.ts": {
-        "version": "92150f627755731587c0873199c459e9e889f34857dcbc57d3ff3d2c2dd5f1e7",
-        "signature": "ddf6d03dbc15f41a02d04a440a276bc35e2ecd8565faa7657ee4c8e6555ee63a"
+        "version": "f2635e80dc8b48af5cdf823fcdc8c2ef084186437320ce5cfb985fb30816a374",
+        "signature": "5d552acd822129f863a85575770bc7c245e0c4ed3a19fcdd45a39a283555f8e7"
       },
       "./src/core/list/index.tsx": {
         "version": "bb7ec56824c09da51132ac7fc712a89779f1d3fb8b454831285bec88f65c49c1",
@@ -266,24 +302,24 @@
         "signature": "b0ccd90f007ba9482076daa67b2a1c2dda5d538b8af305477c162a2b65ca3da2"
       },
       "./src/core/tag/styles.ts": {
-        "version": "73cee5d99bf781fc9c149828d896c0665b7e5407f4a58c30b6ccea8b6ee68394",
-        "signature": "7067f4ee2bae77d146276f1bbf01d0b33ecab6a7f77f93714d6811b1fe6ab079"
+        "version": "f51386d35cdd0d64f58898bd092fc2d4579480b7af8d8f3935629258f5ac1e3a",
+        "signature": "fa074302f59297b3c740be7c796ea31d63c34fc02c2d2175c5fea10031276fb4"
       },
       "./src/core/tag/index.tsx": {
-        "version": "37db6f1d0ef87afbf872a03fa00e6649601c9b91425374c35a2548f2269f4a96",
+        "version": "7329e1f462dbb02e62d33111ef4758aff5f5315e12de3344278c6c628f86a412",
         "signature": "7e6b59d800b6e6f29a7af5171306778c67f4a9158cf40f973f961ab96a8ea375"
       },
       "./src/core/text/styles.ts": {
-        "version": "1cbc712294c78c93707ee37bd59a11c75a2637365152beab1db83ba23f6fa380",
-        "signature": "5da2b046a5481e6accb2f38fb5453ff63093592cec85db38aa88e1d1c6d0342a"
+        "version": "986fb0f7af38e501a278ad37b6b02bb8171246db42377f008282afdfbfa09817",
+        "signature": "4f5ce0f2a2510e4b7b26ce869e0efaa72a3e5d1cc4e14c56b50ab27644102da6"
       },
       "./src/core/text/index.tsx": {
-        "version": "212699c18bbdccc7e3c8f17da9b6efcc29c942cfce2c867cb40bc190f2bbc8b0",
+        "version": "dc8c0f29795ef7ffbc6dcbbf4c93dcfe9ee8ca095c6350ce8387aabba1025122",
         "signature": "3b8cb107ab1469993fe7e94001e003ca26abd2e3eba31b89908c2d786c8f0430"
       },
       "./src/index.tsx": {
-        "version": "4748e8b254a3127c4eb44dd74741cdf21b49d1cc143fb443a2d168ddc4501d2f",
-        "signature": "ae456ae4284a5dde76cdd4139c37018c7165a56dc10c6d48a71961feb7c09308"
+        "version": "9396ea64831d370fafbd344d378614ebd07525ac1ceb764e42eefa70c5f5f0e8",
+        "signature": "f1b1d3827ab6713e59c78c25605156a8d7d9d9bb6f56250dde03f5f3e0d2d6ac"
       },
       "./src/globals/styles/paddings.ts": {
         "version": "aa9b609c09769bcce893d4dc5d76d7262a4e0b27522c285bdf9c2f790b1f373e",
@@ -292,6 +328,14 @@
       "./src/helpers/components/sblabel.tsx": {
         "version": "e732e0e6e8560d96dd210f0768aa364bd9800ea465f511e5822c4b1446e5e109",
         "signature": "5477cd9bc8c579bb8b13fa669020e4b386fa995e8379aea1311578f981701cee"
+      },
+      "./src/layout/layout/styles.ts": {
+        "version": "223910f0fa673cd8939d42b376e8c496f53f23b0cdae0744ea48ea2ac5fa6f46",
+        "signature": "f0a4f26dfbb37df96d4143b8f471c8ccc719376d6bb29b7e8b8d761c36e920b7"
+      },
+      "./src/layout/layout/index.tsx": {
+        "version": "32b53557e2f7a62ab79082b9fbcdfbf7ba9e31e60af6ff4a12f0f4efc2983163",
+        "signature": "704086630ec56f34a139bd2ab819e54accfc2ed367da0044104855bce761184f"
       },
       "./node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -1123,10 +1167,17 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/app-shell/theme.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/app-shell/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/emotion-theming/types/index.d.ts",
         "./node_modules/@emotion/styled/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1163,15 +1214,9 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/globals/styles/colors.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./src/core/alert/styles.ts": [
-        "./src/globals/styles/colors.ts",
         "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1187,8 +1232,9 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/core/button/styles.ts": [
-        "./src/globals/styles/colors.ts",
         "./node_modules/@emotion/core/types/index.d.ts",
+        "./node_modules/@emotion/styled/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1198,6 +1244,31 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@emotion/core/types/index.d.ts",
         "./src/core/button/styles.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/card/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/card/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/card/styles.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/divider/index.tsx": [
+        "./node_modules/@emotion/styled/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1226,9 +1297,59 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/core/input/styles.ts": [
-        "./src/globals/styles/colors.ts",
+      "./src/core/icon/user/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/icon/styles.ts": [
         "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/icon/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/icon/user/index.tsx",
+        "./src/core/icon/styles.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/illustration/appartment/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/illustration/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/illustration/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/illustration/appartment/index.tsx",
+        "./src/core/illustration/styles.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/input/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1252,7 +1373,8 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/core/list/styles.ts": [
-        "./src/globals/styles/colors.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1284,8 +1406,8 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/core/tag/styles.ts": [
-        "./src/globals/styles/colors.ts",
         "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1302,7 +1424,7 @@
       ],
       "./src/core/text/styles.ts": [
         "./node_modules/@emotion/core/types/index.d.ts",
-        "./src/globals/styles/colors.ts",
+        "./src/app-shell/theme.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1321,7 +1443,11 @@
         "./src/app-shell/index.tsx",
         "./src/core/alert/index.tsx",
         "./src/core/button/index.tsx",
+        "./src/core/card/index.tsx",
+        "./src/core/divider/index.tsx",
         "./src/core/header/index.tsx",
+        "./src/core/icon/index.tsx",
+        "./src/core/illustration/index.tsx",
         "./src/core/input/index.tsx",
         "./src/core/list/index.tsx",
         "./src/core/select/index.tsx",
@@ -1341,6 +1467,22 @@
       "./src/helpers/components/sblabel.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@emotion/styled/macro.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/layout/layout/styles.ts": [
+        "./node_modules/@emotion/styled/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/layout/layout/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/layout/layout/styles.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2646,16 +2788,31 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/core/alert/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts"
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/alert/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/button/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/styled-base/types/index.d.ts",
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/button/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/card/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/card/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/divider/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/styled-base/types/index.d.ts"
       ],
       "./src/core/header/styles.ts": [
         "./node_modules/@emotion/utils/types/index.d.ts"
@@ -2663,14 +2820,39 @@
       "./src/core/header/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/core/icon/user/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/icon/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/icon/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/illustration/appartment/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/illustration/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/illustration/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/core/input/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts"
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/input/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/list/item.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/list/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/list/index.tsx": [
         "./src/core/list/item.tsx",
@@ -2687,13 +2869,15 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/tag/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts"
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/tag/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/text/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts"
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
       ],
       "./src/core/text/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -2702,7 +2886,11 @@
         "./src/app-shell/index.tsx",
         "./src/core/alert/index.tsx",
         "./src/core/button/index.tsx",
+        "./src/core/card/index.tsx",
+        "./src/core/divider/index.tsx",
         "./src/core/header/index.tsx",
+        "./src/core/icon/index.tsx",
+        "./src/core/illustration/index.tsx",
         "./src/core/input/index.tsx",
         "./src/core/list/index.tsx",
         "./src/core/select/index.tsx",
@@ -2710,6 +2898,13 @@
         "./src/core/text/index.tsx"
       ],
       "./src/helpers/components/sblabel.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/layout/layout/styles.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/styled-base/types/index.d.ts"
+      ],
+      "./src/layout/layout/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@types/anymatch/index.d.ts": [
@@ -3687,6 +3882,8 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "./src/core/button/index.tsx",
+      "./src/index.tsx",
       "../../users/kak/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
       "../../users/kak/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts",
       "../../users/kak/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts",
@@ -3733,19 +3930,27 @@
       "./node_modules/@emotion/styled-base/types/helper.d.ts",
       "./node_modules/@emotion/styled-base/types/index.d.ts",
       "./node_modules/@emotion/styled/types/index.d.ts",
+      "./src/app-shell/theme.ts",
       "./src/app-shell/index.tsx",
       "./node_modules/@emotion/stylis/types/index.d.ts",
       "./node_modules/@emotion/cache/types/index.d.ts",
       "./node_modules/@emotion/css/types/index.d.ts",
       "./node_modules/@emotion/core/types/index.d.ts",
-      "./src/globals/styles/colors.ts",
       "./src/core/alert/styles.ts",
       "./src/core/alert/index.tsx",
       "./src/core/button/styles.ts",
-      "./src/core/button/index.tsx",
+      "./src/core/card/styles.ts",
+      "./src/core/card/index.tsx",
+      "./src/core/divider/index.tsx",
       "./src/globals/styles/breakpoints.ts",
       "./src/core/header/styles.ts",
       "./src/core/header/index.tsx",
+      "./src/core/icon/user/index.tsx",
+      "./src/core/icon/styles.ts",
+      "./src/core/icon/index.tsx",
+      "./src/core/illustration/appartment/index.tsx",
+      "./src/core/illustration/styles.ts",
+      "./src/core/illustration/index.tsx",
       "./src/core/input/styles.ts",
       "./src/core/input/index.tsx",
       "./src/core/list/item.tsx",
@@ -3757,9 +3962,10 @@
       "./src/core/tag/index.tsx",
       "./src/core/text/styles.ts",
       "./src/core/text/index.tsx",
-      "./src/index.tsx",
       "./src/globals/styles/paddings.ts",
       "./src/helpers/components/sblabel.tsx",
+      "./src/layout/layout/styles.ts",
+      "./src/layout/layout/index.tsx",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/babel-types/index.d.ts",
       "./node_modules/@babel/types/lib/index.d.ts",

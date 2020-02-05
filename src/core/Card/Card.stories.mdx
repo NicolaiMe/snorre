@@ -1,0 +1,45 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
+import Card from '.'
+
+<Meta title="Core/Card" component={Card}/>
+
+<ThemeProvider theme={theme}>
+
+</ThemeProvider>
+
+### Default
+Card
+<Preview>
+    <Story name="Default">
+        <Card>Stuff</Card>
+    </Story>
+</Preview>
+
+### With hover
+Card with hover
+<Preview>
+    <Story name="With hover">
+        <Card withhover>Hover me!</Card>
+    </Story>
+</Preview>
+
+### Primary
+Card with primary background
+<Preview>
+    <Story name="With primary">
+        <Card primary>Primary</Card>
+    </Story>
+</Preview>
+
+### Gray
+Card with gray background
+<Preview>
+    <Story name="With gray">
+        <Card gray>Gray</Card>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Card} />
