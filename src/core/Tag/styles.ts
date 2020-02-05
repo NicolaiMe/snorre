@@ -6,6 +6,7 @@ const styles = {
     css({
       display: 'inline-block',
       height: '20px',
+      lineHeight: '20px',
       padding: '0px 8px',
 
       outline: 'none',

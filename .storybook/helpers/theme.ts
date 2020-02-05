@@ -4,7 +4,7 @@ import { initTheme } from '../../src/app-shell/theme'
 // export default initTheme('#C5122F', '#272727')
 
 // BBLD
-// export default initTheme('#1657E2', '#10105A')
+export default initTheme('#1657E2', '#10105A')
 
 // SOBBL
 // export default initTheme('#227F48', '#213228')
@@ -46,4 +46,4 @@ import { initTheme } from '../../src/app-shell/theme'
 // export default initTheme('#FA8268', '#D24448')
 
 // BOB
-export default initTheme('#582484', '#F9DC5C')
+// export default initTheme('#582484', '#F9DC5C')

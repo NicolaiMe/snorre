@@ -1,0 +1,29 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
+import Layout from '.'
+
+<Meta title="Layout/Layout" component={Layout}/>
+
+<ThemeProvider theme={theme}>
+
+</ThemeProvider>
+
+### Default
+Layout
+<Preview>
+    <Story name="Layout">
+        <Layout></Layout>
+    </Story>
+</Preview>
+
+### With background
+Layout
+<Preview>
+    <Story name="With background">
+        <Layout background></Layout>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Layout} />

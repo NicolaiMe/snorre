@@ -9,7 +9,7 @@ interface IProps {
   small?: boolean
   extrasmall?: boolean
   bold?: boolean
-  semiBold?: boolean
+  semibold?: boolean
   subtle?: boolean
 }
 
@@ -23,7 +23,7 @@ const Text: React.FC<IProps> = props => {
         props.small && styles.small,
         props.extrasmall && styles.extrasmall,
         props.bold && styles.bold,
-        props.semiBold && styles.semiBold,
+        props.semibold && styles.semiBold,
         props.subtle && styles.subtle(theme),
         props.paragraph && styles.paragraph,
       ]}
