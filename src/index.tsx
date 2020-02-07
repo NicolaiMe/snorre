@@ -11,6 +11,7 @@ import List from './core/List'
 import Select from './core/Select'
 import Tag from './core/Tag'
 import Text from './core/Text'
+import Checkbox from './core/Checkbox'
 
 export {
   AppShell,
@@ -22,6 +23,7 @@ export {
   Icon,
   Illustration,
   Input,
+  Checkbox,
   List,
   Select,
   Tag,
