@@ -27,7 +27,6 @@ const Text: React.FC<IProps> = props => {
         props.subtle && styles.subtle(theme),
         props.paragraph && styles.paragraph,
       ]}
-      {...props}
     >
       {props.children}
     </Tag>

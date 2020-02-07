@@ -18,7 +18,6 @@ const Alert: React.FC<IProps> = props => {
         props.info && styles.info(theme),
         props.danger && styles.danger(theme),
       ]}
-      {...props}
     >
       {props.children}
 

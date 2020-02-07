@@ -11,6 +11,7 @@ interface IProps {
   dark?: boolean
   light?: boolean
   withclose?: boolean
+  className?: any
 }
 
 const Tag: React.FC<IProps> = props => {
@@ -18,6 +19,7 @@ const Tag: React.FC<IProps> = props => {
 
   return (
     <Tag
+      className={props.className}
       css={theme => [
         styles.default(theme),
         props.neutral && styles.neutral(theme),
@@ -28,7 +30,6 @@ const Tag: React.FC<IProps> = props => {
         props.light && styles.light(theme),
         props.withclose && styles.withclose,
       ]}
-      {...props}
     >
       {props.children}
       {props.withclose ? <span>x</span> : null}

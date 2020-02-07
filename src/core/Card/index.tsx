@@ -23,7 +23,7 @@ const Card: React.FC<IProps> = props => {
         props.noPadding && styles.noPadding,
         props.height && styles.height(props.height),
       ]}
-      {...props}
+      onClick={props.onClick}
     >
       {props.children}
     </div>

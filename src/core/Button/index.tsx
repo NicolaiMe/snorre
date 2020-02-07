@@ -24,7 +24,7 @@ const Button: React.FC<IProps> = props => {
         props.disabled && styles.disabled(theme),
         props.outline && styles.outline(theme),
       ]}
-      {...props}
+      onClick={props.onClick}
     >
       {props.children}
     </button>

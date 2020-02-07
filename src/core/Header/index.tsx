@@ -19,7 +19,6 @@ const Header: React.FC<IProps> = props => {
         props.level === 4 && styles.h4,
         props.level === 5 && styles.h5,
       ]}
-      {...props}
     >
       {props.children}
     </Tag>
