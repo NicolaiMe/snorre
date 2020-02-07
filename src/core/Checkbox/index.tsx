@@ -27,7 +27,7 @@ const Checkbox: React.FC<IProps> = props => {
         defaultChecked={props.checked}
         value={props.value}
         disabled={props.disabled}
-      ></input>
+      />
       <span></span>
     </label>
   )
