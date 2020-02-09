@@ -1,9 +1,11 @@
 import { css } from '@emotion/core'
 import bp from '../../globals/styles/breakpoints'
+import { IAppTheme } from '../../app-shell/theme'
 
 const styles = {
-  default: css`
+  default: (theme: IAppTheme, color: string | undefined) => css`
     font-weight: bold;
+    color: ${color ? color : theme.defaultText};
     margin: 0;
   `,
   h1: css`

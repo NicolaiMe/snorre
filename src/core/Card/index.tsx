@@ -10,6 +10,7 @@ type IProps = {
   onClick?: () => void
   noPadding?: boolean
   height?: number
+  nobackground?: boolean
 }
 
 const Card: React.FC<IProps> = props => {
@@ -22,6 +23,7 @@ const Card: React.FC<IProps> = props => {
         props.gray && styles.gray,
         props.noPadding && styles.noPadding,
         props.height && styles.height(props.height),
+        props.nobackground && styles.nobackground,
       ]}
       onClick={props.onClick}
     >

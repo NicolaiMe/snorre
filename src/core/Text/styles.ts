@@ -2,9 +2,11 @@ import { css } from '@emotion/core'
 import { IAppTheme } from '../../app-shell/theme'
 
 const styles = {
-  default: css({
-    fontSize: '16px',
-  }),
+  default: (theme: IAppTheme, color: string | undefined) =>
+    css({
+      fontSize: '16px',
+      color: color ? color : theme.defaultText,
+    }),
   paragraph: css({
     margin: '0',
   }),

@@ -15,8 +15,9 @@ const styles = {
   `,
   withHover: css`
     cursor: pointer;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     &:hover {
+      background-color: #ffffff;
       box-shadow: 0 10px 20px 0 rgba(16, 16, 90, 0.1);
     }
   `,
@@ -28,6 +29,9 @@ const styles = {
   `,
   noPadding: css`
     padding: 0;
+  `,
+  nobackground: css`
+    background: transparent;
   `,
   height: (height: number) => css`
     height: ${height}px;

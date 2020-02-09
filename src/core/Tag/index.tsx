@@ -12,6 +12,7 @@ interface IProps {
   light?: boolean
   withclose?: boolean
   className?: any
+  title?: string
 }
 
 const Tag: React.FC<IProps> = props => {
@@ -19,6 +20,7 @@ const Tag: React.FC<IProps> = props => {
 
   return (
     <Tag
+      title={props.title}
       className={props.className}
       css={theme => [
         styles.default(theme),

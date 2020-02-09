@@ -68,6 +68,15 @@ const styles = {
     css({
       color: theme.primary,
     }),
+  cardInput: css({
+    borderRadius: '30px',
+    padding: '0 20px',
+    border: 'none',
+
+    '&:focus': {
+      boxShadow: '0 10px 20px 0 rgba(16, 16, 90, 0.1)',
+    },
+  }),
 }
 
 export default styles

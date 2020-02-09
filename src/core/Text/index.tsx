@@ -11,6 +11,8 @@ interface IProps {
   bold?: boolean
   semibold?: boolean
   subtle?: boolean
+  color?: string
+  onClick?: () => any
 }
 
 const Text: React.FC<IProps> = props => {
@@ -18,7 +20,7 @@ const Text: React.FC<IProps> = props => {
   return (
     <Tag
       css={theme => [
-        styles.default,
+        styles.default(theme, props.color),
         props.intro && styles.intro,
         props.small && styles.small,
         props.extrasmall && styles.extrasmall,
@@ -27,6 +29,7 @@ const Text: React.FC<IProps> = props => {
         props.subtle && styles.subtle(theme),
         props.paragraph && styles.paragraph,
       ]}
+      onClick={props.onClick}
     >
       {props.children}
     </Tag>
