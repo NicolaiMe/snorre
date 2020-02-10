@@ -7,7 +7,8 @@ export const Btn = styled.button<any>`,
 
 const styles = {
   default: (theme: IAppTheme) => css`
-    height: 32px;
+    height: 36px;
+    line-height: 36px;
     padding: 0 24px;
     border-radius: 16px;
     background-color: ${theme.btnDefault};

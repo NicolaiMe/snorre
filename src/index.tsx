@@ -11,6 +11,11 @@ import List from './core/List'
 import Select from './core/Select'
 import Tag from './core/Tag'
 import Text from './core/Text'
+import Footer from './layout/Footer'
+import FooterCol from './layout/Footer/FooterCol'
+import FooterGroup from './layout/Footer/FooterGroup'
+import FooterLabel from './layout/Footer/FooterLabel'
+import FooterLink from './layout/Footer/FooterLink'
 
 export {
   AppShell,
@@ -26,4 +31,9 @@ export {
   Select,
   Tag,
   Text,
+  Footer,
+  FooterCol,
+  FooterGroup,
+  FooterLabel,
+  FooterLink,
 }
