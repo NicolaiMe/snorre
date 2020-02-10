@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>C71BD546-2A46-4DF0-9D78-123A0C732F14</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M4,11.1111111 L11.1111111,11.1111111 L11.1111111,4 L4,4 M4,20 L11.1111111,20 L11.1111111,12.8888889 L4,12.8888889 M12.8888889,20 L20,20 L20,12.8888889 L12.8888889,12.8888889 M12.8888889,4 L12.8888889,11.1111111 L20,11.1111111 L20,4" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ikon---Grid">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#1657E2" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Farge" mask="url(#mask-2)" fill="#000000">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

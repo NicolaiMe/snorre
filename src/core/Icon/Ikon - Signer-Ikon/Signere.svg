@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>237495A3-D1B8-4C79-AAE8-E58C04962E64</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.75,20.85 C12.53,20.15 12.14,18.22 11.24,17 C10.35,15.75 9.12,14.89 7.88,14.06 C7,13.5 6.19,12.8 5.54,12 C5.26,11.67 4.69,11.06 5.27,10.94 C5.86,10.82 6.88,11.4 7.4,11.62 C8.31,12 9.21,12.44 10.05,12.96 L11.06,11.26 C9.5,10.23 7.5,9.32 5.64,9.05 C4.58,8.89 3.46,9.11 3.1,10.26 C2.78,11.25 3.29,12.25 3.87,13.03 C5.24,14.86 7.37,15.74 8.96,17.32 C9.3,17.65 9.71,18.04 9.91,18.5 C10.12,18.94 10.07,18.97 9.6,18.97 C8.36,18.97 6.81,18 5.8,17.36 L4.79,19.06 C6.32,20 8.88,21.47 10.75,20.85 M21.84,5.25 C22.06,5.03 22.06,4.67 21.84,4.46 L20.54,3.16 C20.33,2.95 19.97,2.95 19.76,3.16 L18.74,4.18 L20.82,6.26 M12,10.92 L12,13 L14.08,13 L20.23,6.85 L18.15,4.77 L12,10.92 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ikon---Signer">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Farge" mask="url(#mask-2)" fill="#000000">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

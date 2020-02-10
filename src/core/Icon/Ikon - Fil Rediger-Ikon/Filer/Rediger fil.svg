@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>5BE1F5C2-EC2F-464D-93C0-77A307A1B6F5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M5.00557103,1.5 C3.90250696,1.5 3,2.4 3,3.5 L3,19.5 C3,20.6 3.90250696,21.5 5.00557103,21.5 L9.01671309,21.5 L9.01671309,19.6 L19.0445682,9.6 L19.0445682,7.5 L13.0278552,1.5 L5.00557103,1.5 M12.0250696,3 L17.54039,8.5 L12.0250696,8.5 L12.0250696,3 M19.1448468,12.5 C19.0445682,12.5 18.8440111,12.6 18.7437326,12.7 L17.7409471,13.7 L19.8467967,15.8 L20.8495822,14.8 C21.0501393,14.6 21.0501393,14.2 20.8495822,14 L19.545961,12.7 C19.4456825,12.6 19.3454039,12.5 19.1448468,12.5 M17.1392758,14.3 L11.0222841,20.4 L11.0222841,22.5 L13.1281337,22.5 L19.2451253,16.4 L17.1392758,14.3 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ikon---Fil-Rediger">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Farge" mask="url(#mask-2)" fill="#000000">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

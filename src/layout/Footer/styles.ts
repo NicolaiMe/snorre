@@ -1,7 +1,8 @@
 import styled from '@emotion/styled'
 import { IAppTheme } from '../../app-shell/theme'
+import { css } from '@emotion/core'
 
-export const wrapper = (theme: IAppTheme) => styled.div`
+export const wrapper = (theme: IAppTheme) => css`
   background-color: ${theme.primary5darker};
   width: 100%;
   padding: 80px 0;

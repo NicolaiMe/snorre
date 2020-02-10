@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>6000DE57-6109-43D3-8A33-7FD76F4231E1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8.86636364,6.75 L14.4545455,10.5416667 L14.4545455,19.5 L10.3636364,19.5 L10.3636364,12.8333333 L7.09090909,12.8333333 L7.09090909,19.5 L3,19.5 L3,10.7333333 L8.86636364,6.75 Z M21,4.5 L21,19.5 L16.0909091,19.5 L16.0909091,16.1666667 L17.7272727,16.1666667 L17.7272727,14.5 L16.0909091,14.5 L16.0909091,12.8333333 L17.7272727,12.8333333 L17.7272727,11.1666667 L16.0909091,11.1666667 L16.0909091,9.65833333 L14.4545455,8.54166667 L14.4545455,7.83333333 L13.4154545,7.83333333 L12,6.86666667 L10.3636364,5.75833333 L10.3636364,4.5 L21,4.5 Z M17.7272727,7.83333333 L16.0909091,7.83333333 L16.0909091,9.5 L17.7272727,9.5 L17.7272727,7.83333333 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ikon---Type-bygg">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#1657E2" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Farge" mask="url(#mask-2)" fill="#000000">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
