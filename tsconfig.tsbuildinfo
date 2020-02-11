@@ -261,18 +261,6 @@
         "version": "1fd06b8cb940bed05e2b647de44a123eee6be0c5150a3f59cb03be3252d184f4",
         "signature": "761d09de1327a2904abebb1b8060a89007b21c6d0d72ca259dbedf231d3fe211"
       },
-      "./src/core/icon/user/index.tsx": {
-        "version": "761c484a80bcdb7c02908509b41e017f1cac22885448f1d2de02f2b9c35b63f9",
-        "signature": "3f9a6bec658eb733a4a5e281a3e8d89093e97b441aaf5e81a006d68677f3d9f4"
-      },
-      "./src/core/icon/styles.ts": {
-        "version": "bb4c138bd6caa8585be2279cdb20853eaa152936cc188c1a0009717a90a9c964",
-        "signature": "c56394f5b62fb22b4ae2d568180933cf0015a7dc0ec8e487766e1d37f75ed91b"
-      },
-      "./src/core/icon/index.tsx": {
-        "version": "5fdd5a01f5f24e7dadefe10c8cf21954f849f88c006491510bef3761d86846f0",
-        "signature": "3e47c89f891ff71573d486b680b7bbd2d081b2ad3ed45ceefd2ee7944cb7df1e"
-      },
       "./src/core/illustration/appartment/index.tsx": {
         "version": "81fa28c35e09506bbb0eb67838d976506093ab7a98fd2c96418ca281929b1c7b",
         "signature": "67bc79b2aca2a2502581cba59f1229eaa9c285824e1964c8eeccbdbf9d76180e"
@@ -331,7 +319,7 @@
       },
       "./src/layout/footer/styles.ts": {
         "version": "e51daf11df5f2b19325b7a9b6f13aa3108f602f2c35d1963bc564f80a80accfb",
-        "signature": "c24d7564d7c6c5e4e61f7c98c1403501f7fefd713ce45955a1ad77cace9937ba"
+        "signature": "f37f2835139f128fddc536637c70161465a96cc0852350143fcf0fdf2fb00fc7"
       },
       "./src/layout/footer/index.tsx": {
         "version": "2ca43a281c6738af93f8b5dc01cf1a4ae28dc11e4ab52daf473a48989d2104bf",
@@ -370,16 +358,424 @@
         "signature": "cd619e4dbea56611f8ebbb398045df18cd6b4767bebb8f5fb730aa4a2b4526f0"
       },
       "./src/index.tsx": {
-        "version": "c5466348ec840b0e2a9dc1e9840111a5f7c0d836cde8c3baa15c0d3291c6495c",
-        "signature": "acace3fae391d1eafda680cdc3615a906100ca2fa65f13e171420875d3dc0f48"
+        "version": "9a45b26f66b4774f208616743d604279265a71ccbafafe515d80610adf4c718d",
+        "signature": "42387b50ae048687f507ccc2afb5655285d0bc9b269138c03da9ed922ccf0931"
       },
       "./src/globals/styles/paddings.ts": {
         "version": "aa9b609c09769bcce893d4dc5d76d7262a4e0b27522c285bdf9c2f790b1f373e",
         "signature": "013ef046926c5fdb6d496214984003885903c5a7e8b9776533e8aacaf043daee"
       },
+      "./src/helpers/components/sbicongrid.tsx": {
+        "version": "3a45716c8af38bbea552ae4f14adba9ad63c840f97b44339c0e12a8f0c246a6d",
+        "signature": "ca72cc2630858591e55017afcbfea21ec17cefc96129712646612163c6ed4bde"
+      },
       "./src/helpers/components/sblabel.tsx": {
         "version": "e732e0e6e8560d96dd210f0768aa364bd9800ea465f511e5822c4b1446e5e109",
         "signature": "0402a6ab95e64ba16741b2e0e1c443f6ef21f984673d59024da1098f6909f361"
+      },
+      "./src/icons/withicon.tsx": {
+        "version": "9d0507f2576f34c9c9d2d0486fde17b1f9293830eabac5becd82b4b89706642c",
+        "signature": "ee92af075515c4b882ce9a590d88962954318abbfaec3ee127a5c25054112ad7"
+      },
+      "./src/icons/general/iconapartment.tsx": {
+        "version": "84a82503d6c8baac1da901b38911d6da5c581140bf2d825dc6ebd5c99ca5870c",
+        "signature": "7c9fd4ab368e1f56ebbaa32d1b1765edad5c401998e9b6398485ab33453cb3ea"
+      },
+      "./src/icons/general/iconarchives.tsx": {
+        "version": "97c36f381add584686e6de46b44a858a6ea00fb81e96b8570474ea26d4ff9431",
+        "signature": "d0091e513cb2ce3f6360238eff5b126023b0c573113237ed01ffaacdb003ff4c"
+      },
+      "./src/icons/general/iconarea.tsx": {
+        "version": "ab3f7a893145e2cf2762abf5963f39ccdabb0299163a39dbb6e3f56c6e479e09",
+        "signature": "26e7693f6a86314af3b5538694c3cafbed8331af6e975e3a0d36a37b9d48f8df"
+      },
+      "./src/icons/general/iconarrowdown.tsx": {
+        "version": "d1109a2d0536884a8ae5bdd63af3fce93b6985c25e4c2762f419d8de996902ba",
+        "signature": "cec3e70b863ac15dd4f11f74eb5375ea565f2d66782fe06a580018ca576db7c8"
+      },
+      "./src/icons/general/iconarrowleft.tsx": {
+        "version": "2641960eb7a243df0d9dc195d5f0030419cadd79e2db2350a143e72ae97d5f6b",
+        "signature": "8573c4258afc17a083f11fbc1c8dfa875d0824ed9445dac90dd811efadcb6a56"
+      },
+      "./src/icons/general/iconarrowright.tsx": {
+        "version": "e227ef91ff242e1026fd99caf2b509c96b71a3fde031732ea5e03605e6fa5665",
+        "signature": "7d95a65e3cd8a328408e38ac1c26ffc7424d1fe0a44f461bc358a4beb811deee"
+      },
+      "./src/icons/general/iconarrowup.tsx": {
+        "version": "67c212af380172e74eea5fd089ebf247d477f4c74114a922ea9fc211f0952945",
+        "signature": "51e9f4cc28ce96cb690bc48db4fd8de2d1fce78873f8f9c9fb4b3e042eb89556"
+      },
+      "./src/icons/general/iconattachment.tsx": {
+        "version": "2623279b70fcbc531d344b25670cc83f18f854d6ccfe7ca6c1fa72949fb71a0c",
+        "signature": "f0f6e5b2d48b9abc6483bc14ee438968b47afc7e4b6dfa6b6c89a8e77e83b158"
+      },
+      "./src/icons/general/iconback.tsx": {
+        "version": "59fe7d3ea0c87dc9f07ee05e938cf7d75cc89503290128ef544cadcb34e6dfac",
+        "signature": "89e7aebed59f52fa4312bc35f127e3dc61b041108b628a40f9395f528acaee80"
+      },
+      "./src/icons/general/iconbath.tsx": {
+        "version": "dc84e8562656203fe5cf4afd2c691e36497571eacfd291e8e95dc1dfb9816463",
+        "signature": "1b3f427d5e851eeb43a7e327bb8ea9f4cd6c9d04e123ba74d2627f332c551ee8"
+      },
+      "./src/icons/general/iconboard.tsx": {
+        "version": "93ac8775b6f919aae79185239293ca042422f7b0469d84f3b6fa9b487d7550f1",
+        "signature": "85a33c2fe033fdb8a0037d1745191aa75e5e6150981c9cc757092cc999e6be0b"
+      },
+      "./src/icons/general/iconbookmarkfilled.tsx": {
+        "version": "c6d60f54a4fe212e8c3847ffa85d69861c336b9e7df678e465b9d34c3563e81f",
+        "signature": "a260480a06b33c0daf95d530ab4f12aa0bcd5933a8d1df0a914080a6876440a9"
+      },
+      "./src/icons/general/iconbookmarkoutline.tsx": {
+        "version": "746996b8faf67d38c993e21cc0e05f24b91c1b3477d39b1bc923f775bb129641",
+        "signature": "cc6f278ccc8c517442cadecdef94c5886015dc4e1189ed985ce1ef8cd12a6dea"
+      },
+      "./src/icons/general/iconbus.tsx": {
+        "version": "876bdbc3fdaf45686cbaa2bb9d20d5e763e0b2478536e98ceb423bcdd5f35f03",
+        "signature": "6bc9521d50459318ebd2ea65ac1997cc0fd3226924c23e2c84b9bbc8a9027f14"
+      },
+      "./src/icons/general/iconcar.tsx": {
+        "version": "757b798283586b1fd0970a41060db1dc03d127fdd1a87c9509165d25e4844110",
+        "signature": "485cf37ad2b0c050484c2947d1b9b06fcbe9e0c4463d85d1704072ff8dc04ff3"
+      },
+      "./src/icons/general/iconcaretdown.tsx": {
+        "version": "5fcce1ae1af535b93d2b677e8abd49a6fc0152cdc3842ddf90bb54e5c5937c9c",
+        "signature": "e0523fac5ebec16184b71e49e306e27dfe488660fa16229367b00aa520eeed7d"
+      },
+      "./src/icons/general/iconcaretleft.tsx": {
+        "version": "87bcf9d0e016082e913f5e87c7d75452bde2bee7f5cb65a5f95d3cb45cc967ef",
+        "signature": "6ae475237f404d0399edd0c358652f3453d9cb9f4e8854e50637253f559d51bc"
+      },
+      "./src/icons/general/iconcaretright.tsx": {
+        "version": "08c184a8caf6122d46472b364c9491174e832d832acb98458c589936cdb5f821",
+        "signature": "75bce3a5420ff21e6be9822afcf3e513452834825b4a9c0a988cd84775b8e1d2"
+      },
+      "./src/icons/general/iconcaretup.tsx": {
+        "version": "1adb733e94e7ac9d6afa24bc28737472a503c3d15fcbfbde2ad5f9c5461728dd",
+        "signature": "8b7155dd4188d73ae8d2c8eabee44da08faf3300fe535dbba8dfb912df80ad4c"
+      },
+      "./src/icons/general/iconcheck.tsx": {
+        "version": "1614436dd4278e2fe2a067047668886803de3eb19dace7cc053f4070e399fe83",
+        "signature": "9d117bfd214f8200c61ff8de67327b85d2d390626aff0011b340932e271ecfd6"
+      },
+      "./src/icons/general/iconcheckedfilled.tsx": {
+        "version": "4f5a6311cbbf7670aac3da0e0fffb9dcad8f77a558319345e7620316a9b92c88",
+        "signature": "174b17c61b1c9e108c14464578b2572c74cf37628f96a83ac37b5c5c98c44097"
+      },
+      "./src/icons/general/iconcheckedoutline.tsx": {
+        "version": "2fe41d4a10353ad856ec77f4ce944a46bff94c1e458ad2e4147d8c6660cc1833",
+        "signature": "e584ee4e6b049786d640929107ff05236b030db9e728c077d6058cbc51ba0062"
+      },
+      "./src/icons/general/iconchevronleft.tsx": {
+        "version": "321c93f1190899dedab412bf85291d3844450e5da65fb1941f450fb93137a397",
+        "signature": "1fc37a95bb95730b819de9c7e40225844726bd7e6df65056a1549c1f298efdd8"
+      },
+      "./src/icons/general/iconchevronright.tsx": {
+        "version": "fad464f3b472bf9e63f8eb52642aa724404549a99c5b3bbe6bb98a32673b2d02",
+        "signature": "ffcf0dcbdcf3c95de62d19f09402a50496aabc5dded74ce21d32abee150ef6b0"
+      },
+      "./src/icons/general/iconclose.tsx": {
+        "version": "7a00abe39d153448b280c1ff36ba6cb4a94c8ea9b56931933c8699ac1e0a32ef",
+        "signature": "671ab41eda4804f45cb66652a111421b042b5d829218e4ceef0e908b5b23d2b5"
+      },
+      "./src/icons/general/iconclosealt.tsx": {
+        "version": "ecd6cdc594d8ad5419842528a2581be47a32e29aa33e67e6f617e47c1dd912bf",
+        "signature": "e1138301dfe176ad2c2ca4136a81005d85d957fb7a62904864f624547c7fd9fe"
+      },
+      "./src/icons/general/iconcomment.tsx": {
+        "version": "f66d115bcd63c83801d1d93376841ff9cffe0d235bbca415dd0a06e2afa11a59",
+        "signature": "d9d1d45dbd49e85d2c64b8b7f688eb6cff35da1791b9277fdd7174376a1657d2"
+      },
+      "./src/icons/general/iconcompanybuilding.tsx": {
+        "version": "578a80c44850e216a00ad6a76c9ee0272b82fee4215413b0469bf79d30770fe9",
+        "signature": "f5d4ab329a8ccd9584667a4a200e1e3d92ef41e77cb7271e9c7ca81ce2c68a38"
+      },
+      "./src/icons/general/icondotfilled.tsx": {
+        "version": "6953ab0d8e2a3bc1e904ac82f65983c44fa53216b476596bc69914694b3428f8",
+        "signature": "b8039fdd1418dd643a9335e2029cfdbb969ac5cb4983582cc26003d810ffd0e4"
+      },
+      "./src/icons/general/icondotoutline.tsx": {
+        "version": "a3cf04615b7238b2110d364f444a7fed8b70d41b6b8b4b2ccfa6e7c6a2177c96",
+        "signature": "c257a4f4da78a0230efa50893edead5cba735b21001bf79091694e0bfec3bb20"
+      },
+      "./src/icons/general/icondownload.tsx": {
+        "version": "5b8f1dde64c5e59901a64b5874f3729d535e8f074af76454d659ddd8c94810a6",
+        "signature": "2ca073bf270f3a779465a9e3ecc5f1a2b42f92a3d22e5468797f5c820aeff65e"
+      },
+      "./src/icons/general/icondraft.tsx": {
+        "version": "d5ad32e872ea1463816fcb11d4883fe3a23537628e5d759c89d90b12bea20141",
+        "signature": "f6f3e7e834d7b90634de456bd2ca0c8cbcf9acaa8684998b4e343657adfc56f6"
+      },
+      "./src/icons/general/iconelevator.tsx": {
+        "version": "c523c65a59ff17364847668e1965198f86a620fee2e337779ac7cf99dff5f945",
+        "signature": "5823d77d8bd8dca0ceefa3e63fcfc00bf1ae4caeaccfe52768b81142bb4699bd"
+      },
+      "./src/icons/general/iconerrorfilled.tsx": {
+        "version": "73a7c83bbf5c931d6bed46021fc85a9869356fc0e3feadddf662c28ad6984ded",
+        "signature": "5ee12120af0e83d924d8ed92687afc5a45b8f70c66ad51d1aa218793d7fffa45"
+      },
+      "./src/icons/general/iconerroroutline.tsx": {
+        "version": "3ff995ea73a2682decf56f8f4aa720c79b80d8beefc502bbda83f063a4568266",
+        "signature": "e361c4f70634f7b184c1fa9f86a114600c19caa37bf943134ce9b759857fe191"
+      },
+      "./src/icons/general/iconexternallink.tsx": {
+        "version": "d2d7130ad79b075f89491f6a49e2679b2b4eab66a85fcfe6a88d7de53ec18987",
+        "signature": "36052a44221b41ee63d3a0c27ba46ff51662da132933050b00683ae55ea1ae1a"
+      },
+      "./src/icons/general/iconeye.tsx": {
+        "version": "43bab6498ff69e00c8294a6b92e88981e352765f5fdf1b396d407dbff914eabc",
+        "signature": "424958faeee4e3a95cab33ac599b11dc0a55314970da6bfba9bf80660780da99"
+      },
+      "./src/icons/general/iconfamily.tsx": {
+        "version": "991944b754cae09e1d167e1e5f9bfeb6c6ec87b97f2d3161eff8cc86b419f5c9",
+        "signature": "bdf464220540c20ab0bd3c48e57b3f9198405172c1528bfe3f97c83ebb0859a4"
+      },
+      "./src/icons/general/iconferry.tsx": {
+        "version": "cbc411fbb26f05eee822f5caebe5b3a072a49fae982ba11971e82970c640a9c4",
+        "signature": "5b9fd2ac1e3f9cec0e061e49ce5cd2fdd5ba6096c4ef56380aae6de1503382c5"
+      },
+      "./src/icons/general/iconfile.tsx": {
+        "version": "ceef33a1a12a5e65336756581fb33ab2b1e2da94754810b204449f245bd0432e",
+        "signature": "3f20a72bf582bc158100b70a00142795bc88ff30a8203f7a0209db9fc01ff377"
+      },
+      "./src/icons/general/iconfileedit.tsx": {
+        "version": "9e915b2e75ae1c726b2c0be52f3baac993749c17ee329a968a362b6d431aab46",
+        "signature": "de826f46a8f2468a73bccdea48aaa5e9040a7762f36e7e7d4aaf7ffcdaad8176"
+      },
+      "./src/icons/general/iconfileexcel.tsx": {
+        "version": "1383df870b5f13b9b3419a224e95dc3c14d41ee7c06553f94b8f7702f2e789ee",
+        "signature": "4d2c6b7d005c635a97434dcb8f1e0aabbbadea2dd5f65441fe9866f920190f03"
+      },
+      "./src/icons/general/iconfilepdf.tsx": {
+        "version": "b285343a94900d6752434a614d4faf68241c56ad4aaf816b842480c816e8e701",
+        "signature": "9899dc9fe736e9434e95d847a6e3fba243927d5e17dfef2b068cca0a7c62b0a8"
+      },
+      "./src/icons/general/iconfileword.tsx": {
+        "version": "35d0fd6853e2b3a9ca6e84e9954169949cdaa65b2116b56da0b9c2bba021c276",
+        "signature": "e03a3a7b8ebe0174b6cc257aa442f061339c7e2de7ccf6c143943b6a4b8536fa"
+      },
+      "./src/icons/general/iconfillout.tsx": {
+        "version": "3066cafeff001870a367329d1fb7d97ee02dd4f4afd1ccb70b282b37388bc461",
+        "signature": "acd29c8736f5c16b8291b0fefe58a0622ec454af57d63c6bb3aa7e08cada52b7"
+      },
+      "./src/icons/general/iconfloor.tsx": {
+        "version": "02fb0e9af61afb0a1655a50c02891e122d74fc5d9b5b933e96fb146d68dbeb5e",
+        "signature": "4ed984281bca02533af9f1fd688d994af4431cef7ee40a2dbc38b6d8a3ba300d"
+      },
+      "./src/icons/general/icongarage.tsx": {
+        "version": "46c15eeb47094af0b5086cc7075fa7503120d4178db08bcc021090d6b389d793",
+        "signature": "1e6a38f1b157661530bc263c25359228339237a066d5a1b5cb5eef559599f0ad"
+      },
+      "./src/icons/general/icongrid.tsx": {
+        "version": "209d3d96799e36216115a90a7168a1b72ac65c46df31a95637b5ab306f76745f",
+        "signature": "38c34f8b553e6f6e56a41c4b2caffe7928da99faff14ce68b93c69fe7d025bab"
+      },
+      "./src/icons/general/icongym.tsx": {
+        "version": "2fa0d304789a5d66d99375fce2cbe620fb755e8ba2476938d87b6f9b4dda787d",
+        "signature": "7e9592f5393abb7be6bc6de0724ae885ba09bbe22f7d1e5e801aa5e3c186fdbb"
+      },
+      "./src/icons/general/iconhearth.tsx": {
+        "version": "98ba9620cade7873789c6b51b856cf3ed52efaa73f7a730d9d0c43b9143e0de3",
+        "signature": "f9e0c874f2da109e1be26b8b2af2bafc92b4e0504503af2c401615a98e035f56"
+      },
+      "./src/icons/general/iconhearthoutline.tsx": {
+        "version": "ff6ba0a6e03696f474d2f7e35479fa09098f4573b42bb8705657150ea6776313",
+        "signature": "083aebeb0b004337d49ec1e6e3898215e00e1adc9baf7c05b0a6778662298498"
+      },
+      "./src/icons/general/iconhelp.tsx": {
+        "version": "4a4b3f88ab15549ba5a03e5408b24d894c63501b7a3a0719eaa4dacadc3e7456",
+        "signature": "fb02a7c06b11219a319185c8f2e2b8358a455b679030cbeea20f877f832790bf"
+      },
+      "./src/icons/general/iconhistory.tsx": {
+        "version": "45f3f0bf337c0f4225dd9de34ef267c260f689df7dd40fc90aa624bc1f81f9e0",
+        "signature": "8e6fb6e968c32bdf4eb3d13b759668216c15b0e87ae1f046d762205dca6571b2"
+      },
+      "./src/icons/general/iconhouse.tsx": {
+        "version": "fd129af5fb78f4b2e9f783829329599245086d559ef3d4002113d46757b53f8a",
+        "signature": "3f6f4c4167204d9762ba7f27c28b998d98822e992622dbb0c2a4139b91366a55"
+      },
+      "./src/icons/general/iconhumans.tsx": {
+        "version": "88aaa31e85ebb9a3aa4b8531d99549b4d2bd8040d868e9cb8aa057f512bf191a",
+        "signature": "b97e1d8340c15242a2bfaff36c33a2d6a92d20fe22b1c777a65d565a62c99d98"
+      },
+      "./src/icons/general/iconimportantcomment.tsx": {
+        "version": "1031ee04cba2b1184eaeaad65a4940375f364ac34a6077c40d8841ad4b3d1b6a",
+        "signature": "ac6a87f950a70320ed968cc4a6c3edeba3b0616064531013ed98f308306f075b"
+      },
+      "./src/icons/general/iconinbox.tsx": {
+        "version": "96b0ba791080808945eb70663e979d27a782fd6fddaa4ae268be59c5926219c3",
+        "signature": "074f02478f9dea9966ba612cd11b0cbd8427c24f49da9be6c77038ee03fb034f"
+      },
+      "./src/icons/general/iconjointcost.tsx": {
+        "version": "e3bfc9f388c0e6261790c76d6c5fd2ff2f62960b9f9fdafd1c6a2b01af19f553",
+        "signature": "0ed4fc6a4f9e308effb81b8de0dba9295a0eaa072f37d6f5ad8671c1a18b72d4"
+      },
+      "./src/icons/general/iconjointcost2.tsx": {
+        "version": "e8fe1d65f1a09d4718156bfaf1dc991012567028727754fcd5e21cd44e5ff0d3",
+        "signature": "1386f8d701935a6f41c590ef9886406b2dd386f33d4ee5df58d1fec1d9fd2612"
+      },
+      "./src/icons/general/iconkey.tsx": {
+        "version": "b45c0d8923fb84e4efd417647f19a1f431c2683416013d5531bb4e8f2faa96ff",
+        "signature": "32068b743165c5159a5ad622858420b7eeb69db922519308be16a61493051120"
+      },
+      "./src/icons/general/iconkitchen.tsx": {
+        "version": "e586af6e1d450d968a29c17a555874b5673bfdf6c84191c19a663dc73a6239ca",
+        "signature": "bd73056955c66fc71bdff5dd5285084d0ca53359bc7dbf67226e6d5f74999db3"
+      },
+      "./src/icons/general/iconleisuretime.tsx": {
+        "version": "f2011a36efeaebd3db833aa24d158b00ee80a256291126b699ce688773a25e79",
+        "signature": "824e397a423be89ce424b2c5408661b2e370a746bacf989ce94ada9dbc2f95a7"
+      },
+      "./src/icons/general/iconlock.tsx": {
+        "version": "dcb1b870c6a51a9449489de85d2685b2f10d2ff33ebc066b34924419777f88d7",
+        "signature": "364efbef33ce33fe78264dd3086b3ff9112902d9de9f6e58d51617f679e5489c"
+      },
+      "./src/icons/general/iconlocklocked.tsx": {
+        "version": "b28fed54d53949436b286b2cc814fd8c06eeb5b1d20519b7bbb22df5f866f10e",
+        "signature": "b90b4088d46df3c0a93b756686dac0320486726d34fc3163799d6f3e02a3bb1d"
+      },
+      "./src/icons/general/iconlockopen.tsx": {
+        "version": "22dead7a3b10506c736099bcef1d413b60b64e1e97b0e3edfd34845f5c49b2c3",
+        "signature": "85b74244e5b2d7cdb8483d3bb1915d2241c283883d8506ecb9af9f9f52e006f1"
+      },
+      "./src/icons/general/iconmail.tsx": {
+        "version": "020bec1c3fbfa8179a10eaaf4a0169fbcf30719d3999307ec8ed8b3ff5a77f50",
+        "signature": "0fe1e84d30f07a3f34b64196ba1db11ad271699fda714d4644d9ae88c0432d35"
+      },
+      "./src/icons/general/iconmap.tsx": {
+        "version": "646c2b6b6604d83601d73d18d64ba9fcb39cb86478636727d4fc9b250932f3a7",
+        "signature": "c3c5228377c2c8d06b52dba7bf7dc90fc3cf5fa7964c38d407fe8640fd227d50"
+      },
+      "./src/icons/general/iconmenu.tsx": {
+        "version": "4f655ef1c735bdd86cc35219425831b7b78a19ae6fadf20fbd1b796bbb864def",
+        "signature": "cf25e4da3681afb829c7a17d0eab5c1b88d2ec73fb8b9485a6050e2a5721c87f"
+      },
+      "./src/icons/general/iconminus.tsx": {
+        "version": "31d3fd6087e870d6be66806c65225ab161225afcb9f1018a25aac6052ae5693f",
+        "signature": "fada4cd44ee3d62a141d73d5655652f786ba8b883fbf63b2949308503b38e3b0"
+      },
+      "./src/icons/general/iconmoney.tsx": {
+        "version": "8beb582e1a9e55539e30b834fc053e06b3eb9c8194a5fef4ccf97fbeed352880",
+        "signature": "b73c3198bea08687baa1f67419b57fc5b00b2f71fa9ca83a1a7c1e24191dfa98"
+      },
+      "./src/icons/general/iconparking.tsx": {
+        "version": "aaad9c01ce37b3c9ee38ae67edc95cbbe8f12378dc43e13b48b9e32401ca78f2",
+        "signature": "a6235ec171fc9f4ddfd0516e1720353ee5dc941391db9c073ac42017f5c9699c"
+      },
+      "./src/icons/general/iconpaymentcard.tsx": {
+        "version": "92c5a66af6e3fe2da46401e4c5bfdf59d1b0b7e7e81830a8c8d7c449b7193d8e",
+        "signature": "927cfc497c9496f53fa87883daef6c658bad7c538312dd0f1f180b5b1a65906c"
+      },
+      "./src/icons/general/iconplus.tsx": {
+        "version": "7ece0914d72654bb25ff4ec68968c369c1ec071147f8bc1d10d136da3d9e5dc4",
+        "signature": "d77ac70e88c35ace37ce85844e810be5e652055bb399441c76a8dfcfdf875be0"
+      },
+      "./src/icons/general/iconreciept.tsx": {
+        "version": "101600a1eb2700c88935abdfea1fda1e9895f123bc040835a8c9c5a4a9f137c8",
+        "signature": "e69610923c31d4612f805221a5680677ccbe5636c720a73c8d2b112bd777054b"
+      },
+      "./src/icons/general/iconredo.tsx": {
+        "version": "1f4b44ca268d99801487b780f281b9df8d655340db99eeaa3748e59db367177d",
+        "signature": "eba82917d2c91e0bb0c1f94619dfc6fe1767e1bfa033fc6ea76ec4022f86d153"
+      },
+      "./src/icons/general/iconrefresh.tsx": {
+        "version": "810bf35f427226fb0e1d17a316ee61325da87fce212cee746052032b7a874d07",
+        "signature": "54370887f2dc0a34d82c4afadf5d20ac8fa052dbdea5b1f2fc06b3fb19ba4e0c"
+      },
+      "./src/icons/general/iconroom.tsx": {
+        "version": "7debd3cf63d5a3ea1fbcc5f326fc7999dafee90184b5cf51538771698af3deee",
+        "signature": "25b6ade9c282e49a5ff301896a5a246c95ab0d2157ec5bd942532065b8360eee"
+      },
+      "./src/icons/general/iconsave.tsx": {
+        "version": "eefc1c2ccc542b1391015cb652c3efb8e616d79b1dfc34121f2cd42e2c75c582",
+        "signature": "4e5a79b37d7b397d6b2dd79b1594ea48a19f0e83e6dedf97b54fe26f3c1adfca"
+      },
+      "./src/icons/general/iconsearch.tsx": {
+        "version": "faa74d8d3bec796c33b3becddb038eeec79cf7d6cea4ad5e1962b32402326489",
+        "signature": "4fd644660735e25cfdd01ffc0a8300f44e9ee3ad4f07b3cffe98a925b0adc331"
+      },
+      "./src/icons/general/iconsend.tsx": {
+        "version": "9b53acb6461755f0eab9e5e28557f61f9e388cb20d7daf6f0a2985693473b0b4",
+        "signature": "fd553df1bbf3b183cd65fb2fb0af2799d366ac881c530cf0497ceecaba95f13c"
+      },
+      "./src/icons/general/iconsettings.tsx": {
+        "version": "cc13f40c829e3f9e30d5902a45aa75fae91af163a6eeb0f61e703629e9e108a6",
+        "signature": "33028b8cb0d4df637caecfb5024db9f926af3232526cb4ac35b93e75aede1315"
+      },
+      "./src/icons/general/iconshopping.tsx": {
+        "version": "588c501f28cd28e7f77d93601ecee0ce764a527e536fc6b5ed0d85108505996d",
+        "signature": "8c83582cbb275efa8235cff31e9e90347b47947a6591ccff24e724b6bbf2f8aa"
+      },
+      "./src/icons/general/iconsign.tsx": {
+        "version": "c88afc4163a906c7aa15d938c4a87ba9143dc2f8a45b27b0eddf31a2d25570c6",
+        "signature": "3dfe08352be2fc00b0445f31e9b0d24483001315a913abf428fd24c632db2b29"
+      },
+      "./src/icons/general/iconstarfilled.tsx": {
+        "version": "c5ab0d9da5648649d1932fffed4e29f44995c8168a96a25dc16c97aa700b5199",
+        "signature": "ce5c5aadef5c7b29f2982d971500015b9838383b5b6e6e6b03b28e96fd6e1b94"
+      },
+      "./src/icons/general/iconstarhalf.tsx": {
+        "version": "475a95b645366498c9975d5ca2d984bb079886f09370389ba66762ae957da3f5",
+        "signature": "ae8f7f6cba66359b09b9c8a1017c67b42ab5f02e6d5b5a054e93c08dfd541d1f"
+      },
+      "./src/icons/general/iconstaroutline.tsx": {
+        "version": "951aa8401130bc34b83a2374669e8a1cf630c0814fbbd02d70bdcb655bc90ea9",
+        "signature": "b75e33f47fb2fa14c5f09fdd4a57d5dedef1b729af94e0dc9c79b26a882022c0"
+      },
+      "./src/icons/general/iconstore.tsx": {
+        "version": "d7999e8495c4a90111ad69dced7e2eb4799fc05d6c1efa61e43a6eafb8fb46b0",
+        "signature": "01e405030cc3dc76604f2b57f1460ca1676c37eb8e4c49483fbefb574f8548dc"
+      },
+      "./src/icons/general/iconsubway.tsx": {
+        "version": "8262d189a301c8af71d8f6fd99ce09e79ec4491c84a617f6c738747492f41529",
+        "signature": "55ba6d6bdc6baca1e68d9c9892fd51de81edc764919e6a37c5a6087e5be90dd8"
+      },
+      "./src/icons/general/iconswitch.tsx": {
+        "version": "62a6a64467b97fc47e6405569c806d4ddc8419bb346c7cd669469bdae858adb9",
+        "signature": "855c7abddbf6704a58ea6b9f7cefa2f9114ed35cb6f462b01a39dfa8e8d676d3"
+      },
+      "./src/icons/general/icontrain.tsx": {
+        "version": "8a486c24c9e1e1c654ad89b5dbcd4e625484a97069e769b7f93bb1d625a290c6",
+        "signature": "1acf8bd17bc2fc38014a58d82afb43183210df0a1c1d8f6263f79e76f53dccc3"
+      },
+      "./src/icons/general/icontram.tsx": {
+        "version": "aada3a48036f00dffd01d1ebf19c367b8c22e8e2eeb0bcd9eed4518df33e9bf1",
+        "signature": "0e941b7c999df4be39bf86d9909f0306ccdca31a1fb36f871da13031eeafe65c"
+      },
+      "./src/icons/general/icontransport.tsx": {
+        "version": "ae8bf6060ed5c8bd60a078a827922d26d82eeaa5b88bc58079c117cef8441245",
+        "signature": "b8e781d2f0836de2f759246c821d4b78a5763d024479a58aab2be843b39dbf50"
+      },
+      "./src/icons/general/icontypeofbuilding.tsx": {
+        "version": "04e56b816daa04c0dc91379b2036bb929a5da1b23af15540a3e229ab02ff03ed",
+        "signature": "70fb1a3e137a45cfadf28faf3c92c495bcc6e46be00304794a9b129b524bd53a"
+      },
+      "./src/icons/general/iconupload.tsx": {
+        "version": "2c9ea6ee95556c96b41a6b2cb5ca23ea5cedbf3b400343c930dda41440bf1d80",
+        "signature": "81afbbf5a7461e11a7323914d5a1f222268936f4d9c83310a41beb1894a00e9a"
+      },
+      "./src/icons/general/iconuser.tsx": {
+        "version": "07c175d9c8243059bd849b4da4fa8acd4620c69178d028e8ed462c2a89ebb7b8",
+        "signature": "e298d076bea58ceb7058ea440b476d641ad328aedc89553008f6fb78a605eac6"
+      },
+      "./src/icons/general/iconvote.tsx": {
+        "version": "86380838b4ae9dc365338ed7424256db7d6fe862f1c6e8bb7563aadecbc14bf1",
+        "signature": "19787948d7234cf867b388dadaff8a8bad1bcc7d96b2bf4260479d677be2d4f5"
+      },
+      "./src/icons/general/iconwalk.tsx": {
+        "version": "4a0e3a9616ecb7d127763a119aca08a0319fa2083dbaf6278515d8d13107e731",
+        "signature": "6ef529b6840e90cf86622bcc7c8c416a1275e78cce254f5205cc9a082d52a7cd"
+      },
+      "./src/icons/general/iconwarning.tsx": {
+        "version": "8bca5ba08853305319c2a9c2edea7d60fe275350e07d6ed863e17c568d903449",
+        "signature": "c1ebf1dcd4e9eda198a7aab8afe9b9585ee26162f42ac6d1a781937a70f43329"
+      },
+      "./src/icons/general/iconwarningbell.tsx": {
+        "version": "ec1b18c030be35bafa592bdaa40fd56f16e48c578a69e6f20ea0bccf3fd1415a",
+        "signature": "6c117e2d798e9ad6ee7566f84870b51036e383d229fbfe7fc7759e089a42972c"
+      },
+      "./src/icons/general/iconzip.tsx": {
+        "version": "b66a2b9a9d55d4d7d4f00929ec7a896dfa60f96f9778a14d1c9a7cc26336eae4",
+        "signature": "55cabf7428517cddb292d96c451ab7f1581addcc6d38d211dc5687d75be5cea0"
       },
       "./src/layout/layout/styles.ts": {
         "version": "223910f0fa673cd8939d42b376e8c496f53f23b0cdae0744ea48ea2ac5fa6f46",
@@ -1369,31 +1765,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/core/icon/user/index.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/core/icon/styles.ts": [
-        "./node_modules/@emotion/core/types/index.d.ts",
-        "./src/app-shell/theme.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/core/icon/index.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@emotion/core/types/index.d.ts",
-        "./src/core/icon/user/index.tsx",
-        "./src/core/icon/styles.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./src/core/illustration/appartment/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1600,7 +1971,6 @@
         "./src/core/card/index.tsx",
         "./src/core/divider/index.tsx",
         "./src/core/header/index.tsx",
-        "./src/core/icon/index.tsx",
         "./src/core/illustration/index.tsx",
         "./src/core/input/index.tsx",
         "./src/core/list/index.tsx",
@@ -1623,9 +1993,825 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/helpers/components/sbicongrid.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/styled/macro.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/helpers/components/sblabel.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@emotion/styled/macro.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/withicon.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconapartment.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarchives.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarea.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarrowdown.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarrowleft.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarrowright.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconarrowup.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconattachment.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconback.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconbath.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconboard.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconbookmarkfilled.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconbookmarkoutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconbus.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcar.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcaretdown.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcaretleft.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcaretright.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcaretup.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcheck.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcheckedfilled.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcheckedoutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconchevronleft.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconchevronright.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconclose.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconclosealt.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcomment.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcompanybuilding.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icondotfilled.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icondotoutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icondownload.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icondraft.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconelevator.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconerrorfilled.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconerroroutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconexternallink.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconeye.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfamily.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconferry.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfile.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfileedit.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfileexcel.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfilepdf.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfileword.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfillout.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconfloor.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icongarage.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icongrid.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icongym.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhearth.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhearthoutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhelp.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhistory.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhouse.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconhumans.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconimportantcomment.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconinbox.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconjointcost.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconjointcost2.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconkey.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconkitchen.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconleisuretime.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconlock.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconlocklocked.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconlockopen.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconmail.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconmap.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconmenu.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconminus.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconmoney.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconparking.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconpaymentcard.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconplus.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconreciept.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconredo.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconrefresh.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconroom.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsave.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsearch.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsend.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsettings.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconshopping.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsign.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconstarfilled.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconstarhalf.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconstaroutline.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconstore.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconsubway.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconswitch.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icontrain.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icontram.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icontransport.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/icontypeofbuilding.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconupload.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconuser.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconvote.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconwalk.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconwarning.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconwarningbell.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconzip.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2997,16 +4183,6 @@
       "./src/core/header/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/core/icon/user/index.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/core/icon/styles.ts": [
-        "./node_modules/@emotion/utils/types/index.d.ts",
-        "./src/app-shell/theme.ts"
-      ],
-      "./src/core/icon/index.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/core/illustration/appartment/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -3103,7 +4279,6 @@
         "./src/core/card/index.tsx",
         "./src/core/divider/index.tsx",
         "./src/core/header/index.tsx",
-        "./src/core/icon/index.tsx",
         "./src/core/illustration/index.tsx",
         "./src/core/input/index.tsx",
         "./src/core/list/index.tsx",
@@ -3116,7 +4291,413 @@
         "./src/layout/footer/footerlabel/index.tsx",
         "./src/layout/footer/footerlink/index.tsx"
       ],
+      "./src/helpers/components/sbicongrid.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/helpers/components/sblabel.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/withicon.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconapartment.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarchives.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarea.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarrowdown.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarrowleft.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarrowright.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconarrowup.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconattachment.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconback.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconbath.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconboard.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconbookmarkfilled.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconbookmarkoutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconbus.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcar.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcaretdown.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcaretleft.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcaretright.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcaretup.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcheck.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcheckedfilled.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcheckedoutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconchevronleft.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconchevronright.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconclose.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconclosealt.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcomment.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcompanybuilding.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icondotfilled.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icondotoutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icondownload.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icondraft.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconelevator.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconerrorfilled.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconerroroutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconexternallink.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconeye.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfamily.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconferry.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfile.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfileedit.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfileexcel.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfilepdf.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfileword.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfillout.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconfloor.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icongarage.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icongrid.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icongym.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhearth.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhearthoutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhelp.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhistory.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhouse.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconhumans.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconimportantcomment.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconinbox.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconjointcost.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconjointcost2.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconkey.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconkitchen.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconleisuretime.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconlock.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconlocklocked.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconlockopen.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconmail.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconmap.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconmenu.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconminus.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconmoney.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconparking.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconpaymentcard.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconplus.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconreciept.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconredo.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconrefresh.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconroom.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsave.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsearch.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsend.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsettings.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconshopping.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsign.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconstarfilled.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconstarhalf.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconstaroutline.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconstore.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconsubway.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconswitch.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icontrain.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icontram.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icontransport.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/icontypeofbuilding.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconupload.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconuser.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconvote.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconwalk.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconwarning.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconwarningbell.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconzip.tsx": [
+        "./src/icons/withicon.tsx",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/layout/layout/styles.ts": [
@@ -4150,6 +5731,7 @@
       "./node_modules/@emotion/styled-base/types/helper.d.ts",
       "./node_modules/@emotion/styled-base/types/index.d.ts",
       "./node_modules/@emotion/styled/types/index.d.ts",
+      "./src/app-shell/theme.ts",
       "./src/app-shell/index.tsx",
       "./node_modules/@emotion/stylis/types/index.d.ts",
       "./node_modules/@emotion/cache/types/index.d.ts",
@@ -4165,9 +5747,6 @@
       "./src/globals/styles/breakpoints.ts",
       "./src/core/header/styles.ts",
       "./src/core/header/index.tsx",
-      "./src/core/icon/user/index.tsx",
-      "./src/core/icon/styles.ts",
-      "./src/core/icon/index.tsx",
       "./src/core/illustration/appartment/index.tsx",
       "./src/core/illustration/styles.ts",
       "./src/core/illustration/index.tsx",
@@ -4192,9 +5771,110 @@
       "./src/layout/footer/footerlabel/index.tsx",
       "./src/layout/footer/footerlink/styles.ts",
       "./src/layout/footer/footerlink/index.tsx",
-      "./src/index.tsx",
       "./src/globals/styles/paddings.ts",
+      "./src/helpers/components/sbicongrid.tsx",
       "./src/helpers/components/sblabel.tsx",
+      "./src/icons/withicon.tsx",
+      "./src/icons/general/iconapartment.tsx",
+      "./src/icons/general/iconarchives.tsx",
+      "./src/icons/general/iconarea.tsx",
+      "./src/icons/general/iconarrowdown.tsx",
+      "./src/icons/general/iconarrowleft.tsx",
+      "./src/icons/general/iconarrowright.tsx",
+      "./src/icons/general/iconarrowup.tsx",
+      "./src/icons/general/iconattachment.tsx",
+      "./src/icons/general/iconback.tsx",
+      "./src/icons/general/iconbath.tsx",
+      "./src/icons/general/iconboard.tsx",
+      "./src/icons/general/iconbookmarkfilled.tsx",
+      "./src/icons/general/iconbookmarkoutline.tsx",
+      "./src/icons/general/iconbus.tsx",
+      "./src/icons/general/iconcar.tsx",
+      "./src/icons/general/iconcaretdown.tsx",
+      "./src/icons/general/iconcaretleft.tsx",
+      "./src/icons/general/iconcaretright.tsx",
+      "./src/icons/general/iconcaretup.tsx",
+      "./src/icons/general/iconcheck.tsx",
+      "./src/icons/general/iconcheckedfilled.tsx",
+      "./src/icons/general/iconcheckedoutline.tsx",
+      "./src/icons/general/iconchevronleft.tsx",
+      "./src/icons/general/iconchevronright.tsx",
+      "./src/icons/general/iconclose.tsx",
+      "./src/icons/general/iconclosealt.tsx",
+      "./src/icons/general/iconcomment.tsx",
+      "./src/icons/general/iconcompanybuilding.tsx",
+      "./src/icons/general/icondotfilled.tsx",
+      "./src/icons/general/icondotoutline.tsx",
+      "./src/icons/general/icondownload.tsx",
+      "./src/icons/general/icondraft.tsx",
+      "./src/icons/general/iconelevator.tsx",
+      "./src/icons/general/iconerrorfilled.tsx",
+      "./src/icons/general/iconerroroutline.tsx",
+      "./src/icons/general/iconexternallink.tsx",
+      "./src/icons/general/iconeye.tsx",
+      "./src/icons/general/iconfamily.tsx",
+      "./src/icons/general/iconferry.tsx",
+      "./src/icons/general/iconfile.tsx",
+      "./src/icons/general/iconfileedit.tsx",
+      "./src/icons/general/iconfileexcel.tsx",
+      "./src/icons/general/iconfilepdf.tsx",
+      "./src/icons/general/iconfileword.tsx",
+      "./src/icons/general/iconfillout.tsx",
+      "./src/icons/general/iconfloor.tsx",
+      "./src/icons/general/icongarage.tsx",
+      "./src/icons/general/icongrid.tsx",
+      "./src/icons/general/icongym.tsx",
+      "./src/icons/general/iconhearth.tsx",
+      "./src/icons/general/iconhearthoutline.tsx",
+      "./src/icons/general/iconhelp.tsx",
+      "./src/icons/general/iconhistory.tsx",
+      "./src/icons/general/iconhouse.tsx",
+      "./src/icons/general/iconhumans.tsx",
+      "./src/icons/general/iconimportantcomment.tsx",
+      "./src/icons/general/iconinbox.tsx",
+      "./src/icons/general/iconjointcost.tsx",
+      "./src/icons/general/iconjointcost2.tsx",
+      "./src/icons/general/iconkey.tsx",
+      "./src/icons/general/iconkitchen.tsx",
+      "./src/icons/general/iconleisuretime.tsx",
+      "./src/icons/general/iconlock.tsx",
+      "./src/icons/general/iconlocklocked.tsx",
+      "./src/icons/general/iconlockopen.tsx",
+      "./src/icons/general/iconmail.tsx",
+      "./src/icons/general/iconmap.tsx",
+      "./src/icons/general/iconmenu.tsx",
+      "./src/icons/general/iconminus.tsx",
+      "./src/icons/general/iconmoney.tsx",
+      "./src/icons/general/iconparking.tsx",
+      "./src/icons/general/iconpaymentcard.tsx",
+      "./src/icons/general/iconplus.tsx",
+      "./src/icons/general/iconreciept.tsx",
+      "./src/icons/general/iconredo.tsx",
+      "./src/icons/general/iconrefresh.tsx",
+      "./src/icons/general/iconroom.tsx",
+      "./src/icons/general/iconsave.tsx",
+      "./src/icons/general/iconsearch.tsx",
+      "./src/icons/general/iconsend.tsx",
+      "./src/icons/general/iconsettings.tsx",
+      "./src/icons/general/iconshopping.tsx",
+      "./src/icons/general/iconsign.tsx",
+      "./src/icons/general/iconstarfilled.tsx",
+      "./src/icons/general/iconstarhalf.tsx",
+      "./src/icons/general/iconstaroutline.tsx",
+      "./src/icons/general/iconstore.tsx",
+      "./src/icons/general/iconsubway.tsx",
+      "./src/icons/general/iconswitch.tsx",
+      "./src/icons/general/icontrain.tsx",
+      "./src/icons/general/icontram.tsx",
+      "./src/icons/general/icontransport.tsx",
+      "./src/icons/general/icontypeofbuilding.tsx",
+      "./src/icons/general/iconupload.tsx",
+      "./src/icons/general/iconuser.tsx",
+      "./src/icons/general/iconvote.tsx",
+      "./src/icons/general/iconwalk.tsx",
+      "./src/icons/general/iconwarning.tsx",
+      "./src/icons/general/iconwarningbell.tsx",
+      "./src/icons/general/iconzip.tsx",
       "./src/layout/layout/styles.ts",
       "./src/layout/layout/index.tsx",
       "./node_modules/@types/anymatch/index.d.ts",
@@ -4324,7 +6004,7 @@
       "./node_modules/@types/webpack-env/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
-      "./src/app-shell/theme.ts"
+      "./src/index.tsx"
     ]
   },
   "version": "3.7.4"

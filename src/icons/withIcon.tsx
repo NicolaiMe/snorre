@@ -37,7 +37,7 @@ export default function withIcon(
       static WrappedComponent = WrappedComponent
 
       static defaultProps = {
-        color: '#333333',
+        color: '#000',
         flip: false,
         flipVertical: false,
         inline: false,

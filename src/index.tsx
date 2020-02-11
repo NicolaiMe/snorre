@@ -4,7 +4,6 @@ import Button from './core/Button'
 import Card from './core/Card'
 import Divider from './core/Divider'
 import Header from './core/Header'
-import Icon from './core/Icon'
 import Illustration from './core/Illustration'
 import Input from './core/Input'
 import List from './core/List'
@@ -24,7 +23,6 @@ export {
   Card,
   Divider,
   Header,
-  Icon,
   Illustration,
   Input,
   List,
