@@ -1,6 +1,4 @@
-/** @jsx jsx */
 import React, { SVGAttributes } from 'react'
-import { jsx } from '@emotion/core'
 
 export type WithIconWrapperProps = {
   /** Accessibility label. Required if `decorative` not defined. */

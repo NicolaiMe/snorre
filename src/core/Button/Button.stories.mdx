@@ -2,6 +2,8 @@ import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import { ThemeProvider } from 'emotion-theming'
 import theme from '../../../.storybook/helpers/theme'
 import Button, { IProps } from '.'
+import IconEye from '../../icons/General/IconEye'
+import IconCaretDown from '../../icons/General/IconCaretDown'
 
 <Meta title="Core/Button" component={Button}/>
 
@@ -25,7 +27,6 @@ Buttons are used when the user is to perform some form of action.
 
 ### Button states
 The buttons can have multiple states. Hover are 15% darker, focus is 15% brighter. 
-`todo`
 
 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '60%'}}>
     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '120px'}}>
@@ -61,6 +62,11 @@ Typical usage can be “Login” on a front page that leads to the login page.
 ### Actionbuttons (TODO)
 An action button is used when the user is to do a non-primary action.
 For example, View more, fill in, sign, etc.
+
+<div>
+    <Button icon><IconCaretDown />Ikon venstre</Button>
+    <Button icon>Ikon høyre<IconCaretDown /></Button>
+</div>
 
 <div style={{marginTop: '60px'}}></div>
 

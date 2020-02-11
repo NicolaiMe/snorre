@@ -9,12 +9,11 @@ const styles = {
   default: (theme: IAppTheme) => css`
     height: 36px;
     line-height: 36px;
-    padding: 0 24px;
+    padding: 0 1.5em;
     border-radius: 16px;
     background-color: ${theme.btnDefault};
     border: 1px solid ${theme.btnDefault};
     color: ${theme.btnDefaultFontColor};
-    vertical-align: center;
     text-align: center;
     cursor: pointer;
     &:focus {
@@ -32,6 +31,34 @@ const styles = {
     height: 50px;
     font-size: 18px;
     border-radius: 25px;
+  `,
+  icon: (theme: IAppTheme) => css`
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 100px;
+
+    height: 32px;
+    line-height: 28px;
+    padding-left: 0.75em;
+    padding-right: 0.25em;
+
+    border: 2px solid ${theme.btnDisabled};
+
+    color: black;
+    background-color: white;
+
+    &:hover {
+      background-color: white;
+      border: 2px solid ${theme.btnDefault};
+    }
+    &:focus {
+      background-color: white;
+      border-color: ${theme.btnDefault};
+      outline: none;
+      text-decoration: none;
+    }
   `,
   outline: (theme: IAppTheme) => css`
     border: 2px solid ${theme.btnDefault};

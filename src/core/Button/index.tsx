@@ -10,6 +10,7 @@ export interface IProps {
   disabled?: boolean
   highlight?: boolean
   outline?: boolean
+  icon?: boolean
   onClick?: () => any
 }
 
@@ -23,6 +24,7 @@ const Button: React.FC<IProps> = props => {
         props.highlight && styles.highlighted,
         props.disabled && styles.disabled(theme),
         props.outline && styles.outline(theme),
+        props.icon && styles.icon(theme),
       ]}
       onClick={props.onClick}
     >
