@@ -1,56 +1,22 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
-import { ThemeProvider } from 'emotion-theming'
-import theme from '../../../.storybook/helpers/theme'
 import Footer from '.'
 import FooterCol from './FooterCol'
 import FooterGroup from './FooterGroup'
 import FooterLabel from './FooterLabel'
 import FooterLink from './FooterLink'
 
-<Meta title="Layout/Footer" component={Footer}/>
-
-<ThemeProvider theme={theme}>
-    <Footer>
-        <FooterCol>
-            <FooterGroup>
-                <FooterLabel>Telefon</FooterLabel>
-                <FooterLink>24 14 55 20</FooterLink>
-            </FooterGroup>
-            <FooterGroup>
-                <FooterLabel>E-post</FooterLabel>
-                <FooterLink>kundesenter@bbl.no</FooterLink>
-            </FooterGroup>
-        </FooterCol>
-
-        <FooterCol>
-            <FooterGroup>
-                <FooterLabel>Nyttige lenker</FooterLabel>
-                <FooterLink>Hva er forkjøpsrett?</FooterLink>
-                <FooterLink>Felles forkjøpsrett</FooterLink>
-                <FooterLink>Ofte stilte spørsmål</FooterLink>
-            </FooterGroup>
-        </FooterCol>
-
-        <FooterCol>
-            <FooterGroup>
-                <FooterLabel>Stuff 1</FooterLabel>
-            </FooterGroup>
-            <FooterGroup>
-                <FooterLabel>Stuff 2</FooterLabel>
-            </FooterGroup>
-            <FooterGroup>
-                <FooterLabel>Stuff 3</FooterLabel>
-            </FooterGroup>
-        </FooterCol>
-    </Footer>
-</ThemeProvider>
+<Meta title="Layout/Footer" component={Footer} />
 
 ### Default
+
 Footer
+
 <Preview>
-    <Story name="Footer">
-    </Story>
+  <Story name="Footer">
+    <p>test</p>
+  </Story>
 </Preview>
 
 ## Props
+
 <Props of={Footer} />
