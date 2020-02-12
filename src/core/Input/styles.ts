@@ -29,13 +29,21 @@ const styles = {
         color: theme.primary,
       },
     }),
-  highligted: css({
-    fontSize: '20px',
-    input: {
-      height: '50px',
-      fontSize: '18px',
-    },
-  }),
+  highligted: css`
+    font-size: 18px;
+    & input {
+      height: 50px;
+      font-size: 16px;
+    }
+    & input[type='search'] {
+      height: 60px;
+      font-size: 16px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px 0 rgba(9, 28, 68, 0.1);
+      border-bottom: 0;
+      padding: 0 16px;
+    }
+  `,
   text: (theme: IAppTheme) =>
     css({
       border: '2px solid ' + theme.border,
@@ -49,11 +57,17 @@ const styles = {
       paddingLeft: '10px',
     }),
   search: (theme: IAppTheme) =>
-    css({
-      border: '0',
-      borderBottom: '2px solid ' + theme.border,
-      paddingLeft: '0',
-    }),
+    css`
+      border: 0;
+      border-bottom: 2px solid ${theme.border};
+      padding-left: 0;
+      &::-webkit-search-decoration,
+      &::-webkit-search-cancel-button,
+      &::-webkit-search-results-button,
+      &::-webkit-search-results-decoration {
+        -webkit-appearance: none;
+      }
+    `,
   disabled: (theme: IAppTheme) =>
     css({
       cursor: 'not-allowed',
@@ -68,6 +82,15 @@ const styles = {
     css({
       color: theme.primary,
     }),
+  cardInput: css({
+    borderRadius: '30px',
+    padding: '0 20px',
+    border: 'none',
+
+    '&:focus': {
+      boxShadow: '0 10px 20px 0 rgba(16, 16, 90, 0.1)',
+    },
+  }),
 }
 
 export default styles

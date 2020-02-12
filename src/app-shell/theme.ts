@@ -5,6 +5,7 @@ export interface IAppTheme {
   backgroundColor: string
   primary10opa: string
   primary20opa: string
+  primary5darker: string
 
   // Font
   defaultText: string
@@ -55,6 +56,7 @@ export const initTheme = (primary: string, secondary: string) => {
     backgroundColor: hexToRGBA(primary, 0.05),
     primary10opa: hexToRGBA(primary, 0.1),
     primary20opa: hexToRGBA(primary, 0.2),
+    primary5darker: shadeColor(primary, -50),
     defaultText: '#000',
     subtleText: '#939393',
     bgDark: '#10105A',

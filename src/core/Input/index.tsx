@@ -12,6 +12,7 @@ interface IProps {
   placeholder?: string
   value?: string
   disabled?: boolean
+  cardInput?: boolean
 }
 
 const Input: React.FC<IProps> = props => {
@@ -41,6 +42,7 @@ const Input: React.FC<IProps> = props => {
           props.type === 'password' && styles.password(theme),
           props.focus && styles.focused(theme),
           props.disabled && styles.disabled(theme),
+          props.cardInput && styles.cardInput,
         ]}
       >
         {React.Children.map(props.children, child => {

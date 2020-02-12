@@ -21,13 +21,13 @@ const List: React.FC<IProps> = props => {
 
   return (
     <Tag
-      css={[
-        styles.default,
+      css={theme => [
+        styles.default(theme),
         props.ordered && styles.ordered,
         props.links && styles.links,
-        props.points && styles.points,
+        props.points && styles.points(theme),
         props.numbers && styles.numbers,
-        props.numbersHighlighted && styles.numbersHighlighted,
+        props.numbersHighlighted && styles.numbersHighlighted(theme),
         props.connected && styles.connected,
       ]}
     >
