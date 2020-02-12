@@ -15,6 +15,7 @@ import FooterCol from './layout/Footer/FooterCol'
 import FooterGroup from './layout/Footer/FooterGroup'
 import FooterLabel from './layout/Footer/FooterLabel'
 import FooterLink from './layout/Footer/FooterLink'
+import Checkbox from './core/Checkbox'
 
 export {
   AppShell,
@@ -25,6 +26,7 @@ export {
   Header,
   Illustration,
   Input,
+  Checkbox,
   List,
   Select,
   Tag,
