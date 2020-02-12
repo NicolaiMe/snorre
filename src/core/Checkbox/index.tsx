@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from 'react'
+import React, { ChangeEvent } from 'react'
 import { jsx } from '@emotion/core'
 import { styles } from './styles'
 
@@ -8,10 +8,17 @@ interface IProps {
   disabled?: boolean
   vertical?: boolean
   value?: string
+  onChange?: (checked: boolean) => boolean
 }
 
 const Checkbox: React.FC<IProps> = props => {
   const type: string = 'checkbox'
+
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (props.onChange) {
+      props.onChange(e.target.checked)
+    }
+  }
 
   return (
     <label
@@ -27,6 +34,7 @@ const Checkbox: React.FC<IProps> = props => {
         defaultChecked={props.checked}
         value={props.value}
         disabled={props.disabled}
+        onChange={onChange}
       />
       <span></span>
     </label>
