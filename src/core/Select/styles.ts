@@ -19,7 +19,7 @@ const styles = {
         &:nth-of-type(1) {
           border-radius: 10px 10px 0 0;
         }
-        &:last-child {
+        &:last-of-type {
           border-radius: 0 0 10px 10px;
         }
       }
