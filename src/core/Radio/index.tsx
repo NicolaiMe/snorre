@@ -3,23 +3,17 @@ import React from 'react'
 import { jsx } from '@emotion/core'
 import { styles } from './styles'
 
-interface IProps {
+type IProps = {
+  onClick?: () => void
+  onChange?: () => void
+  name?: string
+  value?: string
   checked?: boolean
   disabled?: boolean
   vertical?: boolean
-  value?: string
-  onChange?: (checked: boolean) => boolean
 }
 
-const Checkbox: React.FC<IProps> = props => {
-  const type: string = 'checkbox'
-
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (props.onChange) {
-      props.onChange(e.target.checked)
-    }
-  }
-
+const Radio: React.FC<IProps> = props => {
   return (
     <label
       css={theme => [
@@ -27,18 +21,18 @@ const Checkbox: React.FC<IProps> = props => {
         props.vertical && styles.vertical,
         props.disabled && styles.disabled(theme),
       ]}
+      onClick={props.onClick}
     >
       {props.children}
       <input
-        type={type}
-        defaultChecked={props.checked}
-        value={props.value}
+        type="radio"
+        name={props.name}
         disabled={props.disabled}
-        onChange={onChange}
+        defaultChecked={props.checked}
       />
       <span></span>
     </label>
   )
 }
 
-export default Checkbox
+export default Radio

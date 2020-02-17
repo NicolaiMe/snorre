@@ -1,0 +1,50 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
+import Radio from '.'
+
+<Meta title="Core/Radio" component={Radio}/>
+
+<ThemeProvider theme={theme}>
+
+# Radiobuttons
+Radiobuttons are to be used when the user must make a choice with only one answer
+
+<div style={{marginTop: '60px'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row',  flexWrap: 'wrap'}}>
+    <div style={{marginRight: '100px'}}>
+        <p style={{color: theme.primary, fontWeight: '500'}}>Horizontal (default)</p>
+        <strong>Here you can make one choice:</strong>
+        <div style={{marginTop: '15px'}}>
+            <Radio name="test" checked>Option 1</Radio>
+            <Radio name="test" test>Option 2</Radio>
+        </div>
+    </div>
+    <div>
+        <p style={{color: theme.primary, fontWeight: '500'}}>Vertical</p>
+        <strong>Here you can make one choice:</strong>
+        <div style={{marginTop: '15px'}}>
+            <Radio name="test2" vertical checked>Option 1</Radio>
+            <Radio name="test2" vertical>Option 2</Radio>
+            <Radio name="test2" vertical disabled>Option disabled</Radio>
+        </div>
+    </div>
+</div>
+</ThemeProvider>
+
+### Default
+<Preview>
+    <Story name="Default">
+        <Radio>Test 1</Radio>
+    </Story>
+</Preview>
+
+<Preview>
+    <Story name="Disabled">
+        <Radio disabled>Test 1</Radio>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Radio} />
