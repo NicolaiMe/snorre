@@ -23,13 +23,13 @@ const Radio: React.FC<IProps> = props => {
       ]}
       onClick={props.onClick}
     >
-      {props.children}
       <input
         type="radio"
         name={props.name}
         disabled={props.disabled}
         defaultChecked={props.checked}
       />
+      {props.children}
       <span></span>
     </label>
   )

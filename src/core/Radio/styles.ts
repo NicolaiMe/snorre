@@ -8,12 +8,13 @@ const styles = {
     padding-left: 25px;
     margin-right: 60px;
     cursor: pointer;
+    font-size: 14px;
     user-select: none;
 
     input {
       position: absolute;
       opacity: 0;
-      cursor: pointer;
+      cursor: pointer;pointer;
 
       &:checked ~ span:after {
         display: block;
@@ -24,8 +25,8 @@ const styles = {
       position: absolute;
       top: 0;
       left: 0;
-      height: 16px;
-      width: 16px;
+      height: 14px;
+      width: 14px;
       border: 2px solid ${theme.border};
       border-radius: 50%;
 
@@ -33,8 +34,8 @@ const styles = {
         content: '';
         position: absolute;
         display: none;
-        top: 4px;
-        left: 4px;
+        top: 3px;
+        left: 3px;
         width: 8px;
         height: 8px;
         border-radius: 50%;
