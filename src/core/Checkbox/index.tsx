@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React, { ChangeEvent } from 'react'
+import React from 'react'
 import { jsx } from '@emotion/core'
 import { styles } from './styles'
 

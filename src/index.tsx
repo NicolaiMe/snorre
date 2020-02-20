@@ -16,6 +16,7 @@ import FooterGroup from './layout/Footer/FooterGroup'
 import FooterLabel from './layout/Footer/FooterLabel'
 import FooterLink from './layout/Footer/FooterLink'
 import Checkbox from './core/Checkbox'
+import Radio from './core/Radio'
 
 export {
   AppShell,
@@ -36,4 +37,5 @@ export {
   FooterGroup,
   FooterLabel,
   FooterLink,
+  Radio,
 }
