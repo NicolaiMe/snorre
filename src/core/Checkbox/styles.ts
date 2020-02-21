@@ -8,18 +8,13 @@ const styles = {
     padding-left: 25px;
     margin-right: 60px;
     font-size: 14px;
+    cursor: pointer;
     input {
-      position: absolute;
-      border: 2px solid #c8c8c8;
-      background-color: #fff;
-      width: 0;
-      height: 0;
-      left: 0;
+      display: none;
       &:checked ~ span {
         background-color: ${theme.primary};
         border-color: ${theme.primary};
       }
-      ,
       &:checked ~ span:after {
         display: block;
       }
