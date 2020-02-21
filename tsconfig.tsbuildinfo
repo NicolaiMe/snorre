@@ -198,12 +198,12 @@
         "signature": "0e0853ed5a5044ee38241a0ebbf60b1a019a788b05b94a58e1621d6d240965c4"
       },
       "./src/app-shell/theme.ts": {
-        "version": "a15725dab219172bc62171dfa4373578d8eccfe0690092e54d624b7474183bab",
-        "signature": "fb3a0aa220866570354b19eb545cba5659c52ffeee8b70dac2a2a9574b1d01b6"
+        "version": "fb14e32471782fd4a20a310d743d0bb51ff118c673adf2852c6fd6c474255013",
+        "signature": "5709573d80a2fb87cec804b805c987b997fbe9564ea0fbf5f131fc149545768d"
       },
       "./src/app-shell/index.tsx": {
-        "version": "9bf2a5c81d40818572afc7bdb6e9cce9737b0ed5f0319e8430783bc03ac05e08",
-        "signature": "ab60ad4912ca5993d5d9179b5cc20c0eb4c28adf9048968644c60fe4eff92670"
+        "version": "8630fa3eaf4841546a5efa18dd427f023f117ed30cbe5af192708ecad681dfad",
+        "signature": "61725b3e460f507c9c7d0eb92f7ad77a4bac4af2f5fc300bcb21ed39ad8bca14"
       },
       "./node_modules/@emotion/stylis/types/index.d.ts": {
         "version": "a6cb30cc0a1fd9dc0b6be4bfa919a35eda7d92be1835bc65a72e3d64a100203c",
@@ -222,568 +222,596 @@
         "signature": "1588826621a8167206324e72114918cfa71e9d1f91ae85145dec25e4b04a21b7"
       },
       "./src/core/alert/styles.ts": {
-        "version": "3631612395d47a4c5f37a57ece5e28b5f674e80042cfa47fea3e4e7092d34a7d",
-        "signature": "4e65f4e39bc5315497668d4e07da66dee1f35db1040ddbb2a825e49480b3284f"
+        "version": "40910feffd4cf1ab3bee9a50b0deb458f354a9d39f281d735709c985c0daac71",
+        "signature": "9dfa17fc49923f311dc0128116d72ee8ad5622eb40bc07e3536b2253d3ddc4c1"
       },
       "./src/core/alert/index.tsx": {
-        "version": "147459ca38464a7bd5a23593de0374dccf8272943b3c82398e47768d9be59be9",
-        "signature": "c4b5c12c6fee8686eb3187511cfab07bab7d47b055a51d27ccb630903615ca6d"
+        "version": "8b91030fd34d4e19657ffbd47d51348134297f2ecbd428f761edf85dbbc803f1",
+        "signature": "a71cba3ef3ea395be6b1fdfc7ca5ed391e2f2de6f96f077bafb1cce84c409033"
       },
       "./src/core/button/styles.ts": {
-        "version": "9f7d6475c3295a59f2f11f49a2d8e60b4fdc29880ae3c6fc9dd7ddf9664a4d86",
-        "signature": "2245cab20100a9f02694e7e8dd761d3eeea0673ac4290e3621ff5e0fda166f07"
+        "version": "f5c3585ceaed249e5771a9f929ada5f42d12e61daa316b92495818cb38857190",
+        "signature": "8dd3f0a0643eed20bf1804479f9a8d996c75c14a8a56db84a94f5ae646be0492"
       },
       "./src/core/button/index.tsx": {
-        "version": "48621050073eb7ab1518c1534e9fdaaadb76982d3c01da4ad99fd52769b771a2",
-        "signature": "c5d8389d8880f41c2c343293dd8038f99cf0c6b977ad14205d3c137d539d7c57"
+        "version": "be6e4d3680b9ea51defbd5f8d714f8af66701b924d4bafb3e25fe2f63fb48024",
+        "signature": "1605d27158aa022b8bfd6206143c1e156cc41cf2ba2d0b39d2d6ed54ac5bef30"
       },
       "./src/core/card/styles.ts": {
-        "version": "6d6c22db2190c696afe737557e1ea6a551056bcb38ddd387ed4dd5088d8bd9fb",
-        "signature": "d1202c3b4765c65cd9057d4a294ddbf2af72fb04058a2866ec768f0b3f97bf09"
+        "version": "a78e95b2a46616d4657ea5790bb5d9b510d2f157b8aae2be824df36b4df52307",
+        "signature": "e5ee4237e1663c41766442848faa7531d2bea73eccfc0959e180fe383e9d94f8"
       },
       "./src/core/card/index.tsx": {
-        "version": "6d91cc016a3f6bee8b0d7db78a8809ee0070d22e17348199b6d798e3f1f22545",
-        "signature": "cb132fe2a284f9ffb61e6b44ad48d17132bda498d99f4013be72ab81e87a1e24"
+        "version": "5c2688c3c25a5bfc8ef8392f3bf95fb1973e2bfce77af69d8b6fa668838b0b0e",
+        "signature": "05b1bca1fa1da368ab007279764ee62e30474ff6902e1090d2d469214b6a382c"
       },
       "./src/core/divider/index.tsx": {
-        "version": "894f4554ad944466fb08d0f5cdab0f04dcf8bd36acfc8e4c09fee07d096c0b7e",
-        "signature": "725cea90efeaeac9a282e91cfeaacb00043dd2eb95c6e2ea781dc6117de0eb28"
+        "version": "44aa20855e12f811c1a9d91a492b7da9ee1a7ec55b81c2f1872d0cddfbe9a37d",
+        "signature": "8f7595d081a011a30cd59576ab740fe63fc31569354924fffc115650e31124a3"
       },
       "./src/globals/styles/breakpoints.ts": {
-        "version": "1280a0bec94e7fe8426a275fc7e9bdd247ebc67fdf0e9694257266d8003b062d",
-        "signature": "95de4ca776c9e9d29a9bcd69c2c0fe0df2a8d4ce308978f9d5ef56461b8d61af"
+        "version": "da219b48b68cd6966618053dfcfe98a0e8d253591090ae329000533a0a67b905",
+        "signature": "cacb3c7b8ac0a89a6f4c71c47243921d7fa1ac78a99505af760bb7c1b89ea035"
       },
       "./src/core/header/styles.ts": {
-        "version": "058a0af529a2f6beb7bc53e2c0a93f01fe6242dac879a5316f1e725867c049c8",
-        "signature": "158141f417d716db19c50b0eec87d8c7c77af49d5a8f7d4c257d022022faf5dc"
+        "version": "f379dbb9964d7d4845c34d367889ea89d3aa553f6e4c635b124ea5f225f37a12",
+        "signature": "9f19326867cc24e91c1fe1e832a255d8b5a75c5578888040cee00ad4f29e1785"
       },
       "./src/core/header/index.tsx": {
-        "version": "1fd06b8cb940bed05e2b647de44a123eee6be0c5150a3f59cb03be3252d184f4",
-        "signature": "761d09de1327a2904abebb1b8060a89007b21c6d0d72ca259dbedf231d3fe211"
+        "version": "c27b53486f2b1837530fe4cfda5068f332d5b807db64da7adbb294a58a5fccd0",
+        "signature": "fd5cec5c11f09e4017c0887112b73fcf2810982ee6ff0e7d033fb0b3d5ade790"
       },
       "./src/core/illustration/appartment/index.tsx": {
-        "version": "81fa28c35e09506bbb0eb67838d976506093ab7a98fd2c96418ca281929b1c7b",
-        "signature": "67bc79b2aca2a2502581cba59f1229eaa9c285824e1964c8eeccbdbf9d76180e"
+        "version": "cf89a3f33eeaa02030d90a9af21e11b4e29ca6dfbe6a390de2421e6189e21d77",
+        "signature": "4206b7f92d61b4a1273d2a8da248f008eb0969987147b3fe0310cb5eb91ddedc"
       },
       "./src/core/illustration/styles.ts": {
-        "version": "d7d445d04948c2b81fa5aad6bd06437178f25cf00d63dd4a36118b82f82bf28f",
-        "signature": "8cf81ab7b94a52c637cffb8568bfd8b294f88af72b632119143dc50336fe1db0"
+        "version": "eda1e438bebe1d9c308b2060881de970ef7995db024639cc6d420a913fdf99a2",
+        "signature": "76f04e93b11a2d7cdd9458371a2b4110f338dd182551cdb0c37eb250362c298e"
       },
       "./src/core/illustration/index.tsx": {
-        "version": "235766418d398ad2e01c491a8007ff3d6483f55cb10fe879dfb352efd1ae3653",
-        "signature": "35af8999f861e2c8dfcdb65cb6427962f5e4d022f2cc8574816304e58a5700b6"
+        "version": "4255342201c5f00fc97af761167ffc81e60e5e0863424e993ac42d6835043495",
+        "signature": "4c5711a49dc2c3619a0ea8df932b94d1b1b5ae1a32361fe48bacf1555de25747"
       },
       "./src/core/input/styles.ts": {
-        "version": "ec7f48ddcacbdd1a6a6c21b85e6189050f20122f58d0732f3fad815e27845685",
-        "signature": "e12a6ac3175c03c7561f4423a689b11a3c25f158889f30ea306e5314a3f0de3c"
+        "version": "0e7b4d93bd84a99621f62bcac3173709acc55bb62427611f399a107737707b0c",
+        "signature": "e1e5d9acb94ec52354ace303f31d8040ab30299c891aa03c0df8b846ba581e57"
       },
       "./src/core/input/index.tsx": {
-        "version": "a5f81175ef9bd4f92e21d3e9d738275a17ab53f923a43478b877cc3b174a3dc7",
-        "signature": "4f3de19f3b15de1e93e6a49a9868155bd8eb1f1cc3e3a62e337b5ef1c54740a2"
+        "version": "283519429c89eba1a9f70617e813fda647cf119d3a0e1d15671eb9b2920bd02f",
+        "signature": "344dad646173ea27da74d20436e27f244cc003b9ed295d9ebb95ad6ec57598df"
       },
       "./src/core/list/item.tsx": {
-        "version": "eb35b8399bf20818a37419fd9d2ede8fecb2df73cca8a6b50cc77bd880535c9e",
-        "signature": "8ae79aab1c00a65f1fe696146962558c0ce70c1144cce0a1f884cc7bfcd2d775"
+        "version": "419ac21ed5526e52dce4113dcc231e2f69900ab5f8e14dca6bbad1a04e132cc4",
+        "signature": "8deab0f1caaa8f3d0b6ae8a720a550ca1ca8f81a342d6d01a057119095a2fac7"
       },
       "./src/core/list/styles.ts": {
-        "version": "f2635e80dc8b48af5cdf823fcdc8c2ef084186437320ce5cfb985fb30816a374",
-        "signature": "947b7b1219061bd0b6ad9f0f263db6cb28e76bac0c6c1575674baf3cfd3a735b"
+        "version": "45c7258ca63d7d5590feaf5637766c8b19bbad9f4e635419b5a89b181680b0d8",
+        "signature": "15102fe7432c6dadc86fbd68c081fa18f35c4de132824bc690c8281c40cbcd01"
       },
       "./src/core/list/index.tsx": {
-        "version": "0fcf830a8241ceb1179f9026469050d8cdc4495942ae1de3881fd4f28f07a472",
-        "signature": "6b53e9ecb0d856a0791660597783393a1d2cef61119340cd2deaf7714eaf47cc"
+        "version": "e406f1c0b3a2c9d31fd2511fdc04b9c186f3de8db5ddb00d1af2b254d7c8269f",
+        "signature": "0087b746f7937e71a2c864ec55e62910dd511dbfbcea353bc8faffd9bb435550"
+      },
+      "./src/core/select/styles.ts": {
+        "version": "1f673db9afc280443fa8fdd73ffd5e8dfcf74bbc54cc490471aff19850b2df96",
+        "signature": "e29a7d9d3cae03ad5d90bf9c2bcf371a33cc488a18596e309966c866134eb0d4"
+      },
+      "./src/core/checkbox/styles.ts": {
+        "version": "9a70ca03ea6bb1c55400ddd65a7924d994994b9283de8264e453282b6f053a65",
+        "signature": "c42782b965bbb62256c1bd72746e9fa1feac0f355105cfacc8b055d278cfc581"
+      },
+      "./src/core/checkbox/index.tsx": {
+        "version": "d51e7f0f33d034b6dc4c17c0db77f5dce76e9f97ecc64efa502a83dccf93bcdf",
+        "signature": "b2eb47c1896e09b0f220e4e52fdf0e1c6398c1605a81e8e8d24c6819fa2cdffa"
+      },
+      "./src/icons/withicon.tsx": {
+        "version": "4c9af368b44561f2df988800653bd3a8505d265b71308dc565003687d0cb40fa",
+        "signature": "95eb4af2522bab397d483487a414b57490242fcdc14d637dba33e9037c863fe7"
+      },
+      "./src/icons/general/iconcaretdown.tsx": {
+        "version": "63c734073a06b7b8eeef294e3520de6ef8ed62787df0bce9a8b53d5bff30e03c",
+        "signature": "04e99698b4778e3ff6cd9bcc3fefed7dcd382d668919f79ba7242c255f910b3b"
+      },
+      "./src/core/select/selectlogic.tsx": {
+        "version": "3dc187f7c0c11b177920ab40dc3afa8bde61b157fe38d88c4789c0a0c6df1ac5",
+        "signature": "0a78bab70d0da8a3f7fb5f58a563b4a4d2a00f11c82e200ce7ad2d0eaeab212c"
+      },
+      "./src/core/select/option.tsx": {
+        "version": "212099116d203aeb58fa348ba3166cce4ca74d9aa130739beecefcbb005a4459",
+        "signature": "9fb761891d4d2d1c95f55947515b450df27f48c4dab41a2cb0dabbf77cbafbde"
+      },
+      "./src/core/select/index.tsx": {
+        "version": "d4a8ec6ae953bcedc7489c1167fe420097549c46e32a8ccc0745b246ac29e64d",
+        "signature": "862b44f0fec536f667911deb8f0aaa9a47e5b51587d2d649d73e2c444558d6c7"
+      },
+      "./src/core/tag/styles.ts": {
+        "version": "a86fe9da1eaeb738aece5e71f57a995bb9909f441a2bf3e2177e626707548be8",
+        "signature": "aa8bafa249faf85162bf79b2babe794f31f9e2610e3695fe3cc8ffe142b094dc"
+      },
+      "./src/core/tag/index.tsx": {
+        "version": "fff2e96ba1d89a451fcf0aa4519644891a3d67b443f353978d10c6c7d2ad2cce",
+        "signature": "0e23e3bf18735d3b53988104e4c1e1683b7a5a9cd7b967db01fc3fa319d593d0"
+      },
+      "./src/core/text/styles.ts": {
+        "version": "586ed321dd65f3c36b54b49d888d142875a07ee9b907fc4844256fa4957dbba3",
+        "signature": "68c327fa57a65e869755977a11d69ef69307cd92e66da33baa36d7143bc9e2d5"
+      },
+      "./src/core/text/index.tsx": {
+        "version": "aab97725613454a86f5f61f50dd69a0ebc85b2d789a99167f1dea481b0fa1c4c",
+        "signature": "84836999740739ce652d1521593b834107fd9c824d1f8bb392ee550611452da1"
+      },
+      "./src/layout/footer/styles.ts": {
+        "version": "b9751de7cd223ffbb7f448e97907700dc252dd14014035ed595fb8733e4a27b2",
+        "signature": "4f58325341e60323b78343b21786bb301c8ca066bc51df5590682319b2f41026"
+      },
+      "./src/layout/footer/index.tsx": {
+        "version": "e7e38ba3ff6c9deb5c42e80311c4187edcbe0b8bcdfc55dde24359cdca2b6939",
+        "signature": "c780f1dd25a769eaa27254c64244cbf66a2ef72a165f59e86ab796dc0a2f9e89"
+      },
+      "./src/layout/footer/footercol/styles.ts": {
+        "version": "ccb16dd78b48bc1695789a694a3f1a16b973f4ddb36ca07d8da63723f11a1f46",
+        "signature": "8f781bdba04cf6abf4cf15325e57af49128f5e499fb36f7016bf4634aaacb37f"
+      },
+      "./src/layout/footer/footercol/index.tsx": {
+        "version": "9cc1649c36c014f32c1f7ecfa1d69f74740b13668004971f8b41012060054048",
+        "signature": "e55b1e36b27cd32b45908b1958709dba3c76c16bd8ad5cc65b41a277d8f68936"
+      },
+      "./src/layout/footer/footergroup/styles.ts": {
+        "version": "452c38e45c100f289e8ee07bc547f3cd8d63e9ae8ab9ba067dd5d1bb1c684dde",
+        "signature": "8f781bdba04cf6abf4cf15325e57af49128f5e499fb36f7016bf4634aaacb37f"
+      },
+      "./src/layout/footer/footergroup/index.tsx": {
+        "version": "c000017debbff115049420bce0591fcad14086782fc1bbb8d950f3b967c68465",
+        "signature": "caa9c312b3f423c2d8423a5eb9698f2c6270934f96bb6b17b14b2887007d32dc"
+      },
+      "./src/layout/footer/footerlabel/styles.ts": {
+        "version": "928c8ccaf4ca3c109008aaa112936fe6e2208e2392570694bc6c3a6e81984133",
+        "signature": "cd8f996844df6cad448e24ac4ff64021beaf4e378aa3a914f45690c2b7dbf5cd"
+      },
+      "./src/layout/footer/footerlabel/index.tsx": {
+        "version": "599817e6813da41106629e97e3666ea694b6a88b19d1fdd83f9e88317799b372",
+        "signature": "4053e39ee020fdfb8a0060d5d9d771df55336437e9822b43d3efeccbb773ef4b"
+      },
+      "./src/layout/footer/footerlink/styles.ts": {
+        "version": "d13343c28c014a5be3989d3438b56f00d3c8cafc479cc4bb315a0a9a80c122b8",
+        "signature": "b7bf7340eee30f3274df549801ab9be1ba4006ce0158bade24a3dd066f6fe9d4"
+      },
+      "./src/layout/footer/footerlink/index.tsx": {
+        "version": "29cdd89c0f61e317749b9cd56d7f0dcf9562449947a5f6f555641e616eaa2a98",
+        "signature": "980202257561391700ec4be766c735feb872397ed7f33857cb3632625e39b91f"
+      },
+      "./src/core/radio/styles.ts": {
+        "version": "6446876ec6577629cbb3315e623cce0bb4e1eb618dc2bd8d3268f21773757f68",
+        "signature": "c42782b965bbb62256c1bd72746e9fa1feac0f355105cfacc8b055d278cfc581"
+      },
+      "./src/core/radio/index.tsx": {
+        "version": "9682e5b2988c530186bc3d5ecd675d3302b4aeac21a15b60df8e05583a173b76",
+        "signature": "ee6964adac4936773d057fda77e69bcbf89abe7d23ddac6512c72abfaf205bda"
+      },
+      "./src/index.tsx": {
+        "version": "3e82e2b9c433b37f097f6aa9d336db42c9c098b1ed4a162670cffff583ff30c5",
+        "signature": "0ae754ff7508afac1813778b0d166f816f8b0ecc5a0ce61785d0e55f38b9758f"
+      },
+      "./src/globals/styles/paddings.ts": {
+        "version": "fb208a115e615b09e6211993247a5c074c4075717f29fc485d78f072fe0d63fe",
+        "signature": "498e00b756e1e73910b1e27750daac713d0c89423596c43938771e9a5460e2e8"
       },
       "./node_modules/@emotion/styled/macro.d.ts": {
         "version": "4ccbd58caf25631487a154f2489dbef6b443ebc841b68ae0b1ed36224f150a4e",
         "signature": "4ccbd58caf25631487a154f2489dbef6b443ebc841b68ae0b1ed36224f150a4e"
       },
-      "./src/core/select/index.tsx": {
-        "version": "88988d7bc45c5c0e39fc966187b39e50b4508180a90eba2dd727352c2b5d573c",
-        "signature": "8e4f2474d3a3c025a1e72ccc2c72020eeb3c6c2501e963103d8100f83c27c334"
-      },
-      "./src/core/tag/styles.ts": {
-        "version": "f51386d35cdd0d64f58898bd092fc2d4579480b7af8d8f3935629258f5ac1e3a",
-        "signature": "fb24a16015a200f3d9a47eabb6e696f4fc3ff2ad41a3d4a8eb14b3fe1e59f77e"
-      },
-      "./src/core/tag/index.tsx": {
-        "version": "4b1f7e4a0c406e22fb7f3b582ae6c7b5e44761ab0fbeac63dc0be185554ee4f0",
-        "signature": "2b1c2bf3c334db21aa2844e35cad84fb0d023c520c3ee3807289d90158f641ba"
-      },
-      "./src/core/text/styles.ts": {
-        "version": "a66ef14fa8bda8fba35763f1d1872946f1bf0ff2b6bcd31facbf1349c49fd22e",
-        "signature": "37d2e479bbd18419ed21af138f21fae57e9c2abff2d2467e9f55ae4a17eea48e"
-      },
-      "./src/core/text/index.tsx": {
-        "version": "de79d089c0b5a18b4f21d3c9daf774f3119eb6e536486b9fdc8dbdb80244fd8f",
-        "signature": "28a6aa8ba5e082daf66348005be92c3018c84135d3262031429f578d4b615037"
-      },
-      "./src/layout/footer/styles.ts": {
-        "version": "e51daf11df5f2b19325b7a9b6f13aa3108f602f2c35d1963bc564f80a80accfb",
-        "signature": "f37f2835139f128fddc536637c70161465a96cc0852350143fcf0fdf2fb00fc7"
-      },
-      "./src/layout/footer/index.tsx": {
-        "version": "2ca43a281c6738af93f8b5dc01cf1a4ae28dc11e4ab52daf473a48989d2104bf",
-        "signature": "9b5261d4e759eba6e160d4943c8708e228917667fe8d1110cab3ba2039bdae9d"
-      },
-      "./src/layout/footer/footercol/styles.ts": {
-        "version": "bc078568a0688cc3db3c7366ac450f93d3cb9e2f1436fdbf817349e831b83565",
-        "signature": "0ca8d6e7ab935548a40a873843c26b743fa83d79145d7fe466725c7e5a7bfca8"
-      },
-      "./src/layout/footer/footercol/index.tsx": {
-        "version": "0add29e692bb3a917cd3ffd2df421085ba82c74ea13e834e648683e7de9bc470",
-        "signature": "14bc6e6d7cc8147c0738472378ea5f51655f8bb3a796ecbdc1ee66d422462606"
-      },
-      "./src/layout/footer/footergroup/styles.ts": {
-        "version": "0bcddda037f7e6225887cc18a9aa500ceb3bd8697202da85307ff0e2d0cffd44",
-        "signature": "0ca8d6e7ab935548a40a873843c26b743fa83d79145d7fe466725c7e5a7bfca8"
-      },
-      "./src/layout/footer/footergroup/index.tsx": {
-        "version": "e35d8fb6bb0dbce24e00501daef24b1a47164c450325ff3d19f2aa00d479908d",
-        "signature": "3468bf55f3fcf2dc313046cd1a83930ac7391121dfc625d8aed847184f387003"
-      },
-      "./src/layout/footer/footerlabel/styles.ts": {
-        "version": "85762aca7bd44c2f961699820be763a8602278e0f795addc6ce2b319dbd6f2d0",
-        "signature": "ce3d45d7487f5c65c7f5e4c0288760ffd42c707442fda964c7fd7d7b2de418be"
-      },
-      "./src/layout/footer/footerlabel/index.tsx": {
-        "version": "4242f6c7b8943697783c16a73bdacc1059006c563dfa99be8e41a01750af796e",
-        "signature": "ef795463d1e58cf8917668086cb492336da55b212635f6688775e6c4dc896bce"
-      },
-      "./src/layout/footer/footerlink/styles.ts": {
-        "version": "80f34eceb9069b1f000401c699fa1a7db6104bc25354a7e12d42b3b3d7331726",
-        "signature": "f3b5645b14f9048cd84fbf8386de31929e1895c7007ec57620b9e8a6e1a5d36e"
-      },
-      "./src/layout/footer/footerlink/index.tsx": {
-        "version": "bb33200d19a2cd083e187d3274ea40f8d5ba88771402c7a241530ffe7e496876",
-        "signature": "cd619e4dbea56611f8ebbb398045df18cd6b4767bebb8f5fb730aa4a2b4526f0"
-      },
-      "./src/index.tsx": {
-        "version": "9a45b26f66b4774f208616743d604279265a71ccbafafe515d80610adf4c718d",
-        "signature": "42387b50ae048687f507ccc2afb5655285d0bc9b269138c03da9ed922ccf0931"
-      },
-      "./src/globals/styles/paddings.ts": {
-        "version": "aa9b609c09769bcce893d4dc5d76d7262a4e0b27522c285bdf9c2f790b1f373e",
-        "signature": "013ef046926c5fdb6d496214984003885903c5a7e8b9776533e8aacaf043daee"
-      },
       "./src/helpers/components/sbicongrid.tsx": {
-        "version": "3a45716c8af38bbea552ae4f14adba9ad63c840f97b44339c0e12a8f0c246a6d",
-        "signature": "ca72cc2630858591e55017afcbfea21ec17cefc96129712646612163c6ed4bde"
+        "version": "7ff77ff7ef249b413ef77f969b3beac109792c41dc5d4205d3a25fb3c05a06e6",
+        "signature": "411b8f48e3eba925568ef460ed3d6460b6893fe8ef95e3108acf7e66e66cf68b"
       },
       "./src/helpers/components/sblabel.tsx": {
-        "version": "e732e0e6e8560d96dd210f0768aa364bd9800ea465f511e5822c4b1446e5e109",
-        "signature": "0402a6ab95e64ba16741b2e0e1c443f6ef21f984673d59024da1098f6909f361"
-      },
-      "./src/icons/withicon.tsx": {
-        "version": "88d2328c7c2f2564cebe908b3cd92363f095f6b06bec3f814cd1ea30933fd977",
-        "signature": "c110f605a0a342e09de7f4858bd9644c1275b47207d5096b79a1ffb14fefc49a"
+        "version": "4cecb668e774361ddde8a2b998734932cfb1ba8afb3b9ab573d44d48b42ee6a8",
+        "signature": "df35f7fa091a259926b8b7bc8a7f8bb94948af6bc785b0887af51e774cd374cf"
       },
       "./src/icons/general/iconapartment.tsx": {
-        "version": "84a82503d6c8baac1da901b38911d6da5c581140bf2d825dc6ebd5c99ca5870c",
-        "signature": "7c9fd4ab368e1f56ebbaa32d1b1765edad5c401998e9b6398485ab33453cb3ea"
+        "version": "8d862fcf3f14d068ed0f890f8ff47d4d314c0693b12d25ec2603b292b66510ff",
+        "signature": "e224123f88aae1f6fd956fb2e3a4c0d10dfcfe98f4d5013c8b524139441191e9"
       },
       "./src/icons/general/iconarchives.tsx": {
-        "version": "97c36f381add584686e6de46b44a858a6ea00fb81e96b8570474ea26d4ff9431",
-        "signature": "d0091e513cb2ce3f6360238eff5b126023b0c573113237ed01ffaacdb003ff4c"
+        "version": "7b6b4f50cfa73c46e507481f46150a6b4b69bf80b431a2fc2fde5eb6933e5080",
+        "signature": "0e2ac6d62233fdbf2dbd7cf4cf3a4541d173feab801b71b5223319d325940ca2"
       },
       "./src/icons/general/iconarea.tsx": {
-        "version": "ab3f7a893145e2cf2762abf5963f39ccdabb0299163a39dbb6e3f56c6e479e09",
-        "signature": "26e7693f6a86314af3b5538694c3cafbed8331af6e975e3a0d36a37b9d48f8df"
+        "version": "2630c77a2e2cddd04ec258aea2253d6e4f44f3d21596d9496014ffec80f27f49",
+        "signature": "26644da08fdb7e7fd6a26f5d3f87e5dd8f017041d978460d5367a5b28b2f0667"
       },
       "./src/icons/general/iconarrowdown.tsx": {
-        "version": "d1109a2d0536884a8ae5bdd63af3fce93b6985c25e4c2762f419d8de996902ba",
-        "signature": "cec3e70b863ac15dd4f11f74eb5375ea565f2d66782fe06a580018ca576db7c8"
+        "version": "805f68ace1801c61fe656b188fdfa6ca51d7a1df2b30b1856905f5f3e873e1b1",
+        "signature": "32d2bb02cc9a8cf10c27a0174273380e31f9813f963c9169bc226bd5cfee563b"
       },
       "./src/icons/general/iconarrowleft.tsx": {
-        "version": "2641960eb7a243df0d9dc195d5f0030419cadd79e2db2350a143e72ae97d5f6b",
-        "signature": "8573c4258afc17a083f11fbc1c8dfa875d0824ed9445dac90dd811efadcb6a56"
+        "version": "6a2d3d98ff36f8bfbeb1959eb8a70e450a8da441c35ecee33725d6a6b84e393d",
+        "signature": "34ecf77679711b73fc6b754e1286b57c95fd4b8584fd1f5b5a452bcc530cc0ff"
       },
       "./src/icons/general/iconarrowright.tsx": {
-        "version": "e227ef91ff242e1026fd99caf2b509c96b71a3fde031732ea5e03605e6fa5665",
-        "signature": "7d95a65e3cd8a328408e38ac1c26ffc7424d1fe0a44f461bc358a4beb811deee"
+        "version": "aa596d8bba83984caa02359019736e2d97370bbb2c6298caaae9b4c6ede39cc8",
+        "signature": "615825edd48df681c2a9f2e61711c526c6e4cf6e5bfc8d348a978d3016c3ee5d"
       },
       "./src/icons/general/iconarrowup.tsx": {
-        "version": "67c212af380172e74eea5fd089ebf247d477f4c74114a922ea9fc211f0952945",
-        "signature": "51e9f4cc28ce96cb690bc48db4fd8de2d1fce78873f8f9c9fb4b3e042eb89556"
+        "version": "9c3a9babc9d811da6ad33de7c2140aab8a0bd782facbaf4bdb44b8f6cb4e9af4",
+        "signature": "f6ae214684a25a75966b7aea88fbe4e954ed4f5091b5a7e0a44c62d80a8a13fd"
       },
       "./src/icons/general/iconattachment.tsx": {
-        "version": "2623279b70fcbc531d344b25670cc83f18f854d6ccfe7ca6c1fa72949fb71a0c",
-        "signature": "f0f6e5b2d48b9abc6483bc14ee438968b47afc7e4b6dfa6b6c89a8e77e83b158"
+        "version": "40f8febd1f7072f56408fcb87778d2661efc314e148aeb167b049cbd63f03e3b",
+        "signature": "ebe5f6560794ac999296dda584290fc974c1bc7779b39622eef5a3ac05cfe362"
       },
       "./src/icons/general/iconback.tsx": {
-        "version": "59fe7d3ea0c87dc9f07ee05e938cf7d75cc89503290128ef544cadcb34e6dfac",
-        "signature": "89e7aebed59f52fa4312bc35f127e3dc61b041108b628a40f9395f528acaee80"
+        "version": "e09d046c601c0f87a089af13f64a4fb0915e65f8753b2ddc099b571631ae5f94",
+        "signature": "349badbf854dec8895c2915f74ba9fa7eb7fca9771ef846c2f4dc16675a56f38"
       },
       "./src/icons/general/iconbath.tsx": {
-        "version": "dc84e8562656203fe5cf4afd2c691e36497571eacfd291e8e95dc1dfb9816463",
-        "signature": "1b3f427d5e851eeb43a7e327bb8ea9f4cd6c9d04e123ba74d2627f332c551ee8"
+        "version": "3410665b96f4c1419738fd4e0298a4135a8f7356bcdde02cb6b9bd1606c58b24",
+        "signature": "b895afcd745693d694e262d4e75fe35c9dd5d03efd638e4e001027c6ced0a291"
       },
       "./src/icons/general/iconboard.tsx": {
-        "version": "93ac8775b6f919aae79185239293ca042422f7b0469d84f3b6fa9b487d7550f1",
-        "signature": "85a33c2fe033fdb8a0037d1745191aa75e5e6150981c9cc757092cc999e6be0b"
+        "version": "60e0b83be13618a0d9e35c775ce2311421891815ac795bc0bd3f964d3f96f1f4",
+        "signature": "e1b21a9a42dd895b2045be1233341739f088835fbaa9a1735e122ca241228090"
       },
       "./src/icons/general/iconbookmarkfilled.tsx": {
-        "version": "c6d60f54a4fe212e8c3847ffa85d69861c336b9e7df678e465b9d34c3563e81f",
-        "signature": "a260480a06b33c0daf95d530ab4f12aa0bcd5933a8d1df0a914080a6876440a9"
+        "version": "2e64dd63e334b263fd6b69cfbfe8d67e04373c95d15005ad0a88617ce078bd29",
+        "signature": "e27e52ebdc507ccccb6329864a49ffde131b08338d3c8a26f1b7d859b88e7100"
       },
       "./src/icons/general/iconbookmarkoutline.tsx": {
-        "version": "746996b8faf67d38c993e21cc0e05f24b91c1b3477d39b1bc923f775bb129641",
-        "signature": "cc6f278ccc8c517442cadecdef94c5886015dc4e1189ed985ce1ef8cd12a6dea"
+        "version": "bf00f76da2a7af1f28a43ecf48be44699d271368395ee708c5b0f743011a0057",
+        "signature": "1b95fb984ba72dd8d352ad4c820a85a90ace6c94eea854651b64239e76875a46"
       },
       "./src/icons/general/iconbus.tsx": {
-        "version": "876bdbc3fdaf45686cbaa2bb9d20d5e763e0b2478536e98ceb423bcdd5f35f03",
-        "signature": "6bc9521d50459318ebd2ea65ac1997cc0fd3226924c23e2c84b9bbc8a9027f14"
+        "version": "6a68ecb0680256208144d1fb372b5d92c00644521a8205c5d6e5d5c2dab62a49",
+        "signature": "866c7db85ef6b483e414389ab9978884b12276629222ff24eca158a0e1e4e164"
       },
       "./src/icons/general/iconcar.tsx": {
-        "version": "757b798283586b1fd0970a41060db1dc03d127fdd1a87c9509165d25e4844110",
-        "signature": "485cf37ad2b0c050484c2947d1b9b06fcbe9e0c4463d85d1704072ff8dc04ff3"
-      },
-      "./src/icons/general/iconcaretdown.tsx": {
-        "version": "5fcce1ae1af535b93d2b677e8abd49a6fc0152cdc3842ddf90bb54e5c5937c9c",
-        "signature": "e0523fac5ebec16184b71e49e306e27dfe488660fa16229367b00aa520eeed7d"
+        "version": "67679cd3dccf7afb781da9536b40068a846e3d640cf12d2fc4b64dccbf315dc5",
+        "signature": "4f76ffa855bca4e45ce2a08790a3d0a8545fbf79a0df3f274736a46ff5e902d1"
       },
       "./src/icons/general/iconcaretleft.tsx": {
-        "version": "87bcf9d0e016082e913f5e87c7d75452bde2bee7f5cb65a5f95d3cb45cc967ef",
-        "signature": "6ae475237f404d0399edd0c358652f3453d9cb9f4e8854e50637253f559d51bc"
+        "version": "9c00b241dec89ae78aad30d4e2da32b95f14dd94fda5643240e57fa4dbb8708c",
+        "signature": "58d4a974dd631e43c92116c0c86246bcd7c798faf70a7c1820a4e78bb134cf81"
       },
       "./src/icons/general/iconcaretright.tsx": {
-        "version": "08c184a8caf6122d46472b364c9491174e832d832acb98458c589936cdb5f821",
-        "signature": "75bce3a5420ff21e6be9822afcf3e513452834825b4a9c0a988cd84775b8e1d2"
+        "version": "209184eb116f6715d4ca576b23888ab89b96379e7e1a2deff5c9c93f2a070584",
+        "signature": "34188206bea42ec321f2c6e1e534abca3645be23cbfa6ebaa59fdcb80dcf7ac0"
       },
       "./src/icons/general/iconcaretup.tsx": {
-        "version": "1adb733e94e7ac9d6afa24bc28737472a503c3d15fcbfbde2ad5f9c5461728dd",
-        "signature": "8b7155dd4188d73ae8d2c8eabee44da08faf3300fe535dbba8dfb912df80ad4c"
+        "version": "4ee5cdf72c60b94ce21cefe6b6d33ab24b066c6d6544f629dbc01834b8b29170",
+        "signature": "639c96b77afa97cf8392cbb309fd0872c010c38f351aa4adfa761e2e6ee8ab4f"
       },
       "./src/icons/general/iconcheck.tsx": {
-        "version": "1614436dd4278e2fe2a067047668886803de3eb19dace7cc053f4070e399fe83",
-        "signature": "9d117bfd214f8200c61ff8de67327b85d2d390626aff0011b340932e271ecfd6"
+        "version": "36aa4432992b2d832f013e3cf4a0e70c884a5bd851a0838a241a4ff5ef9518d2",
+        "signature": "1590b19683b985e791c452a260c901f7aef36d17e211baa2e604a650a74823b1"
       },
       "./src/icons/general/iconcheckedfilled.tsx": {
-        "version": "4f5a6311cbbf7670aac3da0e0fffb9dcad8f77a558319345e7620316a9b92c88",
-        "signature": "174b17c61b1c9e108c14464578b2572c74cf37628f96a83ac37b5c5c98c44097"
+        "version": "217c1a910c55f83e74bae77ad6b3db5d21d1d1667c512779b80bfd4e1583f64d",
+        "signature": "5c3d474d8ad64c8f488c1ca05dd4c7220a0fb4a3f1933fbc7bd005d0214bd941"
       },
       "./src/icons/general/iconcheckedoutline.tsx": {
-        "version": "2fe41d4a10353ad856ec77f4ce944a46bff94c1e458ad2e4147d8c6660cc1833",
-        "signature": "e584ee4e6b049786d640929107ff05236b030db9e728c077d6058cbc51ba0062"
+        "version": "7cbefc39589b1d8038021d1f955d8b0e8887a90e8cbe925195b6f7b2d18799f0",
+        "signature": "aa4c5f8f86a974090491abecda8388cd2627c148fdadb98c5ad782311e840453"
       },
       "./src/icons/general/iconchevronleft.tsx": {
-        "version": "321c93f1190899dedab412bf85291d3844450e5da65fb1941f450fb93137a397",
-        "signature": "1fc37a95bb95730b819de9c7e40225844726bd7e6df65056a1549c1f298efdd8"
+        "version": "a567e32d03155a79c256c08e6a2844ee4ff91c0352d31edadc1fcc616489aa8d",
+        "signature": "f982c17c369ef96711a770ec24e9a992edafcf7b524cbdfaee7d5e6115b9f4c0"
       },
       "./src/icons/general/iconchevronright.tsx": {
-        "version": "fad464f3b472bf9e63f8eb52642aa724404549a99c5b3bbe6bb98a32673b2d02",
-        "signature": "ffcf0dcbdcf3c95de62d19f09402a50496aabc5dded74ce21d32abee150ef6b0"
+        "version": "52ca4b4f7487e2f81be85df1dd297b21566c0989d414f3d807247cac89a61212",
+        "signature": "f9253601d6af1ec97d38c12c8b753a4174bb70bd23a664a408fe432b819b42e6"
       },
       "./src/icons/general/iconclose.tsx": {
-        "version": "7a00abe39d153448b280c1ff36ba6cb4a94c8ea9b56931933c8699ac1e0a32ef",
-        "signature": "671ab41eda4804f45cb66652a111421b042b5d829218e4ceef0e908b5b23d2b5"
+        "version": "00f9567cfc9b97d471c57cf6b2f71b33dad6eb199a53f676c09df6bd3c47ad9c",
+        "signature": "5308c7f843a498de1237e1ad0cf22b38524d1301b1ca4d17b3d0440ab207f12e"
       },
       "./src/icons/general/iconclosealt.tsx": {
-        "version": "ecd6cdc594d8ad5419842528a2581be47a32e29aa33e67e6f617e47c1dd912bf",
-        "signature": "e1138301dfe176ad2c2ca4136a81005d85d957fb7a62904864f624547c7fd9fe"
+        "version": "85850c5c0b899faded33f556be5739640fba4b0e4457c1f1c479f47185d285ca",
+        "signature": "e4c1775701ed0b9b9247a5446388b6511374434913257a2c65cd1d96a2e32128"
       },
       "./src/icons/general/iconcomment.tsx": {
-        "version": "f66d115bcd63c83801d1d93376841ff9cffe0d235bbca415dd0a06e2afa11a59",
-        "signature": "d9d1d45dbd49e85d2c64b8b7f688eb6cff35da1791b9277fdd7174376a1657d2"
+        "version": "3c65953fa6e3b4574b8514ced6bf613d3ab013e11354658aa86eeb55673ed22b",
+        "signature": "02aa8d87e09a29654825506c61029b3c93f780e97026c8d847139bbcfd116b84"
       },
       "./src/icons/general/iconcompanybuilding.tsx": {
-        "version": "578a80c44850e216a00ad6a76c9ee0272b82fee4215413b0469bf79d30770fe9",
-        "signature": "f5d4ab329a8ccd9584667a4a200e1e3d92ef41e77cb7271e9c7ca81ce2c68a38"
+        "version": "6b6859321d43fd4debb0089008255af2e993aaad3e8fd265be6d92b2cb231862",
+        "signature": "a2b3acfe64b79696c06464a68bcb6af14fad90058437dcb2bfd85cfe8ae0b835"
       },
       "./src/icons/general/icondotfilled.tsx": {
-        "version": "6953ab0d8e2a3bc1e904ac82f65983c44fa53216b476596bc69914694b3428f8",
-        "signature": "b8039fdd1418dd643a9335e2029cfdbb969ac5cb4983582cc26003d810ffd0e4"
+        "version": "df7e553348d78504b35a2223dd4cf87261a207c8a37410f5d9b2de618e12bae5",
+        "signature": "5dc4c10955c1891855ad62c04afa6662fe2053255211145a831550fdbbbf7153"
       },
       "./src/icons/general/icondotoutline.tsx": {
-        "version": "a3cf04615b7238b2110d364f444a7fed8b70d41b6b8b4b2ccfa6e7c6a2177c96",
-        "signature": "c257a4f4da78a0230efa50893edead5cba735b21001bf79091694e0bfec3bb20"
+        "version": "ad1a571c7a73ca0a24a2fabbee36ee1d54eb42fd4964854b9fd64617b21c2d69",
+        "signature": "cc34251bcd87c0c8d326be4f2d953f886ddcc765ae1b9de0fee98a5b109e304f"
       },
       "./src/icons/general/icondownload.tsx": {
-        "version": "5b8f1dde64c5e59901a64b5874f3729d535e8f074af76454d659ddd8c94810a6",
-        "signature": "2ca073bf270f3a779465a9e3ecc5f1a2b42f92a3d22e5468797f5c820aeff65e"
+        "version": "52f446db241c3e4ca3654b8753a69571ef48baa96e6c851ab05956deae961e92",
+        "signature": "9cb6b692fa030ff2595e8c8e779525ef02471e1b878c4d949ff99aa7b0db768e"
       },
       "./src/icons/general/icondraft.tsx": {
-        "version": "d5ad32e872ea1463816fcb11d4883fe3a23537628e5d759c89d90b12bea20141",
-        "signature": "f6f3e7e834d7b90634de456bd2ca0c8cbcf9acaa8684998b4e343657adfc56f6"
+        "version": "6e0576380cc85b14e75f4743fc40d2a15809b9c4aa934c106a5e014f9a8fd273",
+        "signature": "6fade408fe3f12e34b91ae9072bdcbae6cd3f4c35059f52a2de50e118839b018"
       },
       "./src/icons/general/iconelevator.tsx": {
-        "version": "c523c65a59ff17364847668e1965198f86a620fee2e337779ac7cf99dff5f945",
-        "signature": "5823d77d8bd8dca0ceefa3e63fcfc00bf1ae4caeaccfe52768b81142bb4699bd"
+        "version": "a07f1424dc6c780b00a63b8bd27eda7904a0ec5939f7aa0353d85e6c41550915",
+        "signature": "98d9ae971f448275e3f0b045277083b20b4aa5311d83a2eb277d920a4d12b2c9"
       },
       "./src/icons/general/iconerrorfilled.tsx": {
-        "version": "73a7c83bbf5c931d6bed46021fc85a9869356fc0e3feadddf662c28ad6984ded",
-        "signature": "5ee12120af0e83d924d8ed92687afc5a45b8f70c66ad51d1aa218793d7fffa45"
+        "version": "c9958ec238a01777048fe47daedacfb806a34a5922c27bf9fb4081ec866cda59",
+        "signature": "f92f8cf310832f9d01cada17a1d19cbe8d99fe20bb28e405e47db4cc434e819f"
       },
       "./src/icons/general/iconerroroutline.tsx": {
-        "version": "3ff995ea73a2682decf56f8f4aa720c79b80d8beefc502bbda83f063a4568266",
-        "signature": "e361c4f70634f7b184c1fa9f86a114600c19caa37bf943134ce9b759857fe191"
+        "version": "14d44fd1a8c2a2ddb931e05ac9cf83330636096625e54db1adfaf50e27cf1e1a",
+        "signature": "bcb15bbd17d7120a8b4df96f0a3a3d3f994c855de98af3f506591184f4ff0b3a"
       },
       "./src/icons/general/iconexternallink.tsx": {
-        "version": "d2d7130ad79b075f89491f6a49e2679b2b4eab66a85fcfe6a88d7de53ec18987",
-        "signature": "36052a44221b41ee63d3a0c27ba46ff51662da132933050b00683ae55ea1ae1a"
+        "version": "ac321d7db212fd9ec0c05a6ee15f0a598ce754af5e3594726a7a7ec4f236e4a4",
+        "signature": "1b8da8c1966c1d0da5161c79c12cd2bd155671d4b34fd8b14fce70420321b066"
       },
       "./src/icons/general/iconeye.tsx": {
-        "version": "43bab6498ff69e00c8294a6b92e88981e352765f5fdf1b396d407dbff914eabc",
-        "signature": "424958faeee4e3a95cab33ac599b11dc0a55314970da6bfba9bf80660780da99"
+        "version": "731430c87c317edbf52982d07c873bff5b789d478bb63e0d7025b092dc66765f",
+        "signature": "3743bc063ba9e1634112c9fb6b92d46cb7718beb9ebdee1e6419536125bc62f2"
       },
       "./src/icons/general/iconfamily.tsx": {
-        "version": "991944b754cae09e1d167e1e5f9bfeb6c6ec87b97f2d3161eff8cc86b419f5c9",
-        "signature": "bdf464220540c20ab0bd3c48e57b3f9198405172c1528bfe3f97c83ebb0859a4"
+        "version": "7c3a4201cf37cc078b077cee7fd1a2e2188440f41fd386302b0194396044eb92",
+        "signature": "6a2bf8b1d791e431b0461621fc609431cf8e8cd4a3251e32514e605244d92399"
       },
       "./src/icons/general/iconferry.tsx": {
-        "version": "cbc411fbb26f05eee822f5caebe5b3a072a49fae982ba11971e82970c640a9c4",
-        "signature": "5b9fd2ac1e3f9cec0e061e49ce5cd2fdd5ba6096c4ef56380aae6de1503382c5"
+        "version": "4161a3681571125aaf7cb9fccbd306277743935b22ebb43a84f64fed16073f62",
+        "signature": "ce308115be3d7feb379c12c8062659c12212ff867e7c799d940326751be893ae"
       },
       "./src/icons/general/iconfile.tsx": {
-        "version": "ceef33a1a12a5e65336756581fb33ab2b1e2da94754810b204449f245bd0432e",
-        "signature": "3f20a72bf582bc158100b70a00142795bc88ff30a8203f7a0209db9fc01ff377"
+        "version": "c9827815a61f983ba166e9d317f3bc486573c6b9f3b18da3baca2afec10aae2b",
+        "signature": "3acb3610395b4226bf1f6182abbf1bdbe56f65954e617a45c09a4389658e3377"
       },
       "./src/icons/general/iconfileedit.tsx": {
-        "version": "9e915b2e75ae1c726b2c0be52f3baac993749c17ee329a968a362b6d431aab46",
-        "signature": "de826f46a8f2468a73bccdea48aaa5e9040a7762f36e7e7d4aaf7ffcdaad8176"
+        "version": "7a857573cc451a1a258d022a44738fd53ce166bdb59c4a8451f9fb89a286167b",
+        "signature": "72d78e37e2c6bd04d599b13e42c58240411bfddc2cbb8e875e1f51c7a571b940"
       },
       "./src/icons/general/iconfileexcel.tsx": {
-        "version": "1383df870b5f13b9b3419a224e95dc3c14d41ee7c06553f94b8f7702f2e789ee",
-        "signature": "4d2c6b7d005c635a97434dcb8f1e0aabbbadea2dd5f65441fe9866f920190f03"
+        "version": "7e3f7fde9fe8a02b1d414a964e85f349d0a1619924ad9c4f7c5faaf39dc85015",
+        "signature": "bea50e01af48e6c27c43c37dbbb92738b69a2d2a2872c973c9eacd0e619edfc5"
       },
       "./src/icons/general/iconfilepdf.tsx": {
-        "version": "b285343a94900d6752434a614d4faf68241c56ad4aaf816b842480c816e8e701",
-        "signature": "9899dc9fe736e9434e95d847a6e3fba243927d5e17dfef2b068cca0a7c62b0a8"
+        "version": "cb96457b423776fdb2daeab75059253b1582dfa06c09867ce07a8fe7051cfabf",
+        "signature": "38d3bee3d9f3e72e46a93ddbd83a41d0573bbd54b4eb2074d399ea2e9a23b38a"
       },
       "./src/icons/general/iconfileword.tsx": {
-        "version": "35d0fd6853e2b3a9ca6e84e9954169949cdaa65b2116b56da0b9c2bba021c276",
-        "signature": "e03a3a7b8ebe0174b6cc257aa442f061339c7e2de7ccf6c143943b6a4b8536fa"
+        "version": "dc37842c12f3fcce64a9c83f465795733476c106623563ec7ad60a85c4460c74",
+        "signature": "ce2b79cdc20a39876b6c324c5c77e84f87e0bad57437ac9700d8aa8b65d5207e"
       },
       "./src/icons/general/iconfillout.tsx": {
-        "version": "3066cafeff001870a367329d1fb7d97ee02dd4f4afd1ccb70b282b37388bc461",
-        "signature": "acd29c8736f5c16b8291b0fefe58a0622ec454af57d63c6bb3aa7e08cada52b7"
+        "version": "2500d8e98bc4ae57a2d065e4c2e58a7cb38d0b3629535cc8a6a9a3c86b8e9e0d",
+        "signature": "c3ca92eb73e2bcee3bc32d56904f2399ab815738073fdb976759abdffec559cc"
       },
       "./src/icons/general/iconfloor.tsx": {
-        "version": "02fb0e9af61afb0a1655a50c02891e122d74fc5d9b5b933e96fb146d68dbeb5e",
-        "signature": "4ed984281bca02533af9f1fd688d994af4431cef7ee40a2dbc38b6d8a3ba300d"
+        "version": "09abb244e7e7a9374d247b1ab17b44a255c23e0112ad9d7cdf264cdb09ebfa90",
+        "signature": "e9d3c75d1baea881ab73c529318bd0bfb842152f57289cba033db3f6f4e28491"
       },
       "./src/icons/general/icongarage.tsx": {
-        "version": "46c15eeb47094af0b5086cc7075fa7503120d4178db08bcc021090d6b389d793",
-        "signature": "1e6a38f1b157661530bc263c25359228339237a066d5a1b5cb5eef559599f0ad"
+        "version": "c26d8b85928de9ede7823cd2faeaadd26449318b5274704c543afe178d8c93d5",
+        "signature": "31d9e880eca154197d546af45af78f9da07437fcc519c5b9514563eb090d9a2f"
       },
       "./src/icons/general/icongrid.tsx": {
-        "version": "209d3d96799e36216115a90a7168a1b72ac65c46df31a95637b5ab306f76745f",
-        "signature": "38c34f8b553e6f6e56a41c4b2caffe7928da99faff14ce68b93c69fe7d025bab"
+        "version": "585a85db1659ba25aef036f08bcbd172d2cf70730f4aa7d0be6ecb34b431d557",
+        "signature": "949873aa104105970c73b585ded3cf8e8da395943c7eb1d628f90e52ff929637"
       },
       "./src/icons/general/icongym.tsx": {
-        "version": "2fa0d304789a5d66d99375fce2cbe620fb755e8ba2476938d87b6f9b4dda787d",
-        "signature": "7e9592f5393abb7be6bc6de0724ae885ba09bbe22f7d1e5e801aa5e3c186fdbb"
+        "version": "3f5e04a6aaaaafe5d918f3b6da1754e31583e2cb28a06f39b4fd846b72d31bd3",
+        "signature": "145aa9ac694b2a6459cc8c28a4d31dbb026c7aba5fac642b80541ac509473972"
       },
       "./src/icons/general/iconhearth.tsx": {
-        "version": "98ba9620cade7873789c6b51b856cf3ed52efaa73f7a730d9d0c43b9143e0de3",
-        "signature": "f9e0c874f2da109e1be26b8b2af2bafc92b4e0504503af2c401615a98e035f56"
+        "version": "f1e73eeb29523dc02d61d83cfb89a274087d4620404ae17a2656b301bee0a25a",
+        "signature": "beff9532023a450db88e9b2f81854553f0699cfbf453d9b42ea27c5296b2670e"
       },
       "./src/icons/general/iconhearthoutline.tsx": {
-        "version": "ff6ba0a6e03696f474d2f7e35479fa09098f4573b42bb8705657150ea6776313",
-        "signature": "083aebeb0b004337d49ec1e6e3898215e00e1adc9baf7c05b0a6778662298498"
+        "version": "e588d88f527e521e62ed548b9527f7f5c264ad6fcd69373fd802b37f9f7fb8eb",
+        "signature": "b99f7e8776d27348c09849e25d082ada486303737e8ecbf0673663c0bc296445"
       },
       "./src/icons/general/iconhelp.tsx": {
-        "version": "4a4b3f88ab15549ba5a03e5408b24d894c63501b7a3a0719eaa4dacadc3e7456",
-        "signature": "fb02a7c06b11219a319185c8f2e2b8358a455b679030cbeea20f877f832790bf"
+        "version": "32662320e771fddce0274976e729a2e206e88c1db26f17c94e467d8e8af7f40f",
+        "signature": "623ce3f312896a741e3a260d11df327e8a1965f49e0427fab5c1d257eca00581"
       },
       "./src/icons/general/iconhistory.tsx": {
-        "version": "45f3f0bf337c0f4225dd9de34ef267c260f689df7dd40fc90aa624bc1f81f9e0",
-        "signature": "8e6fb6e968c32bdf4eb3d13b759668216c15b0e87ae1f046d762205dca6571b2"
+        "version": "d71721c5bf0ac827304d4c988be222e9939e2021eb245df3d02aabc33f14edab",
+        "signature": "179968c50216ba4db0ed3338e1cc56aa0d26ceb43899cee076493d8f33a397c8"
       },
       "./src/icons/general/iconhouse.tsx": {
-        "version": "fd129af5fb78f4b2e9f783829329599245086d559ef3d4002113d46757b53f8a",
-        "signature": "3f6f4c4167204d9762ba7f27c28b998d98822e992622dbb0c2a4139b91366a55"
+        "version": "3c2c3e49d625691496ba214fb88adddf203aaac2e86f6a403a2b0f32aa0c5296",
+        "signature": "5211104e05688417a43ba4ff52d4bca994a421246b686c4d8a6e86b55392f181"
       },
       "./src/icons/general/iconhumans.tsx": {
-        "version": "88aaa31e85ebb9a3aa4b8531d99549b4d2bd8040d868e9cb8aa057f512bf191a",
-        "signature": "b97e1d8340c15242a2bfaff36c33a2d6a92d20fe22b1c777a65d565a62c99d98"
+        "version": "c3b974ee24a69fc4cf423bef79d360221ab1ecd937bdb2baf5d2b215cf45e950",
+        "signature": "a14fd50b1e1993bf5bb86dde5a1c979f0708d880de4188e5b12b3a6008c549fa"
       },
       "./src/icons/general/iconimportantcomment.tsx": {
-        "version": "1031ee04cba2b1184eaeaad65a4940375f364ac34a6077c40d8841ad4b3d1b6a",
-        "signature": "ac6a87f950a70320ed968cc4a6c3edeba3b0616064531013ed98f308306f075b"
+        "version": "b7e9932f614f7fea6ff4ac39114752eadd103e41a3798b94635e9ae98be7cfca",
+        "signature": "a5698622769606179d9df956ed04378b51eee40389e7271ec6471c9841c2ca20"
       },
       "./src/icons/general/iconinbox.tsx": {
-        "version": "96b0ba791080808945eb70663e979d27a782fd6fddaa4ae268be59c5926219c3",
-        "signature": "074f02478f9dea9966ba612cd11b0cbd8427c24f49da9be6c77038ee03fb034f"
+        "version": "ae54731f4fe7b904c9aff83e689eb241ffb7d40a7b826eecd174e4681d0ed4f7",
+        "signature": "690eb93dfba09b60cbe77558a696685c2d3b5d4ac0a6af55a57ff7cbc5744b59"
       },
       "./src/icons/general/iconjointcost.tsx": {
-        "version": "e3bfc9f388c0e6261790c76d6c5fd2ff2f62960b9f9fdafd1c6a2b01af19f553",
-        "signature": "0ed4fc6a4f9e308effb81b8de0dba9295a0eaa072f37d6f5ad8671c1a18b72d4"
+        "version": "7cceaeb261670a259f7ea1efb6e43768b055b23e4ab280fc41e9fdbc288ed7d7",
+        "signature": "f40671922a78bc6a73d3aaf3ded915eccfb382857027e2afe30e9edefec7468e"
       },
       "./src/icons/general/iconjointcost2.tsx": {
-        "version": "e8fe1d65f1a09d4718156bfaf1dc991012567028727754fcd5e21cd44e5ff0d3",
-        "signature": "1386f8d701935a6f41c590ef9886406b2dd386f33d4ee5df58d1fec1d9fd2612"
+        "version": "beb6ddd5589cf7bba88ca00849cf95ec1919681b467963b2c09f822efdaa3cbe",
+        "signature": "24cc45db0a516656c4b7c57fbd9c7bd31aac398dea17f60e1dd02eb98683e14e"
       },
       "./src/icons/general/iconkey.tsx": {
-        "version": "b45c0d8923fb84e4efd417647f19a1f431c2683416013d5531bb4e8f2faa96ff",
-        "signature": "32068b743165c5159a5ad622858420b7eeb69db922519308be16a61493051120"
+        "version": "0d09b0ab4301ef8c8588962b5d441655bdad6dbf43a48f07d4be6a04d6d58380",
+        "signature": "5ed358a26f6419d85c826fecd43267b3341e748e50bcc344015c8115014ffbef"
       },
       "./src/icons/general/iconkitchen.tsx": {
-        "version": "e586af6e1d450d968a29c17a555874b5673bfdf6c84191c19a663dc73a6239ca",
-        "signature": "bd73056955c66fc71bdff5dd5285084d0ca53359bc7dbf67226e6d5f74999db3"
+        "version": "a4ad820d5ba8aaf9e6c95cdd9f9604455342b1b5abdf3a846fa7c3c6a76c6ab5",
+        "signature": "2aa0b9b18fb547607bb6439d69602a3dfa62148dbc417bd56dc13bc00c6d42d5"
       },
       "./src/icons/general/iconleisuretime.tsx": {
-        "version": "f2011a36efeaebd3db833aa24d158b00ee80a256291126b699ce688773a25e79",
-        "signature": "824e397a423be89ce424b2c5408661b2e370a746bacf989ce94ada9dbc2f95a7"
+        "version": "92afae9a7dca2ccd28cd9bd14f44db58c30848f17d21fb8d7bcbda88077fda9d",
+        "signature": "da7c8cd33d426290ad879f9539950390d922cdc3372bfa71aee782b7fd963f87"
       },
       "./src/icons/general/iconlock.tsx": {
-        "version": "dcb1b870c6a51a9449489de85d2685b2f10d2ff33ebc066b34924419777f88d7",
-        "signature": "364efbef33ce33fe78264dd3086b3ff9112902d9de9f6e58d51617f679e5489c"
+        "version": "234ee2ebd4a5126cad523de77dc75bdb5dd911a12b945eaa4e9218d032fc603b",
+        "signature": "eafcf80b8f636f74ea019183b17ce9839c983364565a58c79f44519fd656f064"
       },
       "./src/icons/general/iconlocklocked.tsx": {
-        "version": "b28fed54d53949436b286b2cc814fd8c06eeb5b1d20519b7bbb22df5f866f10e",
-        "signature": "b90b4088d46df3c0a93b756686dac0320486726d34fc3163799d6f3e02a3bb1d"
+        "version": "5d3eadab5d98d8ad0bc3a1b209540f4cdad98ca1e4f583c8ddd996be766999b1",
+        "signature": "4488421b27dfdb8c40d99c92e45e7ea4ab592d8fbd4b718f6052d001fbeb686d"
       },
       "./src/icons/general/iconlockopen.tsx": {
-        "version": "22dead7a3b10506c736099bcef1d413b60b64e1e97b0e3edfd34845f5c49b2c3",
-        "signature": "85b74244e5b2d7cdb8483d3bb1915d2241c283883d8506ecb9af9f9f52e006f1"
+        "version": "8bbf0229ffce196f403e79ac46cea5d3d0aef9106d478a173d46dc32e0155e29",
+        "signature": "905f2e407d7f17a45d3822e387f92c3116b1bed9cc6b8550db8cfc9a80cb9d4e"
       },
       "./src/icons/general/iconmail.tsx": {
-        "version": "020bec1c3fbfa8179a10eaaf4a0169fbcf30719d3999307ec8ed8b3ff5a77f50",
-        "signature": "0fe1e84d30f07a3f34b64196ba1db11ad271699fda714d4644d9ae88c0432d35"
+        "version": "4d72e0c1b3b18fe43c05728e947e1ee73fb34c38799473614cd0bec0ce75b8cc",
+        "signature": "39ab85621b12d28c810cfdd03aca4d2b1ac4a196fc6763ef35326013dee70564"
       },
       "./src/icons/general/iconmap.tsx": {
-        "version": "646c2b6b6604d83601d73d18d64ba9fcb39cb86478636727d4fc9b250932f3a7",
-        "signature": "c3c5228377c2c8d06b52dba7bf7dc90fc3cf5fa7964c38d407fe8640fd227d50"
+        "version": "0ca5c96388a08dd9824ec276ef324ccbc0c6da46a67a33525cca8bd2b1b0f599",
+        "signature": "b79e5996766098624d2382fb4ef6ce6cd98879c95fd1852977572215569f5004"
       },
       "./src/icons/general/iconmenu.tsx": {
-        "version": "4f655ef1c735bdd86cc35219425831b7b78a19ae6fadf20fbd1b796bbb864def",
-        "signature": "cf25e4da3681afb829c7a17d0eab5c1b88d2ec73fb8b9485a6050e2a5721c87f"
+        "version": "de07eba3f4342717e80b7f77d407620a45ae99ab83903d3e19e662f06f37d9ec",
+        "signature": "97974be696ce8597c3b2d765e2a780c8d4f79cd48b4cb26a1d52b25978a6bac0"
       },
       "./src/icons/general/iconminus.tsx": {
-        "version": "31d3fd6087e870d6be66806c65225ab161225afcb9f1018a25aac6052ae5693f",
-        "signature": "fada4cd44ee3d62a141d73d5655652f786ba8b883fbf63b2949308503b38e3b0"
+        "version": "4543d15d1e1b827b5bc9fee988f57fa653945042592e4c9faf807e1fe54da013",
+        "signature": "de31deb5dd5ca7ab6f35286dc38e34531a8759e4fc4c82825ce2e0294928a19c"
       },
       "./src/icons/general/iconmoney.tsx": {
-        "version": "8beb582e1a9e55539e30b834fc053e06b3eb9c8194a5fef4ccf97fbeed352880",
-        "signature": "b73c3198bea08687baa1f67419b57fc5b00b2f71fa9ca83a1a7c1e24191dfa98"
+        "version": "5fb04567a15e048c998d8ef40e3b26731452512231d7a1179b28157dc97b1f10",
+        "signature": "a4fe4a75377bc9698f55b7a76b5967dbae14b940a462f286054c46883ee9fb2e"
       },
       "./src/icons/general/iconparking.tsx": {
-        "version": "aaad9c01ce37b3c9ee38ae67edc95cbbe8f12378dc43e13b48b9e32401ca78f2",
-        "signature": "a6235ec171fc9f4ddfd0516e1720353ee5dc941391db9c073ac42017f5c9699c"
+        "version": "87f325d827e903bf57214fd344c1ae9ac65386229d75661141d7d06a10ada9f6",
+        "signature": "89c9d2dc7b05090f3dcb9c4b67fde12312552be771eeed1232ae67792dced277"
       },
       "./src/icons/general/iconpaymentcard.tsx": {
-        "version": "92c5a66af6e3fe2da46401e4c5bfdf59d1b0b7e7e81830a8c8d7c449b7193d8e",
-        "signature": "927cfc497c9496f53fa87883daef6c658bad7c538312dd0f1f180b5b1a65906c"
+        "version": "91b8cb528be20e65070efeaf437fb4127f1dcc76bf1acc98a19a93a097b56663",
+        "signature": "877bb7e350d0ee1e1553a7c314ed5bb0586ae32833f3001505aa5147ac4b42f7"
       },
       "./src/icons/general/iconplus.tsx": {
-        "version": "7ece0914d72654bb25ff4ec68968c369c1ec071147f8bc1d10d136da3d9e5dc4",
-        "signature": "d77ac70e88c35ace37ce85844e810be5e652055bb399441c76a8dfcfdf875be0"
+        "version": "efc2998341c81f9c9846324f91a18e48eb4cc888a1c5bf924f2d2e081146dc9c",
+        "signature": "e51072c2b19891eca890f099c1eeb4415f245aa19448d4eb1e0f96f30b3fc5c5"
       },
       "./src/icons/general/iconreciept.tsx": {
-        "version": "101600a1eb2700c88935abdfea1fda1e9895f123bc040835a8c9c5a4a9f137c8",
-        "signature": "e69610923c31d4612f805221a5680677ccbe5636c720a73c8d2b112bd777054b"
+        "version": "7892894143031caf570044b6f526882b5f74c6ddfb700eabf4a86383ae45782b",
+        "signature": "2fd2177b864c03de29be84f9a1b6fa54a9ca3d8c4e05c85652764429b7c832c6"
       },
       "./src/icons/general/iconredo.tsx": {
-        "version": "1f4b44ca268d99801487b780f281b9df8d655340db99eeaa3748e59db367177d",
-        "signature": "eba82917d2c91e0bb0c1f94619dfc6fe1767e1bfa033fc6ea76ec4022f86d153"
+        "version": "d07e75cf3ef40e2b558e58d6f615a5f8ca3d2bcb0f4158bf7a5d342d93d44264",
+        "signature": "5e2f868d9dcb129dc1f09a15a65161d21a71537f415e33787485d78f29d8259f"
       },
       "./src/icons/general/iconrefresh.tsx": {
-        "version": "810bf35f427226fb0e1d17a316ee61325da87fce212cee746052032b7a874d07",
-        "signature": "54370887f2dc0a34d82c4afadf5d20ac8fa052dbdea5b1f2fc06b3fb19ba4e0c"
+        "version": "c3dabd630e7e371d52df86ad849cc858fb39ecec82d3eaa70c83021c3a7eae4e",
+        "signature": "fc08824924001c4f421bbbb432f54894c11ec63ab9605b8d7eea4fa7f0cfa5e8"
       },
       "./src/icons/general/iconroom.tsx": {
-        "version": "7debd3cf63d5a3ea1fbcc5f326fc7999dafee90184b5cf51538771698af3deee",
-        "signature": "25b6ade9c282e49a5ff301896a5a246c95ab0d2157ec5bd942532065b8360eee"
+        "version": "5ed791810de7c21b456777a6c7399c1af3262725b8b5a34049fb9bcc4a7c8e5b",
+        "signature": "e0aecdf3279d1d4f1e7fd0d37cd3f93f80695ae4099775ff103c048bfb723b8f"
       },
       "./src/icons/general/iconsave.tsx": {
-        "version": "eefc1c2ccc542b1391015cb652c3efb8e616d79b1dfc34121f2cd42e2c75c582",
-        "signature": "4e5a79b37d7b397d6b2dd79b1594ea48a19f0e83e6dedf97b54fe26f3c1adfca"
+        "version": "4e976c7ee4a60dc9be514d3120ff29c2f392f09eacec5402d28ee4b216127231",
+        "signature": "acfce6933b45088a2247e19896c54a95dd9dd9fdc0a4f725c1992f95e0c1fab7"
       },
       "./src/icons/general/iconsearch.tsx": {
-        "version": "faa74d8d3bec796c33b3becddb038eeec79cf7d6cea4ad5e1962b32402326489",
-        "signature": "4fd644660735e25cfdd01ffc0a8300f44e9ee3ad4f07b3cffe98a925b0adc331"
+        "version": "ab4ac7765e68ecebabfcc8e58e73a47afde5ee3380c259da060e2da30155096c",
+        "signature": "dc9e93c75e2f2a98af6878aa273433ee1c16ee258ec2849d5bb4403473fd121f"
       },
       "./src/icons/general/iconsend.tsx": {
-        "version": "9b53acb6461755f0eab9e5e28557f61f9e388cb20d7daf6f0a2985693473b0b4",
-        "signature": "fd553df1bbf3b183cd65fb2fb0af2799d366ac881c530cf0497ceecaba95f13c"
+        "version": "21dde76fd0bd70f0408de0d03d7e22c9845dc5f353a0e248733197c15a06dde1",
+        "signature": "df6b6b55f5d6fd1d91a04a4f28f1f2d8ecce0446779a99d118939a0ee03313ff"
       },
       "./src/icons/general/iconsettings.tsx": {
-        "version": "cc13f40c829e3f9e30d5902a45aa75fae91af163a6eeb0f61e703629e9e108a6",
-        "signature": "33028b8cb0d4df637caecfb5024db9f926af3232526cb4ac35b93e75aede1315"
+        "version": "1e67758a93d09c112e964fb4cc604f3c6da024004e1c10c5b45e7129532c8599",
+        "signature": "8419013d34c114810bb9f01de2ee14950909210b3d4c1764b67719964fe1f9cb"
       },
       "./src/icons/general/iconshopping.tsx": {
-        "version": "588c501f28cd28e7f77d93601ecee0ce764a527e536fc6b5ed0d85108505996d",
-        "signature": "8c83582cbb275efa8235cff31e9e90347b47947a6591ccff24e724b6bbf2f8aa"
+        "version": "6462f1fd5d92ce9bffa20a96b6fa88cb1b4fa01a819ed341ecb564ad19b20637",
+        "signature": "6387893f9b95e986da565508d2aec840effad65983f8625683b09c355503851f"
       },
       "./src/icons/general/iconsign.tsx": {
-        "version": "c88afc4163a906c7aa15d938c4a87ba9143dc2f8a45b27b0eddf31a2d25570c6",
-        "signature": "3dfe08352be2fc00b0445f31e9b0d24483001315a913abf428fd24c632db2b29"
+        "version": "705ead8432df6a15e96a0ae46480263a7c4613272df2674a627154e49bb7b3e3",
+        "signature": "df38c3348bc0874d91b2bd106abb3f2101442d9d90d51749be74a746c2196272"
       },
       "./src/icons/general/iconstarfilled.tsx": {
-        "version": "c5ab0d9da5648649d1932fffed4e29f44995c8168a96a25dc16c97aa700b5199",
-        "signature": "ce5c5aadef5c7b29f2982d971500015b9838383b5b6e6e6b03b28e96fd6e1b94"
+        "version": "6180ff3ba59791d4ee15d60f55e5ae8417e72165523ba6d2d8e35db9dd3336bd",
+        "signature": "66d453c4c6c07e29bfca3cc7bbcdc773d310b9084fb0847b6926b6856cbf62af"
       },
       "./src/icons/general/iconstarhalf.tsx": {
-        "version": "475a95b645366498c9975d5ca2d984bb079886f09370389ba66762ae957da3f5",
-        "signature": "ae8f7f6cba66359b09b9c8a1017c67b42ab5f02e6d5b5a054e93c08dfd541d1f"
+        "version": "606e67e7904c8772cd1a2c15593f42d2086c9352c74e6441525910e2e983240d",
+        "signature": "5cfc5021b83ca0871cea8311e4bc7bea23b9a64c594500162e6bf1553b998958"
       },
       "./src/icons/general/iconstaroutline.tsx": {
-        "version": "951aa8401130bc34b83a2374669e8a1cf630c0814fbbd02d70bdcb655bc90ea9",
-        "signature": "b75e33f47fb2fa14c5f09fdd4a57d5dedef1b729af94e0dc9c79b26a882022c0"
+        "version": "fc42ed32a10961dff5e47c42221c03089d5959264a0e5338237af665e4980d8e",
+        "signature": "fe308230eabe5460f8c94e465cbcb70300cdf7645ad07923cd2a7aeaec7a0cee"
       },
       "./src/icons/general/iconstore.tsx": {
-        "version": "d7999e8495c4a90111ad69dced7e2eb4799fc05d6c1efa61e43a6eafb8fb46b0",
-        "signature": "01e405030cc3dc76604f2b57f1460ca1676c37eb8e4c49483fbefb574f8548dc"
+        "version": "2449c9870e7fba703080405c101d913ca062a89773a206c90507a19dd1998c13",
+        "signature": "17f40eb636bf315f1dc63ad024644dc46759c5b89561e48f150877308283d200"
       },
       "./src/icons/general/iconsubway.tsx": {
-        "version": "8262d189a301c8af71d8f6fd99ce09e79ec4491c84a617f6c738747492f41529",
-        "signature": "55ba6d6bdc6baca1e68d9c9892fd51de81edc764919e6a37c5a6087e5be90dd8"
+        "version": "061fb9abae2eab0c0931cbecf397bac86752a15c21ed82463d8d7ad4204e1f68",
+        "signature": "86fdf5cc6eb8e227a29fdb13e6e655866e2c4b298cbb4e25112f0e774611ae46"
       },
       "./src/icons/general/iconswitch.tsx": {
-        "version": "62a6a64467b97fc47e6405569c806d4ddc8419bb346c7cd669469bdae858adb9",
-        "signature": "855c7abddbf6704a58ea6b9f7cefa2f9114ed35cb6f462b01a39dfa8e8d676d3"
+        "version": "f6d3bd6b03ef5eddfd8d8f35e715ddcbc4341b19cc673b2600d567379ba4dc91",
+        "signature": "1c40e067b12e179695d386e35d09dc9fd5ebe103a24156a06624cd6557a0e25e"
       },
       "./src/icons/general/icontrain.tsx": {
-        "version": "8a486c24c9e1e1c654ad89b5dbcd4e625484a97069e769b7f93bb1d625a290c6",
-        "signature": "1acf8bd17bc2fc38014a58d82afb43183210df0a1c1d8f6263f79e76f53dccc3"
+        "version": "183d9ec172444e969f0bb69f14928e805f8dd78ec9baf8dd1296a773e0de76ba",
+        "signature": "07467af6de83a15649588d9d62a13116b36d211b566fd72b132a09d729c84edf"
       },
       "./src/icons/general/icontram.tsx": {
-        "version": "aada3a48036f00dffd01d1ebf19c367b8c22e8e2eeb0bcd9eed4518df33e9bf1",
-        "signature": "0e941b7c999df4be39bf86d9909f0306ccdca31a1fb36f871da13031eeafe65c"
+        "version": "fd6d7035623e1474aa9164e2ba3767f76f7683458a3fa2712891c71295719cee",
+        "signature": "24d5e2ca6e4a46c45b7ce1916ddaa3f0e21e71d7051d111f548881f71541a07d"
       },
       "./src/icons/general/icontransport.tsx": {
-        "version": "ae8bf6060ed5c8bd60a078a827922d26d82eeaa5b88bc58079c117cef8441245",
-        "signature": "b8e781d2f0836de2f759246c821d4b78a5763d024479a58aab2be843b39dbf50"
+        "version": "12d98b5474110f42c85911796ab06aa0957295fb6e41c5efb84f700ad7a09ae1",
+        "signature": "ee18d6eecd572ad7a704ba12064756093dd73e5cd47a7eb9ae21108a62185283"
       },
       "./src/icons/general/icontypeofbuilding.tsx": {
-        "version": "04e56b816daa04c0dc91379b2036bb929a5da1b23af15540a3e229ab02ff03ed",
-        "signature": "70fb1a3e137a45cfadf28faf3c92c495bcc6e46be00304794a9b129b524bd53a"
+        "version": "2e814ad19c652c933cddbabc9632bd31e9c47e53d3c55c1ab7c69eda8412558b",
+        "signature": "21aa7e21077b60f158ed7dd02726df05279cbf2f2274c71e39fdbaae8bfc44ad"
       },
       "./src/icons/general/iconupload.tsx": {
-        "version": "2c9ea6ee95556c96b41a6b2cb5ca23ea5cedbf3b400343c930dda41440bf1d80",
-        "signature": "81afbbf5a7461e11a7323914d5a1f222268936f4d9c83310a41beb1894a00e9a"
+        "version": "c6bbc7da7b18c81dd567c8397c3bed898c38393016179f84f3f7079834864236",
+        "signature": "37befb067081a90d55079204d02a1b37c4ac1ff92376a3b89f3d5b1f363571ec"
       },
       "./src/icons/general/iconuser.tsx": {
-        "version": "07c175d9c8243059bd849b4da4fa8acd4620c69178d028e8ed462c2a89ebb7b8",
-        "signature": "e298d076bea58ceb7058ea440b476d641ad328aedc89553008f6fb78a605eac6"
+        "version": "81e2f40a8b2716fe5078640dce52219198ccf59ab20a4a82a5b9c8cf1ba56af1",
+        "signature": "ea45216e726f3fa3115d1f35361b8413e433f5dd6fb2270e40c8c722e2ea695e"
       },
       "./src/icons/general/iconvote.tsx": {
-        "version": "86380838b4ae9dc365338ed7424256db7d6fe862f1c6e8bb7563aadecbc14bf1",
-        "signature": "19787948d7234cf867b388dadaff8a8bad1bcc7d96b2bf4260479d677be2d4f5"
+        "version": "7bc541e06811a0e9f63c59ab3a424d6ecc51f8a9b9e68b04d5204d08b3097cef",
+        "signature": "f97313b80c51952410a45a9d5c5bd5d54f75aaab31e423f58a7b5c83eb748593"
       },
       "./src/icons/general/iconwalk.tsx": {
-        "version": "4a0e3a9616ecb7d127763a119aca08a0319fa2083dbaf6278515d8d13107e731",
-        "signature": "6ef529b6840e90cf86622bcc7c8c416a1275e78cce254f5205cc9a082d52a7cd"
+        "version": "4690ce83517722e3ae7c7598d15438a3bfb6e1ae9711ff87878c52380f1b5cc4",
+        "signature": "769888b4ef15b0e22a67227af3212fdcff34b711ac9052620196de056be9364d"
       },
       "./src/icons/general/iconwarning.tsx": {
-        "version": "8bca5ba08853305319c2a9c2edea7d60fe275350e07d6ed863e17c568d903449",
-        "signature": "c1ebf1dcd4e9eda198a7aab8afe9b9585ee26162f42ac6d1a781937a70f43329"
+        "version": "535dce22c8ca3eb99df52a62e40e760f7681644a1a678a5e7d6e18010f4c39bd",
+        "signature": "1f027f261f7368b2c2847cb77d944a87c8691c4b264c490326b90964886ffe37"
       },
       "./src/icons/general/iconwarningbell.tsx": {
-        "version": "ec1b18c030be35bafa592bdaa40fd56f16e48c578a69e6f20ea0bccf3fd1415a",
-        "signature": "6c117e2d798e9ad6ee7566f84870b51036e383d229fbfe7fc7759e089a42972c"
+        "version": "ece7410b3635e8cf967d692115cbb355f490c876f5c34235d752a8755523f65c",
+        "signature": "f11cbc2a9d2ce56c456ee5ca4d57af22a07227def04f98f795c61b2f44b12eaf"
       },
       "./src/icons/general/iconzip.tsx": {
-        "version": "b66a2b9a9d55d4d7d4f00929ec7a896dfa60f96f9778a14d1c9a7cc26336eae4",
-        "signature": "55cabf7428517cddb292d96c451ab7f1581addcc6d38d211dc5687d75be5cea0"
+        "version": "ec91aef75245b2aae073d76c14881dcad7c4764dd12aa65f6a16fc4dd2df2df6",
+        "signature": "ef6c7e9c793eb3e187ac91a62178c039badb0b9952b0bf27884a1cccbe4bab9b"
       },
       "./src/layout/layout/styles.ts": {
-        "version": "223910f0fa673cd8939d42b376e8c496f53f23b0cdae0744ea48ea2ac5fa6f46",
-        "signature": "0ca8d6e7ab935548a40a873843c26b743fa83d79145d7fe466725c7e5a7bfca8"
+        "version": "eb5860260a84c2617cef28018740bbe1ad59bc8b6b6f8f2cef94230c42053588",
+        "signature": "8f781bdba04cf6abf4cf15325e57af49128f5e499fb36f7016bf4634aaacb37f"
       },
       "./src/layout/layout/index.tsx": {
-        "version": "350065c9d8d07b7e6a32e2cd809df1c65c728c78ac20024b77160eca3aa8bb66",
-        "signature": "48c9f608470afc6ed97bbbbf3dd431350ef6ed9c47616ae2141e2d1ba7c3b8ce"
+        "version": "aa0dae3060b14e1806cef43c80be8826e5817736bdc75b0291d541728f2dbd64",
+        "signature": "18c764cc58fb30d7da2ff63bd42b90a47d63269afccdcf6d2cdc31910fceacf5"
       },
       "./node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -1833,8 +1861,63 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@emotion/styled/macro.d.ts": [
-        "./node_modules/@emotion/styled/types/index.d.ts",
+      "./src/core/select/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/checkbox/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/checkbox/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/checkbox/styles.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/withicon.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/emotion-theming/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/icons/general/iconcaretdown.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/select/selectlogic.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./node_modules/emotion-theming/types/index.d.ts",
+        "./src/core/select/styles.ts",
+        "./src/core/checkbox/index.tsx",
+        "./src/core/button/index.tsx",
+        "./src/icons/general/iconcaretdown.tsx",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/select/option.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/core/checkbox/index.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1842,7 +1925,9 @@
       ],
       "./src/core/select/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@emotion/styled/macro.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/select/selectlogic.tsx",
+        "./src/core/select/option.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1964,6 +2049,23 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/core/radio/styles.ts": [
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/app-shell/theme.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/core/radio/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@emotion/core/types/index.d.ts",
+        "./src/core/radio/styles.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/index.tsx": [
         "./src/app-shell/index.tsx",
         "./src/core/alert/index.tsx",
@@ -1982,12 +2084,21 @@
         "./src/layout/footer/footergroup/index.tsx",
         "./src/layout/footer/footerlabel/index.tsx",
         "./src/layout/footer/footerlink/index.tsx",
+        "./src/core/checkbox/index.tsx",
+        "./src/core/radio/index.tsx",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/globals/styles/paddings.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@emotion/styled/macro.d.ts": [
+        "./node_modules/@emotion/styled/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2004,13 +2115,6 @@
       "./src/helpers/components/sblabel.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@emotion/styled/macro.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/icons/withicon.tsx": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2129,14 +2233,6 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/icons/general/iconcar.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/icons/withicon.tsx",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/icons/general/iconcaretdown.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/icons/withicon.tsx",
         "./node_modules/@types/node/fs.d.ts",
@@ -4210,14 +4306,32 @@
         "./src/core/list/item.tsx",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./node_modules/@emotion/styled/macro.d.ts": [
-        "./node_modules/@emotion/styled/types/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
+      "./src/core/select/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/checkbox/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/checkbox/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/withicon.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/icons/general/iconcaretdown.tsx": [
+        "./src/icons/withicon.tsx",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/select/selectlogic.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/core/select/option.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/select/index.tsx": [
+        "./src/core/select/option.tsx",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/core/tag/styles.ts": [
@@ -4271,6 +4385,13 @@
       "./src/layout/footer/footerlink/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/core/radio/styles.ts": [
+        "./node_modules/@emotion/utils/types/index.d.ts",
+        "./src/app-shell/theme.ts"
+      ],
+      "./src/core/radio/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/index.tsx": [
         "./src/app-shell/index.tsx",
         "./src/core/alert/index.tsx",
@@ -4288,15 +4409,21 @@
         "./src/layout/footer/footercol/index.tsx",
         "./src/layout/footer/footergroup/index.tsx",
         "./src/layout/footer/footerlabel/index.tsx",
-        "./src/layout/footer/footerlink/index.tsx"
+        "./src/layout/footer/footerlink/index.tsx",
+        "./src/core/checkbox/index.tsx",
+        "./src/core/radio/index.tsx"
+      ],
+      "./node_modules/@emotion/styled/macro.d.ts": [
+        "./node_modules/@emotion/styled/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./src/helpers/components/sbicongrid.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/helpers/components/sblabel.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/icons/withicon.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/icons/general/iconapartment.tsx": [
@@ -4356,10 +4483,6 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/icons/general/iconcar.tsx": [
-        "./src/icons/withicon.tsx",
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/icons/general/iconcaretdown.tsx": [
         "./src/icons/withicon.tsx",
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5730,7 +5853,6 @@
       "./node_modules/@emotion/styled-base/types/helper.d.ts",
       "./node_modules/@emotion/styled-base/types/index.d.ts",
       "./node_modules/@emotion/styled/types/index.d.ts",
-      "./src/app-shell/theme.ts",
       "./src/app-shell/index.tsx",
       "./node_modules/@emotion/stylis/types/index.d.ts",
       "./node_modules/@emotion/cache/types/index.d.ts",
@@ -5754,7 +5876,13 @@
       "./src/core/list/item.tsx",
       "./src/core/list/styles.ts",
       "./src/core/list/index.tsx",
-      "./node_modules/@emotion/styled/macro.d.ts",
+      "./src/core/select/styles.ts",
+      "./src/core/checkbox/styles.ts",
+      "./src/core/checkbox/index.tsx",
+      "./src/icons/withicon.tsx",
+      "./src/icons/general/iconcaretdown.tsx",
+      "./src/core/select/selectlogic.tsx",
+      "./src/core/select/option.tsx",
       "./src/core/select/index.tsx",
       "./src/core/tag/styles.ts",
       "./src/core/tag/index.tsx",
@@ -5770,10 +5898,112 @@
       "./src/layout/footer/footerlabel/index.tsx",
       "./src/layout/footer/footerlink/styles.ts",
       "./src/layout/footer/footerlink/index.tsx",
+      "./src/core/radio/styles.ts",
+      "./src/core/radio/index.tsx",
       "./src/index.tsx",
       "./src/globals/styles/paddings.ts",
+      "./node_modules/@emotion/styled/macro.d.ts",
       "./src/helpers/components/sbicongrid.tsx",
       "./src/helpers/components/sblabel.tsx",
+      "./src/icons/general/iconapartment.tsx",
+      "./src/icons/general/iconarchives.tsx",
+      "./src/icons/general/iconarea.tsx",
+      "./src/icons/general/iconarrowdown.tsx",
+      "./src/icons/general/iconarrowleft.tsx",
+      "./src/icons/general/iconarrowright.tsx",
+      "./src/icons/general/iconarrowup.tsx",
+      "./src/icons/general/iconattachment.tsx",
+      "./src/icons/general/iconback.tsx",
+      "./src/icons/general/iconbath.tsx",
+      "./src/icons/general/iconboard.tsx",
+      "./src/icons/general/iconbookmarkfilled.tsx",
+      "./src/icons/general/iconbookmarkoutline.tsx",
+      "./src/icons/general/iconbus.tsx",
+      "./src/icons/general/iconcar.tsx",
+      "./src/icons/general/iconcaretleft.tsx",
+      "./src/icons/general/iconcaretright.tsx",
+      "./src/icons/general/iconcaretup.tsx",
+      "./src/icons/general/iconcheck.tsx",
+      "./src/icons/general/iconcheckedfilled.tsx",
+      "./src/icons/general/iconcheckedoutline.tsx",
+      "./src/icons/general/iconchevronleft.tsx",
+      "./src/icons/general/iconchevronright.tsx",
+      "./src/icons/general/iconclose.tsx",
+      "./src/icons/general/iconclosealt.tsx",
+      "./src/icons/general/iconcomment.tsx",
+      "./src/icons/general/iconcompanybuilding.tsx",
+      "./src/icons/general/icondotfilled.tsx",
+      "./src/icons/general/icondotoutline.tsx",
+      "./src/icons/general/icondownload.tsx",
+      "./src/icons/general/icondraft.tsx",
+      "./src/icons/general/iconelevator.tsx",
+      "./src/icons/general/iconerrorfilled.tsx",
+      "./src/icons/general/iconerroroutline.tsx",
+      "./src/icons/general/iconexternallink.tsx",
+      "./src/icons/general/iconeye.tsx",
+      "./src/icons/general/iconfamily.tsx",
+      "./src/icons/general/iconferry.tsx",
+      "./src/icons/general/iconfile.tsx",
+      "./src/icons/general/iconfileedit.tsx",
+      "./src/icons/general/iconfileexcel.tsx",
+      "./src/icons/general/iconfilepdf.tsx",
+      "./src/icons/general/iconfileword.tsx",
+      "./src/icons/general/iconfillout.tsx",
+      "./src/icons/general/iconfloor.tsx",
+      "./src/icons/general/icongarage.tsx",
+      "./src/icons/general/icongrid.tsx",
+      "./src/icons/general/icongym.tsx",
+      "./src/icons/general/iconhearth.tsx",
+      "./src/icons/general/iconhearthoutline.tsx",
+      "./src/icons/general/iconhelp.tsx",
+      "./src/icons/general/iconhistory.tsx",
+      "./src/icons/general/iconhouse.tsx",
+      "./src/icons/general/iconhumans.tsx",
+      "./src/icons/general/iconimportantcomment.tsx",
+      "./src/icons/general/iconinbox.tsx",
+      "./src/icons/general/iconjointcost.tsx",
+      "./src/icons/general/iconjointcost2.tsx",
+      "./src/icons/general/iconkey.tsx",
+      "./src/icons/general/iconkitchen.tsx",
+      "./src/icons/general/iconleisuretime.tsx",
+      "./src/icons/general/iconlock.tsx",
+      "./src/icons/general/iconlocklocked.tsx",
+      "./src/icons/general/iconlockopen.tsx",
+      "./src/icons/general/iconmail.tsx",
+      "./src/icons/general/iconmap.tsx",
+      "./src/icons/general/iconmenu.tsx",
+      "./src/icons/general/iconminus.tsx",
+      "./src/icons/general/iconmoney.tsx",
+      "./src/icons/general/iconparking.tsx",
+      "./src/icons/general/iconpaymentcard.tsx",
+      "./src/icons/general/iconplus.tsx",
+      "./src/icons/general/iconreciept.tsx",
+      "./src/icons/general/iconredo.tsx",
+      "./src/icons/general/iconrefresh.tsx",
+      "./src/icons/general/iconroom.tsx",
+      "./src/icons/general/iconsave.tsx",
+      "./src/icons/general/iconsearch.tsx",
+      "./src/icons/general/iconsend.tsx",
+      "./src/icons/general/iconsettings.tsx",
+      "./src/icons/general/iconshopping.tsx",
+      "./src/icons/general/iconsign.tsx",
+      "./src/icons/general/iconstarfilled.tsx",
+      "./src/icons/general/iconstarhalf.tsx",
+      "./src/icons/general/iconstaroutline.tsx",
+      "./src/icons/general/iconstore.tsx",
+      "./src/icons/general/iconsubway.tsx",
+      "./src/icons/general/iconswitch.tsx",
+      "./src/icons/general/icontrain.tsx",
+      "./src/icons/general/icontram.tsx",
+      "./src/icons/general/icontransport.tsx",
+      "./src/icons/general/icontypeofbuilding.tsx",
+      "./src/icons/general/iconupload.tsx",
+      "./src/icons/general/iconuser.tsx",
+      "./src/icons/general/iconvote.tsx",
+      "./src/icons/general/iconwalk.tsx",
+      "./src/icons/general/iconwarning.tsx",
+      "./src/icons/general/iconwarningbell.tsx",
+      "./src/icons/general/iconzip.tsx",
       "./src/layout/layout/styles.ts",
       "./src/layout/layout/index.tsx",
       "./node_modules/@types/anymatch/index.d.ts",
@@ -5903,107 +6133,7 @@
       "./node_modules/@types/webpack-env/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
-      "./src/icons/withicon.tsx",
-      "./src/icons/general/iconzip.tsx",
-      "./src/icons/general/iconwarningbell.tsx",
-      "./src/icons/general/iconwarning.tsx",
-      "./src/icons/general/iconwalk.tsx",
-      "./src/icons/general/iconvote.tsx",
-      "./src/icons/general/iconuser.tsx",
-      "./src/icons/general/iconupload.tsx",
-      "./src/icons/general/icontypeofbuilding.tsx",
-      "./src/icons/general/icontransport.tsx",
-      "./src/icons/general/icontram.tsx",
-      "./src/icons/general/icontrain.tsx",
-      "./src/icons/general/iconswitch.tsx",
-      "./src/icons/general/iconsubway.tsx",
-      "./src/icons/general/iconstore.tsx",
-      "./src/icons/general/iconstaroutline.tsx",
-      "./src/icons/general/iconstarhalf.tsx",
-      "./src/icons/general/iconstarfilled.tsx",
-      "./src/icons/general/iconsign.tsx",
-      "./src/icons/general/iconshopping.tsx",
-      "./src/icons/general/iconsettings.tsx",
-      "./src/icons/general/iconsend.tsx",
-      "./src/icons/general/iconsearch.tsx",
-      "./src/icons/general/iconsave.tsx",
-      "./src/icons/general/iconroom.tsx",
-      "./src/icons/general/iconrefresh.tsx",
-      "./src/icons/general/iconredo.tsx",
-      "./src/icons/general/iconreciept.tsx",
-      "./src/icons/general/iconplus.tsx",
-      "./src/icons/general/iconpaymentcard.tsx",
-      "./src/icons/general/iconparking.tsx",
-      "./src/icons/general/iconmoney.tsx",
-      "./src/icons/general/iconminus.tsx",
-      "./src/icons/general/iconmenu.tsx",
-      "./src/icons/general/iconmap.tsx",
-      "./src/icons/general/iconmail.tsx",
-      "./src/icons/general/iconlockopen.tsx",
-      "./src/icons/general/iconlocklocked.tsx",
-      "./src/icons/general/iconlock.tsx",
-      "./src/icons/general/iconleisuretime.tsx",
-      "./src/icons/general/iconkitchen.tsx",
-      "./src/icons/general/iconkey.tsx",
-      "./src/icons/general/iconjointcost2.tsx",
-      "./src/icons/general/iconjointcost.tsx",
-      "./src/icons/general/iconinbox.tsx",
-      "./src/icons/general/iconimportantcomment.tsx",
-      "./src/icons/general/iconhumans.tsx",
-      "./src/icons/general/iconhouse.tsx",
-      "./src/icons/general/iconhistory.tsx",
-      "./src/icons/general/iconhelp.tsx",
-      "./src/icons/general/iconhearthoutline.tsx",
-      "./src/icons/general/iconhearth.tsx",
-      "./src/icons/general/icongym.tsx",
-      "./src/icons/general/icongrid.tsx",
-      "./src/icons/general/icongarage.tsx",
-      "./src/icons/general/iconfloor.tsx",
-      "./src/icons/general/iconfillout.tsx",
-      "./src/icons/general/iconfileword.tsx",
-      "./src/icons/general/iconfilepdf.tsx",
-      "./src/icons/general/iconfileexcel.tsx",
-      "./src/icons/general/iconfileedit.tsx",
-      "./src/icons/general/iconfile.tsx",
-      "./src/icons/general/iconferry.tsx",
-      "./src/icons/general/iconfamily.tsx",
-      "./src/icons/general/iconeye.tsx",
-      "./src/icons/general/iconexternallink.tsx",
-      "./src/icons/general/iconerroroutline.tsx",
-      "./src/icons/general/iconerrorfilled.tsx",
-      "./src/icons/general/iconelevator.tsx",
-      "./src/icons/general/icondraft.tsx",
-      "./src/icons/general/icondownload.tsx",
-      "./src/icons/general/icondotoutline.tsx",
-      "./src/icons/general/icondotfilled.tsx",
-      "./src/icons/general/iconcompanybuilding.tsx",
-      "./src/icons/general/iconcomment.tsx",
-      "./src/icons/general/iconclosealt.tsx",
-      "./src/icons/general/iconclose.tsx",
-      "./src/icons/general/iconchevronright.tsx",
-      "./src/icons/general/iconchevronleft.tsx",
-      "./src/icons/general/iconcheckedoutline.tsx",
-      "./src/icons/general/iconcheckedfilled.tsx",
-      "./src/icons/general/iconcheck.tsx",
-      "./src/icons/general/iconcaretup.tsx",
-      "./src/icons/general/iconcaretright.tsx",
-      "./src/icons/general/iconcaretleft.tsx",
-      "./src/icons/general/iconcaretdown.tsx",
-      "./src/icons/general/iconcar.tsx",
-      "./src/icons/general/iconbus.tsx",
-      "./src/icons/general/iconbookmarkoutline.tsx",
-      "./src/icons/general/iconbookmarkfilled.tsx",
-      "./src/icons/general/iconboard.tsx",
-      "./src/icons/general/iconbath.tsx",
-      "./src/icons/general/iconback.tsx",
-      "./src/icons/general/iconattachment.tsx",
-      "./src/icons/general/iconarrowup.tsx",
-      "./src/icons/general/iconarrowright.tsx",
-      "./src/icons/general/iconarrowleft.tsx",
-      "./src/icons/general/iconarrowdown.tsx",
-      "./src/icons/general/iconarea.tsx",
-      "./src/icons/general/iconarchives.tsx",
-      "./src/icons/general/iconapartment.tsx"
+      "./src/app-shell/theme.ts"
     ]
   },
   "version": "3.7.4"

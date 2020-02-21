@@ -2,8 +2,7 @@ import { css } from '@emotion/core'
 import styled from '@emotion/styled'
 import { IAppTheme } from '../../app-shell/theme'
 
-export const Btn = styled.button<any>`,
-`
+export const Btn = styled.button<any>``
 
 const styles = {
   default: (theme: IAppTheme) => css`
@@ -47,18 +46,21 @@ const styles = {
     border: 2px solid ${theme.btnDisabled};
 
     color: black;
-    background-color: white;
+    background-color: transparent;
 
     &:hover {
-      background-color: white;
+      background-color: transparent;
       border: 2px solid ${theme.btnDefault};
     }
     &:focus {
-      background-color: white;
+      background-color: transparent;
       border-color: ${theme.btnDefault};
       outline: none;
       text-decoration: none;
     }
+  `,
+  right: css`
+    justify-content: flex-start;
   `,
   outline: (theme: IAppTheme) => css`
     border: 2px solid ${theme.btnDefault};
@@ -106,6 +108,9 @@ const styles = {
       color: black;
       cursor: default;
     }
+  `,
+  border: (color: string) => css`
+    border-color: ${color};
   `,
 }
 

@@ -1,4 +1,5 @@
 import React, { SVGAttributes } from 'react'
+import { useTheme } from 'emotion-theming'
 export type WithIconWrapperProps = {
   /** Accessibility label. Required if `decorative` not defined. */
   accessibilityLabel?: string
@@ -14,6 +15,8 @@ export type WithIconWrapperProps = {
   color?: string
   /** Render as inline instead of block. */
   inline?: boolean
+  /** Default primary color */
+  primary?: boolean
 }
 
 export type Props = {
@@ -27,6 +30,7 @@ export default function withIcon(name: string) {
     WrappedComponent: React.ComponentType<Props>
   ): React.ComponentType<WithIconWrapperProps> => {
     return function(props) {
+      const theme: any = useTheme()
       const defaultProps = {
         accessibilityLabel: props.accessibilityLabel
           ? props.accessibilityLabel
@@ -37,6 +41,7 @@ export default function withIcon(name: string) {
         flipVertical: props.flipVertical ? props.flipVertical : false,
         inline: props.inline ? props.inline : false,
         size: props.size ? props.size : '24px',
+        primary: props.primary ? props.primary : false,
       }
 
       const {
@@ -47,6 +52,7 @@ export default function withIcon(name: string) {
         flipVertical,
         inline,
         size,
+        primary,
       } = defaultProps
 
       const newProps: Props & {
@@ -59,7 +65,7 @@ export default function withIcon(name: string) {
           height: size,
           width: size,
           display: inline ? 'inline' : 'block',
-          fill: color,
+          fill: primary ? theme.primary : color,
           transform:
             flip || flipVertical
               ? `scale(${flip ? -1 : 1}, ${flipVertical ? -1 : 1})`

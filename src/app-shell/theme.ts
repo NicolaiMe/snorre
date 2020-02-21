@@ -53,7 +53,7 @@ export const initTheme = (primary: string, secondary: string) => {
   return {
     primary: primary,
     secondary: secondary,
-    backgroundColor: hexToRGBA(primary, 0.05),
+    backgroundColor: hexToRGBA(primary, 0.02),
     primary10opa: hexToRGBA(primary, 0.1),
     primary20opa: hexToRGBA(primary, 0.2),
     primary5darker: shadeColor(primary, -50),
