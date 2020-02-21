@@ -7,6 +7,7 @@ import Option from './Option'
 export { Option }
 
 interface IProps {
+  label?: string
   onClick?: () => any
   onChange?: (value: boolean) => any
   multiSelect?: boolean
@@ -22,6 +23,7 @@ const Select: React.FC<IProps> = props => {
 
   return (
     <SelectLogic
+      label={props.label}
       multiSelect={props.multiSelect}
       content={props.children.map((child, key) => {
         if (!child) {

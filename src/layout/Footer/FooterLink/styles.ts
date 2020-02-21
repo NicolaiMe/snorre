@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 
 export const FooterLinkA = styled.a`
   color: white; //todo change to contrast color
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
   text-decoration: underline;
   margin-bottom: 6px;

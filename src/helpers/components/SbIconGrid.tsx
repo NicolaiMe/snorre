@@ -21,7 +21,7 @@ const SbIconGrid: React.FC<IProps> = props => {
     <Wrapper>
       {props.children.map((item, key) => {
         return (
-          <span key={key} title={item?.props.mdxType}>
+          <span key={key} title={item.props.mdxType}>
             {item}
           </span>
         )

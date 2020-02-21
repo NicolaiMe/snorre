@@ -1,12 +1,14 @@
 /** @jsx jsx */
-import React, { useState, ReactNodeArray } from 'react'
+import React, { useState, ReactNodeArray, useEffect, createRef } from 'react'
 import { jsx } from '@emotion/core'
+import { useTheme } from 'emotion-theming'
 import { styles } from './styles'
 import Checkbox from '../Checkbox'
 import Button from '../Button'
 import IconCaretDown from '../../icons/General/IconCaretDown'
 
 interface IProps {
+  label?: string
   onClick?: () => any
   onChange?: (value: boolean) => any
   multiSelect?: boolean
@@ -14,10 +16,34 @@ interface IProps {
 }
 
 const SelectLogic: React.FC<IProps> = props => {
+  const ref = createRef<HTMLSpanElement>()
   const [open, toggleOpen] = useState(false)
+  const theme: any = useTheme()
   const onClick = function() {
     toggleOpen(!open)
   }
+
+  useEffect(() => {
+    const handleClickOutside = (e: any) => {
+      // TODO type
+      const node = ref.current
+      if (node && node.contains(e.target)) {
+        return
+      }
+      toggleOpen(false)
+    }
+
+    if (open) {
+      document.addEventListener('mousedown', handleClickOutside)
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [open, ref])
+
   const allBtn = props.multiSelect ? (
     <div>
       <Checkbox>Alle</Checkbox>
@@ -32,9 +58,9 @@ const SelectLogic: React.FC<IProps> = props => {
   ) : null
 
   return (
-    <span>
-      <Button icon onClick={onClick}>
-        - Velg
+    <span ref={ref}>
+      <Button icon border={open ? theme.btnDefault : null} onClick={onClick}>
+        {props.label ? props.label : '- Velg'}
         <IconCaretDown flipVertical={open} />
       </Button>
       {select}
