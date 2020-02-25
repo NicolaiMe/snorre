@@ -58,7 +58,7 @@ export const initTheme = (primary: string, secondary: string) => {
     primary20opa: hexToRGBA(primary, 0.2),
     primary5darker: shadeColor(primary, -50),
     defaultText: '#000',
-    subtleText: '#939393',
+    subtleText: hexToRGBA('#000000', 0.5),
     bgDark: '#10105A',
     bgMedium: '#CFD9EA',
     bgLight: '#EEF4FB',
