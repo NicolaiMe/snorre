@@ -1,0 +1,66 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../../.storybook/helpers/theme'
+import Checkbox from '.'
+
+<Meta title="Core/Checkbox" component={Checkbox}/>
+
+<ThemeProvider theme={theme}>
+
+# Checkbox
+Checboxes are used when the user is presented with a number og choices, with multiple answers
+
+<div style={{marginTop: '60px'}}></div>
+
+<div style={{display: 'flex', flexDirection: 'row',  flexWrap: 'wrap'}}>
+    <div style={{marginRight: '100px'}}>
+        <p style={{color: theme.primary, fontWeight: '500'}}>Horizontal (default)</p>
+        <strong>Here you can choose multiple options:</strong>
+        <div style={{marginTop: '15px'}}>
+            <Checkbox checked>Option 1</Checkbox>
+            <Checkbox>Option 2</Checkbox>
+        </div>
+    </div>
+    <div>
+        <p style={{color: theme.primary, fontWeight: '500'}}>Vertical</p>
+        <strong>Here you can choose multiple options:</strong>
+        <div style={{marginTop: '15px'}}>
+            <Checkbox checked vertical>Option 1</Checkbox>
+            <Checkbox vertical>Option 2</Checkbox>
+            <Checkbox disabled vertical>Option disabled</Checkbox>
+        </div>
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+</ThemeProvider>
+
+### Default checkbox
+Default checkbox, defaults to horizontal view 
+<Preview>
+    <Story name="Default">
+        <Checkbox value="value1">Option</Checkbox>
+    </Story>
+</Preview>
+
+### Checked checkbox
+<Preview>
+    <Story name="Checked">
+        <Checkbox value="value1" checked>Option</Checkbox>
+    </Story>
+</Preview>
+
+### Disabled checkbox
+<Preview>
+    <Story name="Disabled">
+        <Checkbox value="value1" disabled>Disabled option</Checkbox>
+    </Story>
+</Preview>
+
+
+### Checkbox checked
+
+
+## Props
+<Props of={Checkbox} />

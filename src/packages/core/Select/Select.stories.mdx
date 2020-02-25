@@ -1,0 +1,74 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { action } from '@storybook/addon-actions'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../../.storybook/helpers/theme'
+import Select from '.'
+import Option from './Option'
+import Checkbox from '../Checkbox'
+
+<Meta title="Core/Select" component={Select}/>
+
+<ThemeProvider theme={theme}>
+
+# Dropdown (select)
+
+<div style={{marginTop: '60px'}}></div>
+
+Buttons are used when the user is to perform some form of action.
+
+<div style={{display: 'flex', flexDirection: 'row'}}>
+    <div style={{marginRight: '200px'}}>
+        <Select onChange={action('onChange')}>
+            <Option disabled>Option 1</Option>
+            <Option>Option 2</Option>
+            <Option>Option 3</Option>
+        </Select>
+    </div>
+    <div>
+        <Select multiSelect>
+            <Option>Option 1</Option>
+            <Option>Option 2</Option>
+            <Option>Option 3</Option>
+        </Select>
+    </div>
+</div>
+
+</ThemeProvider>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Default
+<Preview>
+    <Story name="Default">
+        <Select onChange={action('onChange')}>
+            <Option>Option 1</Option>
+            <Option>Option 2</Option>
+            <Option>Option 3</Option>
+        </Select>
+    </Story>
+</Preview>
+
+### Multiselect
+<Preview>
+    <Story name="Multiselect">
+        <Select multiSelect>
+            <Option>Option 1</Option>
+            <Option>Option 2</Option>
+            <Option>Option 3</Option>
+        </Select>
+    </Story>
+</Preview>
+
+### Custom label
+<Preview>
+    <Story name="Custom label">
+        <Select label="Label" multiSelect>
+            <Option>Option 1</Option>
+            <Option>Option 2</Option>
+            <Option>Option 3</Option>
+        </Select>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Select} />

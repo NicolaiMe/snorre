@@ -1,4 +1,4 @@
-import { initTheme } from '../../src/app-shell/theme'
+import { initTheme } from '../../src/packages/app-shell/theme'
 
 // KOBBL
 // export default initTheme('#C5122F', '#272727')

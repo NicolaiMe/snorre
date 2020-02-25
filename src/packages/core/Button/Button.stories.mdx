@@ -1,0 +1,128 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../../.storybook/helpers/theme'
+import Button, { IProps } from '.'
+import IconEye from '../../icons/General/IconEye'
+import IconCaretDown from '../../icons/General/IconCaretDown'
+
+<Meta title="Core/Button" component={Button}/>
+
+<ThemeProvider theme={theme}>
+
+# Button
+
+<div style={{marginTop: '60px'}}></div>
+
+### Buttons
+Buttons are used when the user is to perform some form of action.
+
+<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+    <Button>Standard button</Button>
+    <Button success>Success button</Button>
+    <Button danger>Danger button</Button>
+    <Button disabled>Disabled button</Button>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Button states
+The buttons can have multiple states. Hover are 15% darker, focus is 15% brighter. 
+
+<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '60%'}}>
+    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '120px'}}>
+        <Button>Default</Button>
+        <Button>Hover</Button>
+        <Button>Focus</Button>
+    </div>
+    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '120px'}}>
+        <Button success>Default</Button>
+        <Button success>Hover</Button>
+        <Button success>Focus</Button>
+    </div>
+    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '120px'}}>
+        <Button danger>Default</Button>
+        <Button danger>Hover</Button>
+        <Button danger>Focus</Button>
+    </div>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Highlighted button
+Highlight button is used to highlight a larger action. It should be used infrequently.<br />
+Typical usage can be “Login” on a front page that leads to the login page.
+
+<div>
+    <Button highlight>Highlighted button</Button>
+    <Button highlight outline style={{marginLeft: '20px'}}>Highlighted button</Button>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+### Actionbuttons (TODO)
+An action button is used when the user is to do a non-primary action.
+For example, View more, fill in, sign, etc.
+
+<div>
+    <Button icon><IconCaretDown />Ikon venstre</Button>
+    <Button icon>Ikon høyre<IconCaretDown /></Button>
+</div>
+
+<div style={{marginTop: '60px'}}></div>
+
+
+</ThemeProvider>
+
+
+### Default
+<Preview>
+    <Story name="Default">
+        <Button>Standard button</Button>
+    </Story>
+</Preview>
+
+### Success button
+Used for promoted actions.
+For example, Send, Save, Approve, etc.
+<Preview>
+    <Story name="Success">
+        <Button success>Success button</Button>
+    </Story>
+</Preview>
+
+### Danger button
+Used to alert the user.
+For example, Delete, Cancel, Reset, etc.
+<Preview>
+    <Story name="Danger">
+        <Button danger>Danger button</Button>
+    </Story>
+</Preview>
+
+### Disabled button
+Used to disabled buttons.
+For example, Delete, Cancel, Reset, etc.
+<Preview>
+    <Story name="Disabled">
+        <Button disabled>Disabled button</Button>
+    </Story>
+</Preview>
+
+### Hightlighted button
+Standard highlighted button.
+<Preview>
+    <Story name="Highlighted">
+        <Button highlight>Hightlighted button</Button>
+    </Story>
+</Preview>
+
+### Hightlighted outline button
+Outlined highlighted button.
+<Preview>
+    <Story name="Outline highlighted">
+        <Button highlight outline>Hightlighted outline button</Button>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Button} />
