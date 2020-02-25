@@ -1,0 +1,29 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../../.storybook/helpers/theme'
+import Illustration from '.'
+
+<Meta title="Core/Illustration" component={Illustration}/>
+
+<ThemeProvider theme={theme}>
+
+</ThemeProvider>
+
+### Default
+Illustration inputfield
+<Preview>
+    <Story name="Illustration">
+        <Illustration></Illustration>
+    </Story>
+</Preview>
+
+### Without background
+Illustration inputfield
+<Preview>
+    <Story name="Without background">
+        <Illustration withoutBackground></Illustration>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Illustration} />

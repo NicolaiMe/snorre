@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "declarationDir": "lib",
-    "outDir": "lib",
-    "rootDir": "src",
     "emitDeclarationOnly": true,
     "lib": ["dom", "esnext"],
     "allowSyntheticDefaultImports": true,
@@ -23,7 +20,5 @@
     "composite": true,
     "declarationMap": true,
     "sourceMap": true
-  },
-  "include": ["src"],
-  "exclude": ["lib", "test", "node_modules"]
+  }
 }

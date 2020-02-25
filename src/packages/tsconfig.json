@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declarationDir": "../../lib",
+    "outDir": "../../lib",
+    "rootDir": "./"
+  },
+  "extends": "../../tsconfig.json",
+  "include": ["**/*"]
+}
