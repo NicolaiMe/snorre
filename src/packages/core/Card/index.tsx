@@ -11,6 +11,7 @@ type IProps = {
   noPadding?: boolean
   height?: number
   nobackground?: boolean
+  shadow?: boolean
 }
 
 const Card: React.FC<IProps> = props => {
@@ -18,7 +19,8 @@ const Card: React.FC<IProps> = props => {
     <div
       css={theme => [
         styles.default,
-        props.withhover && styles.withHover,
+        props.shadow && styles.shadow(theme),
+        props.withhover && styles.withHover(theme),
         props.primary && styles.primary(theme),
         props.gray && styles.gray,
         props.noPadding && styles.noPadding,

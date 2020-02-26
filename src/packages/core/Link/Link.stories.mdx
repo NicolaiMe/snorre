@@ -1,0 +1,23 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../../.storybook/helpers/theme'
+import Link from '.'
+
+<Meta title="Core/Link" component={Link}/>
+
+<ThemeProvider theme={theme}>
+
+# Link
+
+</ThemeProvider>
+
+### Default link
+Default link
+<Preview>
+    <Story name="Default">
+        <Link href="#">Option</Link>
+    </Story>
+</Preview>
+
+## Props
+<Props of={Link} />

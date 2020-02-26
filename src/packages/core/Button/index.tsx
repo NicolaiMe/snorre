@@ -1,41 +1,57 @@
 /** @jsx jsx */
 import React from 'react'
 import { jsx } from '@emotion/core'
+import ButtonOrLink, {
+  Props as ButtonOrLinkProps,
+} from '../private/ButtonOrLink'
 import { styles } from './styles'
 import { IAppTheme } from '../../app-shell/theme'
 
-export interface IProps {
+export type IProps = ButtonOrLinkProps & {
   success?: boolean
   danger?: boolean
-  disabled?: boolean
   highlight?: boolean
   outline?: boolean
   icon?: boolean
   right?: boolean
+  left?: boolean
   nostyle?: boolean
   border?: string
-  onClick?: () => any
 }
 
 const Button: React.FC<IProps> = props => {
+  const {
+    danger,
+    success,
+    highlight,
+    disabled,
+    outline,
+    icon,
+    left,
+    border,
+    nostyle,
+    ...restProps
+  } = props
+
   return (
-    <button
+    <ButtonOrLink
+      disabled={disabled}
       css={(theme: IAppTheme) => [
         styles.default(theme),
-        props.danger && styles.danger(theme),
-        props.success && styles.success(theme),
-        props.highlight && styles.highlighted,
-        props.disabled && styles.disabled(theme),
-        props.outline && styles.outline(theme),
-        props.icon && styles.icon(theme),
-        props.right && styles.right,
-        props.border && styles.border(props.border),
-        props.nostyle && styles.nostyle,
+        danger && styles.danger(theme),
+        success && styles.success(theme),
+        highlight && styles.highlighted,
+        disabled && styles.disabled(theme),
+        outline && styles.outline(theme),
+        icon && styles.icon(theme),
+        left && styles.left,
+        border && styles.border(border),
+        nostyle && styles.nostyle,
       ]}
-      onClick={props.onClick}
+      {...restProps}
     >
       {props.children}
-    </button>
+    </ButtonOrLink>
   )
 }
 

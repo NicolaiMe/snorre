@@ -6,14 +6,17 @@ export const Btn = styled.button<any>``
 
 const styles = {
   default: (theme: IAppTheme) => css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 36px;
-    line-height: 36px;
     padding: 0 1.5em;
-    border-radius: 16px;
+    border-radius: 18px;
     background-color: ${theme.btnDefault};
     border: 1px solid ${theme.btnDefault};
     color: ${theme.btnDefaultFontColor};
     text-align: center;
+    font-size: 14px;
     cursor: pointer;
     &:focus {
       text-decoration: underline;
@@ -34,9 +37,6 @@ const styles = {
   icon: (theme: IAppTheme) => css`
     display: inline-flex;
     justify-content: space-between;
-    align-items: center;
-
-    min-width: 100px;
 
     height: 32px;
     line-height: 28px;
@@ -59,8 +59,9 @@ const styles = {
       text-decoration: none;
     }
   `,
-  right: css`
-    justify-content: flex-start;
+  left: css`
+    padding-right: 0.75em;
+    padding-left: 0.25em;
   `,
   outline: (theme: IAppTheme) => css`
     border: 2px solid ${theme.btnDefault};
