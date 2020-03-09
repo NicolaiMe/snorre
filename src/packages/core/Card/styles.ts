@@ -13,22 +13,28 @@ const styles = {
     padding: 0;
     padding-bottom: 30px;
   `,
-  withHover: css`
+  withHover: (theme: IAppTheme) => css`
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
       background-color: #ffffff;
-      box-shadow: 0 10px 20px 0 rgba(16, 16, 90, 0.1);
+      box-shadow: ${theme.shadowBig};
     }
+  `,
+  shadow: (theme: IAppTheme) => css`
+    box-shadow: ${theme.shadowSmall};
   `,
   primary: (theme: IAppTheme) => css`
     background-color: ${theme.primary};
   `,
   gray: css`
-    background-color: rgba(0;0;0;0.03);
+    background-color: rgba(0, 0, 0, 0.03);
   `,
   noPadding: css`
     padding: 0;
+  `,
+  largePadding: css`
+    padding: 2em;
   `,
   nobackground: css`
     background: transparent;

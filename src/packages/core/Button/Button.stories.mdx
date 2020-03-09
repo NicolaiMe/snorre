@@ -64,8 +64,8 @@ An action button is used when the user is to do a non-primary action.
 For example, View more, fill in, sign, etc.
 
 <div>
-    <Button icon><IconCaretDown />Ikon venstre</Button>
-    <Button icon>Ikon høyre<IconCaretDown /></Button>
+    <Button beforeIcon={<IconCaretDown />}>Ikon venstre</Button>
+    <Button afterIcon={<IconCaretDown />}>Ikon høyre</Button>
 </div>
 
 <div style={{marginTop: '60px'}}></div>
@@ -78,6 +78,20 @@ For example, View more, fill in, sign, etc.
 <Preview>
     <Story name="Default">
         <Button>Standard button</Button>
+    </Story>
+</Preview>
+
+### Icon before
+<Preview>
+    <Story name="Icon before">
+        <Button beforeIcon={<IconCaretDown />}>Standard button</Button>
+    </Story>
+</Preview>
+
+### Icon after
+<Preview>
+    <Story name="Icon after">
+        <Button afterIcon={<IconCaretDown />}>Standard button</Button>
     </Story>
 </Preview>
 

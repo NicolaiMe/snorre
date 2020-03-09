@@ -4,7 +4,7 @@ import { jsx } from '@emotion/core'
 import { styles } from './styles'
 
 interface IProps {
-  type?: 'text' | 'search' | 'number' | 'password'
+  type?: 'text' | 'search' | 'number' | 'password' | 'file'
   label?: string
   id?: string
   highlight?: boolean
@@ -13,10 +13,11 @@ interface IProps {
   value?: string
   disabled?: boolean
   cardInput?: boolean
+  children?: any
 }
 
-const Input: React.FC<IProps> = props => {
-  const type: 'text' | 'search' | 'number' | 'password' = props.type
+const Input: React.FC<IProps> = (props: IProps) => {
+  const type: 'text' | 'search' | 'number' | 'password' | 'file' = props.type
     ? props.type
     : 'text'
   const span = props.label ? (
@@ -40,6 +41,7 @@ const Input: React.FC<IProps> = props => {
           props.type === 'text' && styles.text(theme),
           props.type === 'search' && styles.search(theme),
           props.type === 'password' && styles.password(theme),
+          props.type === 'file' && styles.file,
           props.focus && styles.focused(theme),
           props.disabled && styles.disabled(theme),
           props.cardInput && styles.cardInput,

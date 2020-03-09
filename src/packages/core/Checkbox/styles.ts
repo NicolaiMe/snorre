@@ -42,6 +42,9 @@ const styles = {
       }
     }
   `,
+  nomargin: css`
+    margin-right: 0;
+  `,
   vertical: css`
     display: block;
     margin-right: 0;
