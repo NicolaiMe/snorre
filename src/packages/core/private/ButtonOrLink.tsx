@@ -5,6 +5,10 @@ export type ButtonOrLinkTypes = HTMLAnchorElement | HTMLButtonElement
 
 export type Props = {
   [prop: string]: unknown
+  /** Icon to display at the end the content. */
+  afterIcon?: React.ReactNode
+  /** Icon to display at the start the content. */
+  beforeIcon?: React.ReactNode
   /** Content within the button or link. */
   children: NonNullable<React.ReactNode>
   /** Whether the element is disabled. */
@@ -89,7 +93,11 @@ const ButtonOrLink: React.FC<Props> = ({
       onClick={handleClick}
       onMouseUp={handleMouseUp}
     >
-      {children}
+      {!loading && beforeIcon ? beforeIcon : null}
+
+      <span>{children}</span>
+
+      {!loading && afterIcon ? afterIcon : null}
     </Tag>
   )
 }

@@ -25,6 +25,9 @@ const styles = {
   semiBold: css({
     fontWeight: 600,
   }),
+  size: (size: string) => css`
+    font-size: ${size};
+  `,
   subtle: (theme: IAppTheme) =>
     css({
       color: theme.subtleText,

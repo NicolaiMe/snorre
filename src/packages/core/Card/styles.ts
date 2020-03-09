@@ -33,6 +33,9 @@ const styles = {
   noPadding: css`
     padding: 0;
   `,
+  largePadding: css`
+    padding: 2em;
+  `,
   nobackground: css`
     background: transparent;
   `,

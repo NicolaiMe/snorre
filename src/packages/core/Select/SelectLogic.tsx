@@ -59,9 +59,12 @@ const SelectLogic: React.FC<IProps> = props => {
 
   return (
     <span ref={ref}>
-      <Button icon border={open ? theme.btnDefault : null} onClick={onClick}>
+      <Button
+        beforeIcon={<IconCaretDown flipVertical={open} />}
+        border={open ? theme.btnDefault : null}
+        onClick={onClick}
+      >
         {props.label ? props.label : '- Velg'}
-        <IconCaretDown flipVertical={open} />
       </Button>
       {select}
     </span>

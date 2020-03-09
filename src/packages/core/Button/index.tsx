@@ -12,8 +12,6 @@ export type IProps = ButtonOrLinkProps & {
   danger?: boolean
   highlight?: boolean
   outline?: boolean
-  icon?: boolean
-  right?: boolean
   left?: boolean
   nostyle?: boolean
   border?: string
@@ -26,8 +24,8 @@ const Button: React.FC<IProps> = props => {
     highlight,
     disabled,
     outline,
-    icon,
-    left,
+    afterIcon,
+    beforeIcon,
     border,
     nostyle,
     ...restProps
@@ -43,11 +41,14 @@ const Button: React.FC<IProps> = props => {
         highlight && styles.highlighted,
         disabled && styles.disabled(theme),
         outline && styles.outline(theme),
-        icon && styles.icon(theme),
-        left && styles.left,
+        (beforeIcon || afterIcon) && styles.icon(theme),
+        beforeIcon && styles.beforeIcon,
+        afterIcon && styles.afterIcon,
         border && styles.border(border),
         nostyle && styles.nostyle,
       ]}
+      afterIcon={afterIcon}
+      beforeIcon={beforeIcon}
       {...restProps}
     >
       {props.children}

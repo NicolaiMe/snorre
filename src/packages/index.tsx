@@ -6,6 +6,7 @@ import Divider from './core/Divider'
 import Header from './core/Header'
 import Illustration from './core/Illustration'
 import Input from './core/Input'
+import Link from './core/Link'
 import List from './core/List'
 import ListItem from './core/List/Item'
 import Select from './core/Select'
@@ -131,6 +132,7 @@ export {
   Illustration,
   Input,
   Checkbox,
+  Link,
   List,
   ListItem,
   Select,

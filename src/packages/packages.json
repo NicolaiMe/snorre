@@ -1,0 +1,44 @@
+{
+  "name": "@bbl-digital/snorre",
+  "version": "0.2.1",
+  "description": "Design library for BBL Digital",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBL-Digital/snorre.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/BBL-Digital/snorre/issues"
+  },
+  "homepage": "https://github.com/BBL-Digital/snorre#readme",
+  "author": "bbl-digital",
+  "dependencies": {},
+  "peerDependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "emotion-theming": "^10.0.27",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "build": "yarn run build:cjs && yarn run build:esm",
+    "build:tsc": "tsc -p ./tsconfig.json",
+    "build:cjs": "babel --extensions .ts,.tsx ./ --out-dir ./lib",
+    "build:esm": "babel --extensions .ts,.tsx ./ --out-dir ./esm"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-loader": "^8.0.6"
+  },
+  "babel": {
+    "presets": ["@babel/preset-react", "@babel/preset-typescript"]
+  }
+}

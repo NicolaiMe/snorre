@@ -15,7 +15,7 @@ const styles = {
       input: {
         boxSizing: 'border-box',
         height: '36px',
-        width: '340px',
+        width: '100%',
         fontSize: '16px',
         outline: 'none',
         ':focus': {
@@ -68,6 +68,7 @@ const styles = {
         -webkit-appearance: none;
       }
     `,
+  file: css``,
   disabled: (theme: IAppTheme) =>
     css({
       cursor: 'not-allowed',

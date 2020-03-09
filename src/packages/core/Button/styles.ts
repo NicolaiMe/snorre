@@ -31,7 +31,7 @@ const styles = {
   `,
   highlighted: css`
     height: 50px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 25px;
   `,
   icon: (theme: IAppTheme) => css`
@@ -59,9 +59,21 @@ const styles = {
       text-decoration: none;
     }
   `,
-  left: css`
+  beforeIcon: css`
     padding-right: 0.75em;
     padding-left: 0.25em;
+
+    & > svg {
+      margin-right: 5px;
+    }
+  `,
+  afterIcon: css`
+    padding-right: 0.25em;
+    padding-left: 0.75em;
+
+    & > svg {
+      margin-left: 5px;
+    }
   `,
   outline: (theme: IAppTheme) => css`
     border: 2px solid ${theme.btnDefault};

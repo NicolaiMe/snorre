@@ -12,10 +12,12 @@ interface IProps {
   semibold?: boolean
   subtle?: boolean
   color?: string
+  size?: string
   onClick?: () => any
+  children: NonNullable<React.ReactNode>
 }
 
-const Text: React.FC<IProps> = props => {
+const Text: React.FC<IProps> = (props: IProps) => {
   const Tag = props.paragraph ? 'p' : 'span'
   return (
     <Tag
@@ -28,6 +30,7 @@ const Text: React.FC<IProps> = props => {
         props.semibold && styles.semiBold,
         props.subtle && styles.subtle(theme),
         props.paragraph && styles.paragraph,
+        props.size && styles.size(props.size),
       ]}
       onClick={props.onClick}
     >
