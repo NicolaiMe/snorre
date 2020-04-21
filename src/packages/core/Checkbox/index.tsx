@@ -18,6 +18,8 @@ interface IProps {
   nomargin?: boolean
   /** Value? */
   value?: string
+  /** Show as child checkbox */
+  child?: boolean
   /** CB when checkbox changes */
   onChange?: (cbModel: CBModel) => boolean
 }
@@ -43,6 +45,7 @@ const Checkbox: React.FC<IProps> = (props: IProps) => {
         props.vertical && styles.vertical,
         props.disabled && styles.disabled(theme),
         props.nomargin && styles.nomargin,
+        props.child && styles.child,
       ]}
     >
       {props.children}

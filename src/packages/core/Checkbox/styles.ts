@@ -8,6 +8,7 @@ const styles = {
     padding-left: 25px;
     margin-right: 60px;
     font-size: 14px;
+    user-select: none;
     cursor: pointer;
     input {
       display: none;
@@ -44,6 +45,12 @@ const styles = {
   `,
   nomargin: css`
     margin-right: 0;
+  `,
+  child: css`
+    padding-left: 41px;
+    span {
+      left: 16px;
+    }
   `,
   vertical: css`
     display: block;

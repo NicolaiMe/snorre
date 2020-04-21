@@ -25,15 +25,17 @@ const Select: React.FC<IProps> = props => {
     <SelectLogic
       label={props.label}
       multiSelect={props.multiSelect}
-      content={props.children.map((child, key) => {
-        if (!child) {
-          return null
-        }
-        return React.cloneElement(child as ReactElement, {
-          onChange: onChange,
-          key,
-        })
-      })}
+      content={props.children
+        .filter(x => x)
+        .map((child, key) => {
+          if (!child) {
+            return null
+          }
+          return React.cloneElement(child as ReactElement, {
+            onChange: onChange,
+            key,
+          })
+        })}
     ></SelectLogic>
   )
 }
