@@ -1,0 +1,83 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+import { ThemeProvider } from 'emotion-theming'
+import theme from '../../../.storybook/helpers/theme'
+import SbIconGrid from '../../../.storybook/helpers/components/SbIconGrid'
+
+import IllustrationHouse from './General/IllustrationHouse.tsx'
+import IllustrationLowHouse from './General/IllustrationLowHouse.tsx'
+import IllustrationHighHouse from './General/IllustrationHighHouse.tsx'
+import IllustrationTownHouse from './General/IllustrationTownHouse.tsx'
+import IllustrationSmallHouse from './General/IllustrationSmallHouse.tsx'
+import IllustrationTerraceBlock from './General/IllustrationTerraceBlock.tsx'
+import IllustrationSemiDetachedHouse from './General/IllustrationSemiDetachedHouse.tsx'
+import IllustrationHighHouseComposition from './General/IllustrationHighHouseComposition.tsx'
+import IllustrationHouseComposition from './General/IllustrationHouseComposition.tsx'
+import IllustrationLowHouseComposition from './General/IllustrationLowHouseComposition.tsx'
+import IllustrationSemiDetachedHouseComposition from './General/IllustrationSemiDetachedHouseComposition.tsx'
+import IllustrationSmallHouseComposition from './General/IllustrationSmallHouseComposition.tsx'
+import IllustrationTerraceBlockComposition from './General/IllustrationTerraceBlockComposition.tsx'
+import IllustrationTownHouseComposition from './General/IllustrationTownHouseComposition.tsx'
+
+<Meta title="Illustrations/All" component={IllustrationHouse} />
+
+# Illustrations
+
+Hover illustration for illustration name
+
+## Without composition
+
+<ThemeProvider theme={theme}>
+  <SbIconGrid>
+    <IllustrationHouse width="120px" height="120px" />
+    <IllustrationLowHouse width="120px" height="120px" />
+    <IllustrationHighHouse width="120px" height="120px" />
+    <IllustrationTownHouse width="120px" height="120px" />
+    <IllustrationSmallHouse width="120px" height="120px" />
+    <IllustrationTerraceBlock width="120px" height="120px" />
+    <IllustrationSemiDetachedHouse width="120px" height="120px" />
+  </SbIconGrid>
+</ThemeProvider>
+
+## With composition
+
+<ThemeProvider theme={theme}>
+  <SbIconGrid>
+    <IllustrationHighHouseComposition width="150px" height="150px" />
+    <IllustrationHouseComposition width="150px" height="150px" />
+    <IllustrationLowHouseComposition width="150px" height="150px" />
+    <IllustrationTownHouseComposition width="150px" height="150px" />
+  </SbIconGrid>
+  <SbIconGrid>
+    <IllustrationSmallHouseComposition width="150px" height="150px" />
+    <IllustrationTerraceBlockComposition width="150px" height="150px" />
+    <IllustrationSemiDetachedHouseComposition width="150px" height="150px" />
+  </SbIconGrid>
+</ThemeProvider>
+
+### Default
+
+<Preview>
+  <Story name="Default">
+    <IllustrationHouse width="120px" height="120px" />
+  </Story>
+</Preview>
+
+### Flip
+
+<Preview>
+  <Story name="Flip">
+    <IllustrationHouse width="120px" height="120px" flip={1} />
+  </Story>
+</Preview>
+
+### Flip vertical
+
+<Preview>
+  <Story name="Flip vertical">
+    <IllustrationHouse width="120px" height="120px" flipVertical={1} />
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={IllustrationHouse} />
