@@ -154,7 +154,7 @@ const IllustrationLowHouseComposition: React.FC<Props> = props => {
               </g>
             </g>
             <g transform="translate(137.000000, 145.000000)">
-              <g id="plant-2">
+              <g>
                 <path
                   d="M0,0 L0.295900454,0.0047585308 C5.30742742,0.166156746 9.34215109,4.4132343 9.4954794,9.68852584 L9.5,10 L9.20409955,9.99524147 C4.19257258,9.83384325 0.157848909,5.5867657 0.00452060426,0.311474163 L0,0 Z"
                   className="fill-primary"
@@ -179,7 +179,7 @@ const IllustrationLowHouseComposition: React.FC<Props> = props => {
               className="fill-secondary"
               fill="#10105A"
             >
-              <circle id="Sol" cx="20" cy="20" r="20"></circle>
+              <circle cx="20" cy="20" r="20"></circle>
             </g>
             <g transform="translate(42.000000, 25.000000)" fill="#FFFFFF">
               <path d="M43,14 C43,8.84534234 38.7218321,4.66666667 33.4444444,4.66666667 C30.9003159,4.66666667 28.5884081,5.63779985 26.8760835,7.22124707 C24.4333026,2.91514045 19.7318573,0 14.3333333,0 C6.53903779,0 0.197808658,6.0766351 0.00453871899,13.6441961 L0,14 L43,14 Z"></path>

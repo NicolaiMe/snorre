@@ -42,7 +42,7 @@ const IllustrationSemiDetachedHouseComposition: React.FC<Props> = props => {
               transform="translate(122.000000, 23.000000)"
               fill="#10105A"
             >
-              <circle id="Sol" cx="20" cy="20" r="20"></circle>
+              <circle cx="20" cy="20" r="20"></circle>
             </g>
             <g transform="translate(48.000000, 95.000000)">
               <g>

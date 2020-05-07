@@ -1,7 +1,7 @@
 import React from 'react'
 import withIllustration, { Props } from '../withIllustration'
 
-const IllustrationHouse: React.FC<Props> = props => {
+const IllustrationHighHouse: React.FC<Props> = props => {
   return (
     <svg viewBox="0 0 96 124" {...props}>
       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -45,4 +45,4 @@ const IllustrationHouse: React.FC<Props> = props => {
   )
 }
 
-export default withIllustration('IllustrationHouse')(IllustrationHouse)
+export default withIllustration('IllustrationHighHouse')(IllustrationHighHouse)

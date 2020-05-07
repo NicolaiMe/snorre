@@ -4,7 +4,6 @@ import Button from './core/Button'
 import Card from './core/Card'
 import Divider from './core/Divider'
 import Header from './core/Header'
-import Illustration from './core/Illustration'
 import Input from './core/Input'
 import Link from './core/Link'
 import List from './core/List'
@@ -121,6 +120,20 @@ import IconWalk from './icons/General/IconWalk'
 import IconWarning from './icons/General/IconWarning'
 import IconWarningBell from './icons/General/IconWarningBell'
 import IconZip from './icons/General/IconZip'
+import IllustrationHouse from './illustrations/General/IllustrationHouse'
+import IllustrationHighHouseComposition from './illustrations/General/IllustrationHighHouseComposition'
+import IllustrationHighHouse from './illustrations/General/IllustrationHighHouse'
+import IllustrationHouseComposition from './illustrations/General/IllustrationHouseComposition'
+import IllustrationLowHouse from './illustrations/General/IllustrationLowHouse'
+import IllustrationLowHouseComposition from './illustrations/General/IllustrationLowHouseComposition'
+import IllustrationSemiDetachedHouse from './illustrations/General/IllustrationSemiDetachedHouse'
+import IllustrationSemiDetachedHouseComposition from './illustrations/General/IllustrationSemiDetachedHouseComposition'
+import IllustrationSmallHouse from './illustrations/General/IllustrationSmallHouse'
+import IllustrationSmallHouseComposition from './illustrations/General/IllustrationSmallHouseComposition'
+import IllustrationTerraceBlock from './illustrations/General/IllustrationTerraceBlock'
+import IllustrationTerraceBlockComposition from './illustrations/General/IllustrationTerraceBlockComposition'
+import IllustrationTownHouse from './illustrations/General/IllustrationTownHouse'
+import IllustrationTownHouseComposition from './illustrations/General/IllustrationTownHouseComposition'
 
 export {
   AppShell,
@@ -129,7 +142,6 @@ export {
   Card,
   Divider,
   Header,
-  Illustration,
   Input,
   Checkbox,
   Link,
@@ -246,4 +258,18 @@ export {
   IconWarning,
   IconWarningBell,
   IconZip,
+  IllustrationHouse,
+  IllustrationHighHouseComposition,
+  IllustrationHighHouse,
+  IllustrationHouseComposition,
+  IllustrationLowHouse,
+  IllustrationLowHouseComposition,
+  IllustrationSemiDetachedHouse,
+  IllustrationSemiDetachedHouseComposition,
+  IllustrationSmallHouse,
+  IllustrationSmallHouseComposition,
+  IllustrationTerraceBlock,
+  IllustrationTerraceBlockComposition,
+  IllustrationTownHouse,
+  IllustrationTownHouseComposition,
 }

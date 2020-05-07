@@ -34,7 +34,7 @@ const IllustrationHouseComposition: React.FC<Props> = props => {
               transform="translate(184.000000, 23.000000)"
               fill="#10105A"
             >
-              <circle id="Sol" cx="20" cy="20" r="20"></circle>
+              <circle cx="20" cy="20" r="20"></circle>
             </g>
             <g transform="translate(71.000000, 92.000000)">
               <g>
