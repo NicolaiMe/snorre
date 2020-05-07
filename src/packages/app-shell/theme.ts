@@ -51,6 +51,9 @@ export interface IAppTheme {
   // Shadows
   shadowSmall: string
   shadowBig: string
+
+  // Illustration
+  illustrationGray: string
 }
 
 export const initTheme = (primary: string, secondary: string) => {
@@ -94,6 +97,7 @@ export const initTheme = (primary: string, secondary: string) => {
     disabled: '#D7D7D7',
     shadowSmall: '0px 2px 4px 0px rgba(0, 0, 0, 0.1)',
     shadowBig: '0px 10px 15px 0px rgba(0, 0, 0, 0.1)',
+    illustrationGray: '#C3D0D8',
   }
 }
 

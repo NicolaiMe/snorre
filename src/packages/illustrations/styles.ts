@@ -1,5 +1,5 @@
 import { css } from '@emotion/core'
-import { IAppTheme } from '../../app-shell/theme'
+import { IAppTheme } from '../app-shell/theme'
 
 export const SvgTheme = (theme: IAppTheme) => css`
   width: 100%;
@@ -22,6 +22,19 @@ export const SvgTheme = (theme: IAppTheme) => css`
 
   & > svg .fill-primary {
     fill: ${theme.primary};
+  }
+
+  & > svg .fill-primary-opa50 {
+    fill: ${theme.primary};
+    opacity: 0.5;
+  }
+
+  & > svg .fill-dark-primary {
+    fill: ${theme.primary5darker};
+  }
+
+  & > svg .fill-gray {
+    fill: ${theme.illustrationGray};
   }
 
   & > svg .fill-white {
