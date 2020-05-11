@@ -9,14 +9,16 @@ const styles = {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 36px;
+    height: 38px;
     padding: 0 1.5em;
-    border-radius: 18px;
+    border-radius: 19px;
     background-color: ${theme.btnDefault};
     border: 1px solid ${theme.btnDefault};
     color: ${theme.btnDefaultFontColor};
     text-align: center;
+    line-height: 20px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
     &:focus {
       text-decoration: underline;
@@ -27,49 +29,32 @@ const styles = {
     &:hover {
       background-color: ${theme.btnDefaultDarker};
       border-color: ${theme.btnDefaultDarker};
+      color: ${theme.btnHoverTextColor};
     }
   `,
   highlighted: css`
-    height: 50px;
+    height: 46px;
     font-size: 16px;
-    border-radius: 25px;
+    line-height: 22px;
+    border-radius: 23px;
   `,
   icon: (theme: IAppTheme) => css`
     display: inline-flex;
     justify-content: space-between;
 
-    height: 32px;
-    line-height: 28px;
-    padding-left: 0.75em;
-    padding-right: 0.25em;
-
-    border: 2px solid ${theme.btnDisabled};
-
-    color: black;
-    background-color: transparent;
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid ${theme.btnDefault};
-    }
-    &:focus {
-      background-color: transparent;
-      border-color: ${theme.btnDefault};
-      outline: none;
-      text-decoration: none;
+    & > svg > polygon {
+      fill: ${theme.btnDefaultFontColor};
     }
   `,
   beforeIcon: css`
-    padding-right: 0.75em;
-    padding-left: 0.25em;
+    padding-left: 0.75em;
 
     & > svg {
       margin-right: 5px;
     }
   `,
   afterIcon: css`
-    padding-right: 0.25em;
-    padding-left: 0.75em;
+    padding-right: 0.75em;
 
     & > svg {
       margin-left: 5px;
@@ -79,8 +64,15 @@ const styles = {
     border: 2px solid ${theme.btnDefault};
     color: black;
     background-color: white;
+
+    & > svg > polygon {
+      fill: black !important; // TODO: Find fix
+    }
+
     &:hover {
-      color: white;
+      & > svg > polygon {
+        fill: ${theme.btnHoverTextColor} !important; // TODO: Find fix
+      }
     }
   `,
   success: (theme: IAppTheme) => css`

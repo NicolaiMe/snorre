@@ -8,6 +8,7 @@ const styles = {
     padding-left: 25px;
     margin-right: 60px;
     font-size: 14px;
+    line-height: 20px;
     user-select: none;
     cursor: pointer;
     input {
@@ -24,17 +25,16 @@ const styles = {
       position: absolute;
       top: 0;
       left: 0;
-      height: 14px;
-      width: 14px;
+      height: 16px;
+      width: 16px;
       border: 2px solid ${theme.border};
-      border-radius: 3px;
       cursor: pointer;
       &:after {
         content: '';
         position: absolute;
         display: none;
         left: 5px;
-        top: 0;
+        top: 2px;
         width: 4px;
         height: 9px;
         border: solid white;

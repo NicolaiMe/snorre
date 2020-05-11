@@ -2,6 +2,7 @@
 import React from 'react'
 import { jsx } from '@emotion/core'
 import { styles } from './styles'
+import IconSearch from '../../icons/General/IconSearch'
 
 interface IProps {
   type?: 'text' | 'search' | 'number' | 'password' | 'file'
@@ -29,6 +30,7 @@ const Input: React.FC<IProps> = (props: IProps) => {
       css={theme => [
         styles.default(theme),
         props.highlight && styles.highligted,
+        props.type === 'search' && styles.searchLabel(theme),
       ]}
     >
       {span}
@@ -55,6 +57,7 @@ const Input: React.FC<IProps> = (props: IProps) => {
           return child
         })}
       </input>
+      {type === 'search' && <IconSearch />}
     </label>
   )
 }
