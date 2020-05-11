@@ -28,6 +28,7 @@ export interface IAppTheme {
   btnDangerDarker: string
   btnDangerLighter: string
   btnDisabled: string
+  btnHoverTextColor: string
 
   // UI-colors
   alert: string
@@ -80,6 +81,7 @@ export const initTheme = (primary: string, secondary: string) => {
     btnDangerDarker: '#C50000',
     btnDangerLighter: '#FF2740',
     btnDisabled: '#D7D7D7',
+    btnHoverTextColor: getContrastYIQ(shadeColor(secondary, -15)),
     alert: '#EB011A',
     lightAlert: '#FCD6DA',
     borderAlert: 'rgba(235,1,26,0.25)',

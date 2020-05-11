@@ -3,32 +3,35 @@ import { IAppTheme } from '../../app-shell/theme'
 
 const styles = {
   default: (theme: IAppTheme) =>
-    css({
-      display: 'grid',
-      ':focus-within span': {
-        color: theme.primary,
-      },
-      span: {
-        minHeight: '25px',
-        fontWeight: 'bold',
-      },
-      input: {
-        boxSizing: 'border-box',
-        height: '36px',
-        width: '100%',
-        fontSize: '16px',
-        outline: 'none',
-        ':focus': {
-          borderColor: theme.primary,
-        },
-        ':disabled': {
-          backgroundColor: theme.disabled,
-        },
-      },
-      'input:focus + label': {
-        color: theme.primary,
-      },
-    }),
+    css`
+      display: grid;
+      &:focus-within span {
+        color: ${theme.primary};
+      }
+      span {
+        line-height: 22px;
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      input {
+        height: 38px;
+        width: calc(100% - 2em);
+        font-size: 16px;
+        line-height: 20px;
+        outline: none;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 0 1em;
+
+        &:focus {
+          border-color: ${theme.primary};
+        }
+        &:disabled: {
+          background-color: ${theme.disabled};
+        }
+      }
+    `,
   highligted: css`
     font-size: 18px;
     & input {
@@ -45,11 +48,10 @@ const styles = {
     }
   `,
   text: (theme: IAppTheme) =>
-    css({
-      border: '2px solid ' + theme.border,
-      borderRadius: '3px',
-      paddingLeft: '10px',
-    }),
+    css`
+      border: 2px solid ${theme.border};
+      padding-eft: 10px;
+    `,
   password: (theme: IAppTheme) =>
     css({
       border: '2px solid ' + theme.border,
@@ -68,6 +70,21 @@ const styles = {
         -webkit-appearance: none;
       }
     `,
+  searchLabel: (theme: IAppTheme) => css`
+    display: block;
+    position: relative;
+
+    & > input {
+      width: 100%;
+    }
+
+    & > svg {
+      position: absolute;
+      right: 16px;
+      top: calc(50% - 10px);
+      fill: ${theme.primary} !important;
+    }
+  `,
   file: css``,
   disabled: (theme: IAppTheme) =>
     css({

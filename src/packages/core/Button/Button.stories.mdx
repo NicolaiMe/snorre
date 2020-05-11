@@ -21,6 +21,7 @@ Buttons are used when the user is to perform some form of action.
     <Button success>Success button</Button>
     <Button danger>Danger button</Button>
     <Button disabled>Disabled button</Button>
+    <Button outline>Outlined button</Button>
 </div>
 
 <div style={{marginTop: '60px'}}></div>
@@ -52,20 +53,18 @@ The buttons can have multiple states. Hover are 15% darker, focus is 15% brighte
 Highlight button is used to highlight a larger action. It should be used infrequently.<br />
 Typical usage can be “Login” on a front page that leads to the login page.
 
-<div>
+<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-start'}}>
     <Button highlight>Highlighted button</Button>
     <Button highlight outline style={{marginLeft: '20px'}}>Highlighted button</Button>
 </div>
 
 <div style={{marginTop: '60px'}}></div>
 
-### Actionbuttons (TODO)
-An action button is used when the user is to do a non-primary action.
-For example, View more, fill in, sign, etc.
+### Buttons with icon
 
-<div>
+<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-start'}}>
     <Button beforeIcon={<IconCaretDown />}>Ikon venstre</Button>
-    <Button afterIcon={<IconCaretDown />}>Ikon høyre</Button>
+    <Button afterIcon={<IconCaretDown />} outline style={{marginLeft: '20px'}}>Ikon høyre</Button>
 </div>
 
 <div style={{marginTop: '60px'}}></div>
