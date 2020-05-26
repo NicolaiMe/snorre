@@ -15,7 +15,7 @@ interface IProps {
   content: ReactNodeArray
 }
 
-const SelectLogic: React.FC<IProps> = props => {
+const DropdownLogic: React.FC<IProps> = props => {
   const ref = createRef<HTMLSpanElement>()
   const [open, toggleOpen] = useState(false)
   const theme: any = useTheme()
@@ -61,16 +61,15 @@ const SelectLogic: React.FC<IProps> = props => {
     <span ref={ref}>
       <Button
         outline
-        nostyle
         afterIcon={<IconCaretDown flipVertical={open} />}
         border={open ? theme.primary : null}
         onClick={onClick}
       >
-        {props.label ? props.label : 'Velg'}
+        {props.label ? props.label : '- Velg'}
       </Button>
       {select}
     </span>
   )
 }
 
-export default SelectLogic
+export default DropdownLogic

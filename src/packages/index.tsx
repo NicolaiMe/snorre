@@ -8,8 +8,8 @@ import Input from './core/Input'
 import Link from './core/Link'
 import List from './core/List'
 import ListItem from './core/List/Item'
-import Select from './core/Select'
-import Option from './core/Select/Option'
+import Dropdown from './core/Dropdown'
+import Option from './core/Dropdown/Option'
 import Tag from './core/Tag'
 import Text from './core/Text'
 import Footer from './layout/Footer'
@@ -147,7 +147,7 @@ export {
   Link,
   List,
   ListItem,
-  Select,
+  Dropdown as Select,
   Option,
   Tag,
   Text,

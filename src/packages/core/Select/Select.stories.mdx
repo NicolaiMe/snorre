@@ -10,7 +10,7 @@ import Checkbox from '../Checkbox'
 
 <ThemeProvider theme={theme}>
 
-# Dropdown (select)
+# Select (select)
 
 <div style={{marginTop: '60px'}}></div>
 
@@ -23,52 +23,7 @@ Buttons are used when the user is to perform some form of action.
             <Option>Option 2</Option>
             <Option>Option 3</Option>
         </Select>
-    </div>
-    <div>
-        <Select multiSelect>
-            <Option>Option 1</Option>
-            <Option>Option 2</Option>
-            <Option>Option 3</Option>
-        </Select>
-    </div>
+    </div>    
 </div>
 
 </ThemeProvider>
-
-<div style={{marginTop: '60px'}}></div>
-
-### Default
-<Preview>
-    <Story name="Default">
-        <Select onChange={action('onChange')}>
-            <Option>Option 1</Option>
-            <Option>Option 2</Option>
-            <Option>Option 3</Option>
-        </Select>
-    </Story>
-</Preview>
-
-### Multiselect
-<Preview>
-    <Story name="Multiselect">
-        <Select multiSelect>
-            <Option>Option 1</Option>
-            <Option>Option 2</Option>
-            <Option>Option 3</Option>
-        </Select>
-    </Story>
-</Preview>
-
-### Custom label
-<Preview>
-    <Story name="Custom label">
-        <Select label="Label" multiSelect>
-            <Option>Option 1</Option>
-            <Option>Option 2</Option>
-            <Option>Option 3</Option>
-        </Select>
-    </Story>
-</Preview>
-
-## Props
-<Props of={Select} />

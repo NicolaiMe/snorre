@@ -14,7 +14,7 @@ interface IProps {
   children: ReactNodeArray
 }
 
-const Select: React.FC<IProps> = props => {
+const Dropdown: React.FC<IProps> = props => {
   const onChange = (value: boolean) => {
     if (props.onChange) {
       props.onChange(value)
@@ -40,4 +40,4 @@ const Select: React.FC<IProps> = props => {
   )
 }
 
-export default Select
+export default Dropdown

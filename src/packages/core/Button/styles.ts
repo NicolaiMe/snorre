@@ -123,11 +123,13 @@ const styles = {
     border: none;
     background-color: transparent;
     height: auto;
+    color: black;
     &:hover,
     &:focus,
     &:active {
       background-color: transparent;
       border: none;
+      color: black;
     }
   `,
 }

@@ -13,13 +13,21 @@ interface IProps {
 const Option: React.FC<IProps> = props => {
   return (
     <div key={props.key}>
-      {React.Children.map(props.children, child => {
-        if (!child) {
-          return null
-        }
+      <Checkbox
+        disabled={props.disabled}
+        onChange={props.onChange}
+        name={props.name}
+        child={props.child}
+        checked={props.checked}
+      >
+        {React.Children.map(props.children, child => {
+          if (!child) {
+            return null
+          }
 
-        return child
-      })}
+          return child
+        })}
+      </Checkbox>
     </div>
   )
 }
